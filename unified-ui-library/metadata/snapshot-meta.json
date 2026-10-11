@@ -1,0 +1,124 @@
+{
+  "taken_at": "2026-10-04T03:11:01.610Z",
+  "source": "https://www.originkit.dev",
+  "pages": [
+    {
+      "page": "home",
+      "entries": 604,
+      "new": 604
+    },
+    {
+      "page": "sections",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "category/image-gallery",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "category/interactive-elements",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "category/animation",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "category/background-animation",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "category/games",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "category/text",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "category/button",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "category/border",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "category/image",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "category/cursor",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "category/loader",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "sections/category/hero",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "sections/category/features",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "sections/category/pricing",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "sections/category/cta",
+      "entries": 604,
+      "new": 0
+    },
+    {
+      "page": "sections/category/footer",
+      "entries": 604,
+      "new": 0
+    }
+  ],
+  "totals": {
+    "items": 604,
+    "kinds": {
+      "component": 546,
+      "section": 58
+    },
+    "categories": {
+      "text": 73,
+      "background-animation": 190,
+      "animation": 43,
+      "button": 21,
+      "image": 43,
+      "cursor": 22,
+      "interactive-elements": 80,
+      "image-gallery": 43,
+      "loader": 20,
+      "cta": 2,
+      "games": 7,
+      "border": 4,
+      "features": 4,
+      "footer": 2,
+      "hero": 47,
+      "pricing": 3
+    },
+    "paidTrue": 275,
+    "paidFalse": 0,
+    "paidNull": 329
+  }
+}

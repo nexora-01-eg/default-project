@@ -1,0 +1,18 @@
+{
+  "name": "threeui-library",
+  "version": "1.0.0",
+  "description": "Local ThreeUI component/template library collector. Uses only official ThreeUI endpoints (npm, GitHub Community repo, threeui.com public pages, official Pro CLI/MCP). Pro items without entitlement are recorded as LOCKED, never bypassed.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "collect": "node ./scripts/collect.mjs",
+    "inventory": "node ./scripts/inventory.mjs",
+    "verify": "node ./scripts/verify.mjs",
+    "update": "node ./scripts/update.mjs",
+    "report": "node ./scripts/report.mjs",
+    "enrich": "node ./scripts/enrich.mjs"
+  },
+  "license": "MIT"
+}

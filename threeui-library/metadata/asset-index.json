@@ -1,0 +1,162 @@
+{
+  "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c": {
+    "path": "heroes/animated-top-dock/assets/fragment-mono.woff2",
+    "bytes": 15176
+  },
+  "86810ac01c6e9fc4d0944f4709c0495541fbb0916ba994d36bd8cf22f1a7f06c": {
+    "path": "shaders/gallery/assets/gallery-1.webp",
+    "bytes": 85466
+  },
+  "23937f8c8350c55730c3bd17066a250548b2d29aad0e6ffb96218c1354b6db43": {
+    "path": "sections/kage-landing-page/assets/kage-sanmon-preview.webp",
+    "bytes": 186398
+  },
+  "7c777c14efb761dbccbbb3e8b8ff13920231964944c2038472a2ffa4d99c395d": {
+    "path": "shaders/gallery/assets/gallery-2.webp",
+    "bytes": 185898
+  },
+  "3e8bbb177216bcb41ddc75cdaca38f732b9cd7ff4aaa409921623356072eb1f6": {
+    "path": "sections/meng-to-sketchbook-landing-page/assets/bg-wash.jpg",
+    "bytes": 250415
+  },
+  "39ff338936097e1bde0c4eadcf09805b9890862703186e67314942de7e0bc36c": {
+    "path": "sections/kage-landing-page/assets/kage-approach.webp",
+    "bytes": 180064
+  },
+  "8a11b3e5ba715ffbbd881947094563baae2540b407674bd0a15891037e15bba9": {
+    "path": "shaders/gallery/assets/gallery-3.webp",
+    "bytes": 275230
+  },
+  "7786aef42d10f1fbeca055b3ed14f51a47cb2a390b360eae92119f046989943e": {
+    "path": "sections/meng-to-sketchbook-landing-page/assets/bloom.png",
+    "bytes": 239231
+  },
+  "c0a6ff7da1cd6909d66e2f3f690b0d524a693e01d2222ab846d0074a90f47471": {
+    "path": "sections/kage-landing-page/assets/kage-lantern-court.webp",
+    "bytes": 197940
+  },
+  "6c09469827c02ff16e4041fc1da82efdc9e59832b59ec29cc0cbe761b0862518": {
+    "path": "shaders/gallery/assets/gallery-4.webp",
+    "bytes": 391108
+  },
+  "b8c8060c51c87a103bae619b3a4cc8b8b80632649d83f1f2c2299051e7f9b400": {
+    "path": "sections/kage-landing-page/assets/kage-moonwater.webp",
+    "bytes": 102234
+  },
+  "48ab10869e7afd4519cdc78d62625cd529bd3b2b5ff1c3c2789a8d721733da15": {
+    "path": "sections/meng-to-sketchbook-landing-page/assets/botanic-gardens.png",
+    "bytes": 822127
+  },
+  "41c00f017e4ecf2147ee468d74da955bb4e2dad773f75a575022842eaf7609ce": {
+    "path": "sections/kage-landing-page/assets/temple-wall.webp",
+    "bytes": 86466
+  },
+  "2b1aec480447e45c5b717363def6ef96bc38443179dc6f97ea25a0f8461c07b7": {
+    "path": "shaders/gallery/assets/gallery-5.webp",
+    "bytes": 187614
+  },
+  "b3ed9e8613ba8826a5e137a5f8ad4bd21b6e7a544bc25e6184891079eae0470c": {
+    "path": "sections/sketchbook/assets/botany-left.png",
+    "bytes": 133820
+  },
+  "79b233716d067bbc64c1507f79e4a30ba5f445995158c78562cc5b81f607ede7": {
+    "path": "sections/kage-landing-page/assets/pine-tree.webp",
+    "bytes": 195918
+  },
+  "608025a35b8697b536e9ac668e51476c79072d1efb4a04316c068073f51cf655": {
+    "path": "sections/sketchbook/assets/botany-right.png",
+    "bytes": 376050
+  },
+  "8db0b5fbd160a7225391a6283a99681e346e205f24191031657285ef85ef12d2": {
+    "path": "sections/kage-landing-page/assets/tall-grass.webp",
+    "bytes": 351644
+  },
+  "48564194d40496090dbf3bba2a68785cf91fafb655dc8d43ac16f6678aff196d": {
+    "path": "sections/kage-landing-page/assets/sakura-branch.webp",
+    "bytes": 252528
+  },
+  "cf73e3fffd80a4c81b18ac83dfdba266c9f5c51e6a66047068a39c2885bc388a": {
+    "path": "sections/sketchbook/assets/buddha-tooth.png",
+    "bytes": 792335
+  },
+  "35a90fec62c1a6bbfbbe73cd5d7b1acb889e80546d404182ef9a45fe417b531f": {
+    "path": "sections/kage-landing-page/assets/maple-leaves.webp",
+    "bytes": 178208
+  },
+  "d5f3c881bc9d92b72eaaff2b709614d66e21a19e14025d2b9b16a15ab52df3bc": {
+    "path": "sections/kage-landing-page/assets/stone-lantern.webp",
+    "bytes": 150108
+  },
+  "ef8ed266a6ee6f2f6fb8f235657d9ea9e4d57af6d84e75e4e81373de9d3632bb": {
+    "path": "sections/sketchbook/assets/divider.png",
+    "bytes": 170548
+  },
+  "707e2516ebc0108041fe0ddc26d8bff0a69dc9700641f837765018b64e9ff15e": {
+    "path": "sections/kage-landing-page/assets/garden-bush.webp",
+    "bytes": 286406
+  },
+  "cf1d629d6a72d8cd4a98158fac44e9093a12e55257b43adcdaa07ae3ffbad7d3": {
+    "path": "sections/meng-to-sketchbook-landing-page/assets/gardens-by-the-bay.png",
+    "bytes": 844878
+  },
+  "150f1c87e181d651c318168c271bb65c9c8abac6dea6f2421fdd081c5b740471": {
+    "path": "sections/kage-landing-page/assets/basalt-stones.webp",
+    "bytes": 167866
+  },
+  "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702": {
+    "path": "sections/meng-to-sketchbook-landing-page/assets/instrument-serif-italic.woff2",
+    "bytes": 15684
+  },
+  "ffba816244bcba98e4e33c6ee56165edfe4048db4af122ef3f5822180a85edbc": {
+    "path": "sections/kage-landing-page/assets/hill.webp",
+    "bytes": 84142
+  },
+  "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d": {
+    "path": "sections/meng-to-sketchbook-landing-page/assets/instrument-serif.woff2",
+    "bytes": 15040
+  },
+  "77006e58f2066e6fa9bfc504df396db49b1c7977858fa52d34dd2dad5feced77": {
+    "path": "sections/kage-landing-page/assets/shrine-ruins.webp",
+    "bytes": 145814
+  },
+  "a46701ba26b5ee31fc6484a12d908cb25d70baea92dec3013260c516e1157a0b": {
+    "path": "sections/sketchbook/assets/joo-chiat.png",
+    "bytes": 796739
+  },
+  "70ce084084902bc502f00c366405b661ecdff90dee95d363b36a6e146829e433": {
+    "path": "landing-pages/sylva-hero/assets/card-ecostove.jpg",
+    "bytes": 290988
+  },
+  "337627390f499b3ae272cec9e2f83c817694a82f42e1aa10a7b26a2c7d679dff": {
+    "path": "landing-pages/sylva-hero/assets/card-ethos.jpg",
+    "bytes": 316720
+  },
+  "bb020724a54e6dbf72c19bc2a8113393aae43408da2bcada4a62b53eeb3b0ddb": {
+    "path": "sections/meng-to-sketchbook-landing-page/assets/lau-pa-sat.png",
+    "bytes": 872602
+  },
+  "1ec8f6ee2750554b4bc59ff0b507d316a82a7ba37e0e5bebc41d3bd9b9faad46": {
+    "path": "landing-pages/sylva-hero/assets/lexend-latin.woff2",
+    "bytes": 39692
+  },
+  "c9cb4423072d69c4177833fa3f92923ce50ab7b395a257349793de3840b88608": {
+    "path": "sections/sketchbook/assets/marina-bay-sands.png",
+    "bytes": 781481
+  },
+  "1cebb237d910a1429ff4f17f78efac059094c001629a579b598843eb0bdf363f": {
+    "path": "sections/sketchbook/assets/marina-bay-skyline.png",
+    "bytes": 804832
+  },
+  "bf5082288e212f62b2e15af766364d79e30050528a7ad48a020aa46d59d4666a": {
+    "path": "sections/sketchbook/assets/merlion.png",
+    "bytes": 815697
+  },
+  "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a": {
+    "path": "sections/sketchbook/assets/newsreader.woff2",
+    "bytes": 131848
+  },
+  "a3fc9cf2be0e3ce4b4630df6897d856ca49c6aca48f66a82e910367328bf667b": {
+    "path": "sections/sketchbook/assets/singapore-river.png",
+    "bytes": 744018
+  }
+}

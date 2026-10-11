@@ -1,0 +1,31 @@
+  model     rules-tfidf  (offline, no downloads)
+  api       http://127.0.0.1:8765/v1/systemone
+  health    http://127.0.0.1:8765/healthz
+Press Ctrl+C to stop.
+[04:44:37] "%s" %s %s GET /healthz HTTP/1.1 200 -
+[04:44:37] %s %s -> %s GET /healthz 200
+[04:44:37] "%s" %s %s GET /v1/models HTTP/1.1 200 -
+[04:44:37] %s %s -> %s GET /v1/models 200
+[decision] model=rules-tfidf q=3 1.0ms
+[04:44:37] "%s" %s %s POST /v1/systemone HTTP/1.1 200 -
+[04:44:37] %s %s -> %s POST /v1/systemone 200
+[decision] model=rules-tfidf q=1 0.0ms
+[04:44:37] "%s" %s %s POST /v1/systemone HTTP/1.1 200 -
+[04:44:37] %s %s -> %s POST /v1/systemone 200
+[04:44:37] "%s" %s %s POST /v1/systemone HTTP/1.1 422 -
+[04:44:37] %s %s -> %s POST /v1/systemone 422
+[04:44:37] "%s" %s %s POST /v1/systemone HTTP/1.1 422 -
+[04:44:37] %s %s -> %s POST /v1/systemone 422
+[04:44:37] "%s" %s %s POST /v1/systemone HTTP/1.1 404 -
+[04:44:37] %s %s -> %s POST /v1/systemone 404
+[04:44:37] "%s" %s %s POST /v1/systemone HTTP/1.1 503 -
+[04:44:37] %s %s -> %s POST /v1/systemone 503
+[04:44:37] "%s" %s %s POST /v1/systemone HTTP/1.1 422 -
+[04:44:37] %s %s -> %s POST /v1/systemone 422
+[04:44:42] "%s" %s %s GET /healthz HTTP/1.1 200 -
+[04:44:42] %s %s -> %s GET /healthz 200
+[04:44:42] "%s" %s %s GET /v1/models HTTP/1.1 200 -
+[04:44:42] %s %s -> %s GET /v1/models 200
+[decision] model=rules-tfidf q=1 0.0ms
+[04:44:43] "%s" %s %s POST /v1/systemone HTTP/1.1 200 -
+[04:44:43] %s %s -> %s POST /v1/systemone 200

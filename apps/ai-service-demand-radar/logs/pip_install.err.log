@@ -1,0 +1,4 @@
+ERROR: Invalid requirement: 'SOFT\\Documents\\Default': Expected semicolon (after name with no version specifier) or end
+    SOFT\Documents\Default
+        ^
+Hint: It looks like a path. File 'SOFT\Documents\Default' does not exist.

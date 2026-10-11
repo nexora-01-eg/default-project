@@ -1,0 +1,86 @@
+{
+  "name": "sylva-hero",
+  "slug": "sylva-hero",
+  "category": "landing-pages",
+  "url": "https://threeui.com/landing-pages",
+  "type": "landing-page",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [
+    {
+      "path": "public/landing-pages/inner-green-assets/card-ecostove.jpg",
+      "mimeType": "image/jpeg",
+      "bytes": 290988,
+      "sha256": "70ce084084902bc502f00c366405b661ecdff90dee95d363b36a6e146829e433"
+    },
+    {
+      "path": "public/landing-pages/inner-green-assets/card-ethos.jpg",
+      "mimeType": "image/jpeg",
+      "bytes": 316720,
+      "sha256": "337627390f499b3ae272cec9e2f83c817694a82f42e1aa10a7b26a2c7d679dff"
+    },
+    {
+      "path": "public/landing-pages/inner-green-assets/lexend-latin.woff2",
+      "mimeType": "font/woff2",
+      "bytes": 39692,
+      "sha256": "1ec8f6ee2750554b4bc59ff0b507d316a82a7ba37e0e5bebc41d3bd9b9faad46"
+    }
+  ],
+  "local_path": "landing-pages/sylva-hero",
+  "fingerprint": "60a5338c5518b9cddaedea16314b35cbc3b6f668f88b1c255ef940c29d88f601",
+  "collected_at": "2026-10-04T02:32:12.691Z",
+  "written_files": [
+    {
+      "path": "public/landing-pages/inner-green-3d.html",
+      "bytes": 197914,
+      "sha256": "69c3694bd63f44ef9f007ebe4dac57a83e4402e0cdf6b54dd10b96dd4f05e197",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/inner-green-assets/three.min.js",
+      "bytes": 608081,
+      "sha256": "8a5f7249903b54d30f79f708699d2fed2d6a1d0741a4cd41377d1f01bb5a2271",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/landing-pages/LandingPages.tsx",
+    "src/shaders/landing-pages/pageTypography.ts",
+    "src/shaders/landing-pages/pageRecipes.ts",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [
+    {
+      "path": "public/landing-pages/inner-green-assets/card-ecostove.jpg",
+      "local": "assets/card-ecostove.jpg",
+      "bytes": 290988,
+      "sha256": "70ce084084902bc502f00c366405b661ecdff90dee95d363b36a6e146829e433",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/inner-green-assets/card-ethos.jpg",
+      "local": "assets/card-ethos.jpg",
+      "bytes": 316720,
+      "sha256": "337627390f499b3ae272cec9e2f83c817694a82f42e1aa10a7b26a2c7d679dff",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/inner-green-assets/lexend-latin.woff2",
+      "local": "assets/lexend-latin.woff2",
+      "bytes": 39692,
+      "sha256": "1ec8f6ee2750554b4bc59ff0b507d316a82a7ba37e0e5bebc41d3bd9b9faad46",
+      "verified": true
+    }
+  ],
+  "url_is_fallback": true
+}

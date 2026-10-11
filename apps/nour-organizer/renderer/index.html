@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nour Organizer Pro</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="app">
+  <!-- ===== Sidebar ===== -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo">N</div>
+      <div>
+        <b id="brandName">Nour Organizer</b>
+        <span class="badge-pro">PRO MAX • Offline</span>
+      </div>
+    </div>
+    <nav>
+      <button class="nav active" data-view="dashboard"><span class="ico">◈</span><span data-i18n="navDash">لوحة التحكم</span></button>
+      <button class="nav" data-view="organize"><span class="ico">✦</span><span data-i18n="navOrg">التنظيم</span></button>
+      <button class="nav" data-view="duplicates"><span class="ico">⧉</span><span data-i18n="navDup">المكرر</span><em id="dupCount" class="pill hidden">0</em></button>
+      <button class="nav" data-view="stats"><span class="ico">▦</span><span data-i18n="navStats">المساحة</span></button>
+    </nav>
+    <div class="side-foot">
+      <div class="secure">🛡️ <span data-i18n="safe">حذف آمن لسلة المهملات فقط</span></div>
+      <div class="ver">v0.1.0 • 100% Offline</div>
+    </div>
+  </aside>
+
+  <!-- ===== Main ===== -->
+  <div class="main">
+    <header class="topbar">
+      <div class="folder-switch">
+        <button id="btnDownloads" class="seg active">📥 Downloads</button>
+        <button id="btnDesktop" class="seg">🖥️ Desktop</button>
+        <button id="btnCustom" class="seg">📁 مخصص | Custom</button>
+      </div>
+      <div class="top-actions">
+        <code id="folderPath" class="path">…</code>
+        <button id="btnScan" class="primary">🔍 <span data-i18n="scan">افحص</span></button>
+        <button id="langBtn" class="ghost">EN</button>
+      </div>
+    </header>
+
+    <main class="views">
+      <!-- Dashboard -->
+      <section id="view-dashboard" class="view active">
+        <div class="kpis">
+          <div class="kpi"><span class="k-label" data-i18n="kFiles">ملفات</span><b id="kFiles">—</b><small id="kFilesSub"></small></div>
+          <div class="kpi"><span class="k-label" data-i18n="kSize">الحجم الكلي</span><b id="kSize">—</b><small id="kSizeSub"></small></div>
+          <div class="kpi"><span class="k-label" data-i18n="kCats">تصنيفات</span><b id="kCats">—</b><small data-i18n="kCatsSub">صور • فيديو • مستندات • برامج</small></div>
+          <div class="kpi warn"><span class="k-label" data-i18n="kDup">مجموعات مكررة</span><b id="kDup">—</b><small data-i18n="kDupSub">افحص المكرر للتنظيف</small></div>
+        </div>
+        <div class="grid2">
+          <div class="card">
+            <h3 data-i18n="storageTitle">توزيع المساحة</h3>
+            <div class="donut-wrap"><div id="donut"></div><div><div id="donutTotal" class="donut-total">—</div><div class="muted" data-i18n="totalUse">إجمالي المستخدم</div></div></div>
+            <div id="legend" class="legend"></div>
+          </div>
+          <div class="card">
+            <h3 data-i18n="quickTitle">إجراءات سريعة</h3>
+            <button id="btnPreview" class="wide">👁️ <span data-i18n="preview">معاينة التنظيم</span></button>
+            <button id="btnOrganize" class="primary wide">✨ <span data-i18n="org">رتّب الآن في ثانية</span></button>
+            <button id="btnDup2" class="wide">🔎 <span data-i18n="dupScan">اكشف المكرر</span></button>
+            <p id="scanInfo" class="muted"></p>
+            <div id="quickStats"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Organize -->
+      <section id="view-organize" class="view">
+        <div class="card">
+          <div class="card-head"><h3 data-i18n="planTitle">خطة التنظيم</h3><span id="planCount" class="pill">0</span></div>
+          <p class="muted" data-i18n="planHint">بنعمل معاينة الأول (Dry-run) — مفيش حاجة بتتحرك غير لما تدوس رتّب.</p>
+          <div class="row">
+            <button id="btnPreview2" class="wide">👁️ <span data-i18n="preview">معاينة التنظيم</span></button>
+            <button id="btnOrganize2" class="primary wide">✨ <span data-i18n="org">رتّب الآن</span></button>
+          </div>
+          <div id="progress" class="progress hidden"><div class="p-fill"></div></div>
+          <div id="plan" class="plan-list"><div class="empty">—</div></div>
+        </div>
+      </section>
+
+      <!-- Duplicates -->
+      <section id="view-duplicates" class="view">
+        <div class="card">
+          <div class="card-head"><h3 data-i18n="dupTitle">الملفات المكررة — حذف آمن</h3><button id="btnDup" class="primary">🔎 <span data-i18n="dupScan">اكشف المكرر</span></button></div>
+          <p class="muted" data-i18n="dupHint">بنحتفظ بنسخة واحدة (Keep) والباقي بيروح سلة المهملات — تقدر ترجّعه.</p>
+          <div id="dups"></div>
+        </div>
+      </section>
+
+      <!-- Stats -->
+      <section id="view-stats" class="view">
+        <div class="card">
+          <h3 data-i18n="statsTitle">إيه واكل مساحتك؟</h3>
+          <div id="stats"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+<div id="toasts"></div>
+<script src="renderer.js"></script>
+</body>
+</html>

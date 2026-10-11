@@ -1,0 +1,42 @@
+{
+  "name": "circle-buttons",
+  "slug": "circle-buttons",
+  "category": "buttons",
+  "url": "https://threeui.com/buttons",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/circle-buttons",
+  "fingerprint": "ab98ad094aa61b23b5069aac711b529334db455430edd86045e3cc6daedc4c60",
+  "collected_at": "2026-10-04T02:32:04.452Z",
+  "written_files": [
+    {
+      "path": "src/shaders/circle-buttons/CircleButtons.tsx",
+      "bytes": 3428,
+      "sha256": "33740d76203baa7bf038cd6ab3feee21b2909693db84f246ba8e6a98024bd330",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/circle-buttons/circle-buttons.css",
+      "bytes": 10905,
+      "sha256": "13e5206c37dc1cb389b4fd6125729b95e65cb5ad69561a9115168747efe6ccd4",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "youtube",
+  "description": "Standard YouTube long-form look (Phase 1 defaults; refined Phase 14).",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "caption_style": "clean",
+  "transition": "cut",
+  "audio": { "lufs": -14.0, "duck_music_db": -8 },
+  "presets": {
+    "youtube_1080p": { "width": 1920, "height": 1080, "fps": 30 },
+    "youtube_4k": { "width": 3840, "height": 2160, "fps": 30 }
+  }
+}

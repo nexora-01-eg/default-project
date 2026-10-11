@@ -1,0 +1,109 @@
+{
+  "name": "gallery",
+  "slug": "gallery",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [
+    {
+      "path": "src/shaders/gallery/assets/gallery-1.webp",
+      "mimeType": "image/webp",
+      "bytes": 85466,
+      "sha256": "86810ac01c6e9fc4d0944f4709c0495541fbb0916ba994d36bd8cf22f1a7f06c"
+    },
+    {
+      "path": "src/shaders/gallery/assets/gallery-2.webp",
+      "mimeType": "image/webp",
+      "bytes": 185898,
+      "sha256": "7c777c14efb761dbccbbb3e8b8ff13920231964944c2038472a2ffa4d99c395d"
+    },
+    {
+      "path": "src/shaders/gallery/assets/gallery-3.webp",
+      "mimeType": "image/webp",
+      "bytes": 275230,
+      "sha256": "8a11b3e5ba715ffbbd881947094563baae2540b407674bd0a15891037e15bba9"
+    },
+    {
+      "path": "src/shaders/gallery/assets/gallery-4.webp",
+      "mimeType": "image/webp",
+      "bytes": 391108,
+      "sha256": "6c09469827c02ff16e4041fc1da82efdc9e59832b59ec29cc0cbe761b0862518"
+    },
+    {
+      "path": "src/shaders/gallery/assets/gallery-5.webp",
+      "mimeType": "image/webp",
+      "bytes": 187614,
+      "sha256": "2b1aec480447e45c5b717363def6ef96bc38443179dc6f97ea25a0f8461c07b7"
+    }
+  ],
+  "local_path": "shaders/gallery",
+  "fingerprint": "8c34bab0bea35fc69c96f34fedeae1153286faa8cce47a5a19ab3c5bbaa9beb5",
+  "collected_at": "2026-10-04T02:32:04.625Z",
+  "written_files": [
+    {
+      "path": "src/shaders/gallery/Gallery.tsx",
+      "bytes": 6310,
+      "sha256": "f329f985236df2801d016dd5cd34f5cf8261cfc1757b30cdcde44bf17809acfa",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/gallery/gallery.css",
+      "bytes": 356,
+      "sha256": "5ad4be7aadda80339b36a7aa46d8d76a83e3d0e08fb93dde8fe3117deece33a2",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [
+    {
+      "path": "src/shaders/gallery/assets/gallery-1.webp",
+      "local": "assets/gallery-1.webp",
+      "bytes": 85466,
+      "sha256": "86810ac01c6e9fc4d0944f4709c0495541fbb0916ba994d36bd8cf22f1a7f06c",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/gallery/assets/gallery-2.webp",
+      "local": "assets/gallery-2.webp",
+      "bytes": 185898,
+      "sha256": "7c777c14efb761dbccbbb3e8b8ff13920231964944c2038472a2ffa4d99c395d",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/gallery/assets/gallery-3.webp",
+      "local": "assets/gallery-3.webp",
+      "bytes": 275230,
+      "sha256": "8a11b3e5ba715ffbbd881947094563baae2540b407674bd0a15891037e15bba9",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/gallery/assets/gallery-4.webp",
+      "local": "assets/gallery-4.webp",
+      "bytes": 391108,
+      "sha256": "6c09469827c02ff16e4041fc1da82efdc9e59832b59ec29cc0cbe761b0862518",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/gallery/assets/gallery-5.webp",
+      "local": "assets/gallery-5.webp",
+      "bytes": 187614,
+      "sha256": "2b1aec480447e45c5b717363def6ef96bc38443179dc6f97ea25a0f8461c07b7",
+      "verified": true
+    }
+  ],
+  "url_is_fallback": true
+}

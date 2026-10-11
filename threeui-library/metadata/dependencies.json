@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-10-04T02:34:42.004Z",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "peerDependencies": {
+    "react": ">=18 <20",
+    "react-dom": ">=18 <20",
+    "three": ">=0.149 <1"
+  },
+  "dependencies": {
+    "three128": "npm:three@0.128.0",
+    "three165": "npm:three@0.165.0"
+  },
+  "notes": [
+    "react/react-dom/three are peer deps",
+    "three128/three165 aliases bundled",
+    "GSAP/Lenis/WebGL2/GLSL recorded per-item when detected"
+  ]
+}

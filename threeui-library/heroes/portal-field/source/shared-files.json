@@ -1,0 +1,5 @@
+[
+  "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+  "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+  "src/shaders/community.css"
+]

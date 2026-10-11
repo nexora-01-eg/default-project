@@ -1,0 +1,106 @@
+{
+  "name": "predictive-arc",
+  "slug": "predictive-arc",
+  "category": "hero",
+  "url": "https://threeui.com/hero",
+  "type": "hero",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "WebGL",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "heroes/predictive-arc",
+  "fingerprint": "4cba08afa4a04bf22fe4143578c774d831b95089476aa17d3b112fea65b671e4",
+  "collected_at": "2026-10-04T02:32:08.023Z",
+  "written_files": [
+    {
+      "path": "src/shaders/predictive-arc/PredictiveArcCollection.tsx",
+      "bytes": 2860,
+      "sha256": "b77a845ab2fa8e8ef8d9b6812d71efe6f320d865d97ec97b2e15253b5950fd63",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/predictive-arc/PredictiveArcCanvas.tsx",
+      "bytes": 4365,
+      "sha256": "ebaa5a1b1f785c7772aaedc2b195318fd63bd9c3e5e5d8e175600968b245dae7",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/predictive-arc/predictiveArcRenderer.ts",
+      "bytes": 4088,
+      "sha256": "fc08c66b13c4a8173c8a88845926b72266d1b1a4fc345c84f44ee61fbfaba92b",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/data-pixel-arc/DataPixelArcCanvas.tsx",
+      "bytes": 2376,
+      "sha256": "2e25156d43dfd1bf0fb47384f75df240cd0c4038deae75a8dacae7c213269c5b",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/data-pixel-arc/dataPixelArcRenderer.ts",
+      "bytes": 4372,
+      "sha256": "65bdfb98424996d935923f39f163e1667f0bc2b8faa458d900f4450beabba0eb",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/amber-halftone.html",
+      "bytes": 16324,
+      "sha256": "3d9ebb64a15a1985c4cef1f01457281a49b2d9900405fd674e8748cac8af00a0",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/signal-particles.html",
+      "bytes": 33027,
+      "sha256": "613a2005d18795dbc25a5d0f93c3ae4dfecdfcb939ea6e2c5702b82eb1e4bfff",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/override-grid.html",
+      "bytes": 14421,
+      "sha256": "dc7800f2b6b6329b8b71ea4a06b82af91cff8379701c6a7fa4c9a92d47f89d6c",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/ribbon-field/RibbonFieldBackground.tsx",
+      "bytes": 4717,
+      "sha256": "fab02cb57c44c7307afd29cd03d01141372ad90163632b9a6a77910a245a5996",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/ribbon-field/ribbonFieldShaders.ts",
+      "bytes": 2907,
+      "sha256": "ab578acab44bbff7f3cf67f1c82b3e2e1d03689de3fcbdc23681e8b5a0a3536c",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/void-protocol.html",
+      "bytes": 21426,
+      "sha256": "affd21553ba951c0ff0f5a8e40a84ae70d49aaff3c4c69ea4ae1ec897dec21e3",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/nexus-unified-flow.html",
+      "bytes": 15094,
+      "sha256": "fa1a015ae407dc2091c3c96239d28107e973cbc03aa7abef37dd5da791d5428b",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+    "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+    "src/shaders/neuform-isolated/NeuformCraftEffects.tsx",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

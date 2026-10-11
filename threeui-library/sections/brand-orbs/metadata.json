@@ -1,0 +1,42 @@
+{
+  "name": "brand-orbs",
+  "slug": "brand-orbs",
+  "category": "sections",
+  "url": "https://threeui.com/sections",
+  "type": "hero",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "sections/brand-orbs",
+  "fingerprint": "85fddec096f96d61702b6270465cc6ddcd36f1d547c9d0c8969325f88c7d2d52",
+  "collected_at": "2026-10-04T02:31:48.126Z",
+  "written_files": [
+    {
+      "path": "src/shaders/brand-orbs/BrandOrbs.tsx",
+      "bytes": 7932,
+      "sha256": "f3370948bddb1a8af0ac00355067eb79ff39e48214499f1e663b29a71a425d79",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/brand-orbs/sources/brand-orbs-v2.html",
+      "bytes": 158401,
+      "sha256": "c2733de8cf7ba5fa4723297b600e9a0ad6949779fb0ab0734c9a95fb26443314",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

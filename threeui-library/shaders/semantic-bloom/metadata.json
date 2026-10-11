@@ -1,0 +1,42 @@
+{
+  "name": "semantic-bloom",
+  "slug": "semantic-bloom",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/semantic-bloom",
+  "fingerprint": "4821f5be792f4ffec281183237e49b5a54016dd8725d3db2a5453fefcb3b0aab",
+  "collected_at": "2026-10-04T02:32:08.188Z",
+  "written_files": [
+    {
+      "path": "src/shaders/semantic-bloom/SemanticBloom.tsx",
+      "bytes": 6630,
+      "sha256": "69f490e0690239a7dc69dac3c59f82497ef45257e1a620ec7f4956d393ec72b3",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/semantic-bloom/sources/design-f0ebbe02-7d8a-41fd-9041-a1124185c27b.html",
+      "bytes": 15151,
+      "sha256": "0e48ec9ed2c33f81e7c1a9123ea191256106765624dfc9adf227b44ae001f989",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

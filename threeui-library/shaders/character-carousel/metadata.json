@@ -1,0 +1,48 @@
+{
+  "name": "character-carousel",
+  "slug": "character-carousel",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/character-carousel",
+  "fingerprint": "e4f0c29ca8dc14850ebc88a4439e86e994af4cf0f1d0aced717cdd8537f86515",
+  "collected_at": "2026-10-04T02:32:04.452Z",
+  "written_files": [
+    {
+      "path": "src/shaders/character-carousel/CharacterCarousel.tsx",
+      "bytes": 6289,
+      "sha256": "3bc9c80e8201be3cde79697e8cddba6f4f8b1a3c4a5fb7ce7533dd6479409472",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/character-carousel/sources/character-filmstrip.html",
+      "bytes": 266063,
+      "sha256": "4c98939e0e2b67efabcb8561c8b2e53b8c756e97bda44906b235ee7bc8f68b1c",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/character-carousel/sources/character-wave.html",
+      "bytes": 268690,
+      "sha256": "6726cf0db527043b2d5f15efb10ecfd059863ca2349c4099f5de161f94124a03",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

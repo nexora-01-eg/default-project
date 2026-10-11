@@ -1,0 +1,262 @@
+{
+  "name": "meng-to-sketchbook-landing-page",
+  "slug": "meng-to-sketchbook-landing-page",
+  "category": "sections",
+  "url": "https://threeui.com/sections",
+  "type": "landing-page",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/bg-wash.jpg",
+      "mimeType": "image/jpeg",
+      "bytes": 250415,
+      "sha256": "3e8bbb177216bcb41ddc75cdaca38f732b9cd7ff4aaa409921623356072eb1f6"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/bloom.png",
+      "mimeType": "image/png",
+      "bytes": 239231,
+      "sha256": "7786aef42d10f1fbeca055b3ed14f51a47cb2a390b360eae92119f046989943e"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/botanic-gardens.png",
+      "mimeType": "image/png",
+      "bytes": 822127,
+      "sha256": "48ab10869e7afd4519cdc78d62625cd529bd3b2b5ff1c3c2789a8d721733da15"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/botany-left.png",
+      "mimeType": "image/png",
+      "bytes": 133820,
+      "sha256": "b3ed9e8613ba8826a5e137a5f8ad4bd21b6e7a544bc25e6184891079eae0470c"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/botany-right.png",
+      "mimeType": "image/png",
+      "bytes": 376050,
+      "sha256": "608025a35b8697b536e9ac668e51476c79072d1efb4a04316c068073f51cf655"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/buddha-tooth.png",
+      "mimeType": "image/png",
+      "bytes": 792335,
+      "sha256": "cf73e3fffd80a4c81b18ac83dfdba266c9f5c51e6a66047068a39c2885bc388a"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/divider.png",
+      "mimeType": "image/png",
+      "bytes": 170548,
+      "sha256": "ef8ed266a6ee6f2f6fb8f235657d9ea9e4d57af6d84e75e4e81373de9d3632bb"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/gardens-by-the-bay.png",
+      "mimeType": "image/png",
+      "bytes": 844878,
+      "sha256": "cf1d629d6a72d8cd4a98158fac44e9093a12e55257b43adcdaa07ae3ffbad7d3"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/instrument-serif-italic.woff2",
+      "mimeType": "font/woff2",
+      "bytes": 15684,
+      "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/instrument-serif.woff2",
+      "mimeType": "font/woff2",
+      "bytes": 15040,
+      "sha256": "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/joo-chiat.png",
+      "mimeType": "image/png",
+      "bytes": 796739,
+      "sha256": "a46701ba26b5ee31fc6484a12d908cb25d70baea92dec3013260c516e1157a0b"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/lau-pa-sat.png",
+      "mimeType": "image/png",
+      "bytes": 872602,
+      "sha256": "bb020724a54e6dbf72c19bc2a8113393aae43408da2bcada4a62b53eeb3b0ddb"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/marina-bay-sands.png",
+      "mimeType": "image/png",
+      "bytes": 781481,
+      "sha256": "c9cb4423072d69c4177833fa3f92923ce50ab7b395a257349793de3840b88608"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/marina-bay-skyline.png",
+      "mimeType": "image/png",
+      "bytes": 804832,
+      "sha256": "1cebb237d910a1429ff4f17f78efac059094c001629a579b598843eb0bdf363f"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/merlion.png",
+      "mimeType": "image/png",
+      "bytes": 815697,
+      "sha256": "bf5082288e212f62b2e15af766364d79e30050528a7ad48a020aa46d59d4666a"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/newsreader.woff2",
+      "mimeType": "font/woff2",
+      "bytes": 131848,
+      "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a"
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/singapore-river.png",
+      "mimeType": "image/png",
+      "bytes": 744018,
+      "sha256": "a3fc9cf2be0e3ce4b4630df6897d856ca49c6aca48f66a82e910367328bf667b"
+    }
+  ],
+  "local_path": "sections/meng-to-sketchbook-landing-page",
+  "fingerprint": "356943b5367e5620c598d047f20eb5c83152d414a875c42371511682afbcedaf",
+  "collected_at": "2026-10-04T02:32:05.474Z",
+  "written_files": [
+    {
+      "path": "public/landing-pages/meng-to-sketchbook.html",
+      "bytes": 45528,
+      "sha256": "e0330548b1ac905cf1b81698163ffa29f8a3a8c39b8d39f9b71ba5b9255b6dd1",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/landing-pages/LandingPages.tsx",
+    "src/shaders/landing-pages/pageTypography.ts",
+    "src/shaders/landing-pages/pageRecipes.ts",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/bg-wash.jpg",
+      "local": "assets/bg-wash.jpg",
+      "bytes": 250415,
+      "sha256": "3e8bbb177216bcb41ddc75cdaca38f732b9cd7ff4aaa409921623356072eb1f6",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/bloom.png",
+      "local": "assets/bloom.png",
+      "bytes": 239231,
+      "sha256": "7786aef42d10f1fbeca055b3ed14f51a47cb2a390b360eae92119f046989943e",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/botanic-gardens.png",
+      "local": "assets/botanic-gardens.png",
+      "bytes": 822127,
+      "sha256": "48ab10869e7afd4519cdc78d62625cd529bd3b2b5ff1c3c2789a8d721733da15",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/botany-left.png",
+      "local": "assets/botany-left.png",
+      "bytes": 133820,
+      "sha256": "b3ed9e8613ba8826a5e137a5f8ad4bd21b6e7a544bc25e6184891079eae0470c",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/botany-right.png",
+      "local": "assets/botany-right.png",
+      "bytes": 376050,
+      "sha256": "608025a35b8697b536e9ac668e51476c79072d1efb4a04316c068073f51cf655",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/buddha-tooth.png",
+      "local": "assets/buddha-tooth.png",
+      "bytes": 792335,
+      "sha256": "cf73e3fffd80a4c81b18ac83dfdba266c9f5c51e6a66047068a39c2885bc388a",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/divider.png",
+      "local": "assets/divider.png",
+      "bytes": 170548,
+      "sha256": "ef8ed266a6ee6f2f6fb8f235657d9ea9e4d57af6d84e75e4e81373de9d3632bb",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/gardens-by-the-bay.png",
+      "local": "assets/gardens-by-the-bay.png",
+      "bytes": 844878,
+      "sha256": "cf1d629d6a72d8cd4a98158fac44e9093a12e55257b43adcdaa07ae3ffbad7d3",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/instrument-serif-italic.woff2",
+      "local": "assets/instrument-serif-italic.woff2",
+      "bytes": 15684,
+      "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/instrument-serif.woff2",
+      "local": "assets/instrument-serif.woff2",
+      "bytes": 15040,
+      "sha256": "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/joo-chiat.png",
+      "local": "assets/joo-chiat.png",
+      "bytes": 796739,
+      "sha256": "a46701ba26b5ee31fc6484a12d908cb25d70baea92dec3013260c516e1157a0b",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/lau-pa-sat.png",
+      "local": "assets/lau-pa-sat.png",
+      "bytes": 872602,
+      "sha256": "bb020724a54e6dbf72c19bc2a8113393aae43408da2bcada4a62b53eeb3b0ddb",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/marina-bay-sands.png",
+      "local": "assets/marina-bay-sands.png",
+      "bytes": 781481,
+      "sha256": "c9cb4423072d69c4177833fa3f92923ce50ab7b395a257349793de3840b88608",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/marina-bay-skyline.png",
+      "local": "assets/marina-bay-skyline.png",
+      "bytes": 804832,
+      "sha256": "1cebb237d910a1429ff4f17f78efac059094c001629a579b598843eb0bdf363f",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/merlion.png",
+      "local": "assets/merlion.png",
+      "bytes": 815697,
+      "sha256": "bf5082288e212f62b2e15af766364d79e30050528a7ad48a020aa46d59d4666a",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/newsreader.woff2",
+      "local": "assets/newsreader.woff2",
+      "bytes": 131848,
+      "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a",
+      "verified": true
+    },
+    {
+      "path": "public/landing-pages/meng-to-sketchbook/singapore-river.png",
+      "local": "assets/singapore-river.png",
+      "bytes": 744018,
+      "sha256": "a3fc9cf2be0e3ce4b4630df6897d856ca49c6aca48f66a82e910367328bf667b",
+      "verified": true
+    }
+  ],
+  "url_is_fallback": true
+}

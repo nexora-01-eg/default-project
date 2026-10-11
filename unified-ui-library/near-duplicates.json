@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Liquid Carve Button",
+    "slug": "liquid-carve-button",
+    "source": "OriginKit",
+    "status": "NEAR_DUPLICATE",
+    "duplicate_of": "liquid-metal-button",
+    "duplicate_of_source": "ThreeUI",
+    "reason": "functional overlap (score 0.38): same category; shared tech [liquid, button]",
+    "comparison": "token-jaccard=0.13",
+    "unified": "buttons",
+    "detected_at": "2026-10-04T03:11:01.728Z"
+  }
+]

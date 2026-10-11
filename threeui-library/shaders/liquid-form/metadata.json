@@ -1,0 +1,43 @@
+{
+  "name": "liquid-form",
+  "slug": "liquid-form",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "WebGL",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/liquid-form",
+  "fingerprint": "bb8c91c1874009b9012dc6aca3932e9c92579ead886dc48162f0888ab61ffabe",
+  "collected_at": "2026-10-04T02:32:05.382Z",
+  "written_files": [
+    {
+      "path": "src/shaders/liquid-form/LiquidFormBackground.tsx",
+      "bytes": 5476,
+      "sha256": "95e43ab2c5312ff94e0aa4cd63902f2b994a7ed881661e279a04c30c1c36234a",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/liquid-form/liquidFormShaders.ts",
+      "bytes": 4552,
+      "sha256": "5ec6722aa75a4b3e5815ae811105201668e8d88a060d4bab46b38e87f136c7ea",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

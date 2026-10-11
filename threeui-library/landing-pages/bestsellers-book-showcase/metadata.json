@@ -1,0 +1,37 @@
+{
+  "name": "bestsellers-book-showcase",
+  "slug": "bestsellers-book-showcase",
+  "category": "landing-pages",
+  "url": "https://threeui.com/landing-pages",
+  "type": "landing-page",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "landing-pages/bestsellers-book-showcase",
+  "fingerprint": "8544f8fc7002e1a35f8e8785e85d85e63dca6a6991340fabc19d720077ad00bc",
+  "collected_at": "2026-10-04T02:31:47.923Z",
+  "written_files": [
+    {
+      "path": "public/landing-pages/bestsellers-book-showcase.html",
+      "bytes": 3546441,
+      "sha256": "7c1ed1ca4a4c58f1c33956c84edd8f7ba450ea0312df718701e634a207568138",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/landing-pages/LandingPages.tsx",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

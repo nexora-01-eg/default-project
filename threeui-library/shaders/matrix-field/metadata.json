@@ -1,0 +1,56 @@
+{
+  "name": "matrix-field",
+  "slug": "matrix-field",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "WebGL",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/matrix-field",
+  "fingerprint": "47af25ba4ebc7f87b229722d89c07a7603279a5aa34d395afd1c55c6f123091f",
+  "collected_at": "2026-10-04T02:32:05.437Z",
+  "written_files": [
+    {
+      "path": "src/shaders/laser/LaserCollection.tsx",
+      "bytes": 1194,
+      "sha256": "e81830f73d86cbaa71e4f32568ec596c461500370ef971315b1dff682c9d1639",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/laser/LaserVariants.tsx",
+      "bytes": 8797,
+      "sha256": "4fdc907769b67369de011ee96594aed6dd0f54974c1db831ac9ac5c5f371ba4a",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/laser/laserShaders.ts",
+      "bytes": 8654,
+      "sha256": "91248e937612f2d11b8dde4716d3546e47cd192ad36ebc76e1860f728285f967",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/matrix-field.html",
+      "bytes": 21070,
+      "sha256": "7ee84b44ccad91f131563f34c633596a4c105512e8f0aa4303736f77681db835",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

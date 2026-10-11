@@ -1,0 +1,54 @@
+{
+  "name": "structure-flow",
+  "slug": "structure-flow",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/structure-flow",
+  "fingerprint": "712f8fb9772973ab7db262888841987b008b7fe74f4c807c456a7e680497b328",
+  "collected_at": "2026-10-04T02:32:12.639Z",
+  "written_files": [
+    {
+      "path": "src/shaders/structure-flow/StructureFlowCollection.tsx",
+      "bytes": 6508,
+      "sha256": "658c5ade6ab0460a606a2dccedeb85c875f434db57472ca2f512670e7b23f6f6",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/structure-flow/StructureFlowBackground.tsx",
+      "bytes": 2020,
+      "sha256": "d051be3b69d543b4a5b50b114d6e106137d01dc1eed6ce07367000b208f1a743",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/structure-flow/structureFlowRenderer.ts",
+      "bytes": 2212,
+      "sha256": "55abf8a55293fbd3e1a5d3dab1ed02d51e1baf854b8ff86287d8348f51e7ed92",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/structure-flow/three128.d.ts",
+      "bytes": 87,
+      "sha256": "8324c6614057aee8cde81db247a34bc4d3e5c93cec89c6753874ba94ace5fe71",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

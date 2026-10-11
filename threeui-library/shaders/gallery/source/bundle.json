@@ -1,0 +1,64 @@
+{
+  "slug": "gallery",
+  "name": "gallery",
+  "id": "gallery",
+  "exportName": "Gallery",
+  "sourceCommit": "SHA-256 f7a576d4db08",
+  "runtime": "Three.js r149",
+  "sharedFilePaths": [
+    "src/shaders/community.css"
+  ],
+  "files": [
+    {
+      "path": "src/shaders/gallery/Gallery.tsx",
+      "language": "tsx",
+      "role": "component",
+      "bytes": 6310,
+      "lines": 205,
+      "sha256": "f329f985236df2801d016dd5cd34f5cf8261cfc1757b30cdcde44bf17809acfa",
+      "code": "import { useEffect, useRef, type CSSProperties } from \"react\";\nimport * as THREE from \"three\";\nimport \"./gallery.css\";\n\nconst GALLERY_IMAGE_URLS = [\n  new URL(\"./assets/gallery-1.webp\", import.meta.url).href,\n  new URL(\"./assets/gallery-2.webp\", import.meta.url).href,\n  new URL(\"./assets/gallery-3.webp\", import.meta.url).href,\n  new URL(\"./assets/gallery-4.webp\", import.meta.url).href,\n  new URL(\"./assets/gallery-5.webp\", import.meta.url).href,\n] as const;\n\nexport type GalleryProps = {\n  speed?: number;\n  scale?: number;\n  opacity?: number;\n  hue?: number;\n  saturation?: number;\n  brightness?: number;\n  className?: string;\n  style?: CSSProperties;\n};\n\nexport const GALLERY_DEFAULTS = {\n  speed: 1,\n  scale: 1,\n  opacity: 1,\n  hue: 0,\n  saturation: 1,\n  brightness: 1,\n} as const satisfies Required<Pick<GalleryProps, \"speed\" | \"scale\" | \"opacity\" | \"hue\" | \"saturation\" | \"brightness\">>;\n\nfunction clamp(value: number, minimum: number, maximum: number) {\n  return Math.min(maximum, Math.max(minimum, value));\n}\n\nexport function Gallery({\n  speed = GALLERY_DEFAULTS.speed,\n  scale = GALLERY_DEFAULTS.scale,\n  opacity = GALLERY_DEFAULTS.opacity,\n  hue = GALLERY_DEFAULTS.hue,\n  saturation = GALLERY_DEFAULTS.saturation,\n  brightness = GALLERY_DEFAULTS.brightness,\n  className = \"\",\n  style,\n}: GalleryProps) {\n  const hostRef = useRef<HTMLDivElement>(null);\n  const canvasRef = useRef<HTMLCanvasElement>(null);\n  const settingsRef = useRef({ speed, scale });\n  settingsRef.current = { speed, scale };\n\n  useEffect(() => {\n    const host = hostRef.current;\n    const canvas = canvasRef.current;\n    if (!host || !canvas) return undefined;\n\n    const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });\n    renderer.setClearColor(0x000000, 0);\n    renderer.outputEncoding = THREE.sRGBEncoding;\n\n    const scene = new THREE.Scene();\n    const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 100);\n    camera.position.z = 18;\n\n    const gallery = new THREE.Group();\n    scene.add(gallery);\n\n    const geometry = new THREE.CylinderGeometry(5, 5, 1.8, 64, 1, true, 0, Math.PI * 0.4);\n    const loader = new THREE.TextureLoader();\n    let disposed = false;\n    let frame = 0;\n    let elapsed = 0;\n    let previousTime = 0;\n    let hostVisible = true;\n    let documentVisible = !document.hidden;\n    const reducedMotion = window.matchMedia(\"(prefers-reduced-motion: reduce)\").matches;\n\n    const textures = GALLERY_IMAGE_URLS.map((url) => {\n      const texture = loader.load(url, () => {\n        if (disposed) {\n          texture.dispose();\n          return;\n        }\n        renderer.render(scene, camera);\n      });\n      texture.encoding = THREE.sRGBEncoding;\n      texture.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy());\n      return texture;\n    });\n\n    const materials = Array.from({ length: 16 }, (_, index) => new THREE.MeshBasicMaterial({\n      map: textures[index % textures.length],\n      opacity: 0.85,\n      side: THREE.DoubleSide,\n      toneMapped: false,\n      transparent: true,\n    }));\n\n    materials.forEach((material, index) => {\n      const panel = new THREE.Mesh(geometry, material);\n      panel.position.y = (index - 8) * 2.4;\n      panel.rotation.y = (index / 16) * Math.PI * 4;\n      gallery.add(panel);\n    });\n\n    const render = (time = performance.now()) => {\n      const safeSpeed = clamp(settingsRef.current.speed, 0, 3);\n      const safeScale = clamp(settingsRef.current.scale, 0.7, 1.35);\n      if (previousTime) elapsed += Math.min((time - previousTime) / 1000, 0.05) * safeSpeed;\n      previousTime = time;\n      gallery.rotation.y = elapsed * 0.18;\n      gallery.position.y = Math.sin(elapsed) * 1.5;\n      gallery.scale.setScalar(safeScale);\n      renderer.render(scene, camera);\n    };\n\n    const tick = (time: number) => {\n      if (disposed || !hostVisible || !documentVisible) {\n        frame = 0;\n        previousTime = 0;\n        return;\n      }\n      render(time);\n      frame = window.requestAnimationFrame(tick);\n    };\n\n    const start = () => {\n      if (reducedMotion) {\n        render(0);\n        return;\n      }\n      if (!frame && hostVisible && documentVisible) frame = window.requestAnimationFrame(tick);\n    };\n\n    const stop = () => {\n      if (frame) window.cancelAnimationFrame(frame);\n      frame = 0;\n      previousTime = 0;\n    };\n\n    const resize = () => {\n      const bounds = host.getBoundingClientRect();\n      const width = Math.max(1, Math.round(bounds.width));\n      const height = Math.max(1, Math.round(bounds.height));\n      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));\n      renderer.setSize(width, height, false);\n      camera.aspect = width / height;\n      camera.updateProjectionMatrix();\n      render();\n    };\n\n    const resizeObserver = new ResizeObserver(resize);\n    const intersectionObserver = new IntersectionObserver(([entry]) => {\n      hostVisible = entry?.isIntersecting ?? true;\n      if (hostVisible) start();\n      else stop();\n    });\n    const handleVisibility = () => {\n      documentVisible = !document.hidden;\n      if (documentVisible) start();\n      else stop();\n    };\n\n    resizeObserver.observe(host);\n    intersectionObserver.observe(host);\n    document.addEventListener(\"visibilitychange\", handleVisibility);\n    resize();\n    start();\n\n    return () => {\n      disposed = true;\n      stop();\n      resizeObserver.disconnect();\n      intersectionObserver.disconnect();\n      document.removeEventListener(\"visibilitychange\", handleVisibility);\n      gallery.clear();\n      geometry.dispose();\n      materials.forEach((material) => material.dispose());\n      textures.forEach((texture) => texture.dispose());\n      renderer.dispose();\n    };\n  }, []);\n\n  return (\n    <div\n      ref={hostRef}\n      className={`threeui-background gallery${className ? ` ${className}` : \"\"}`}\n      data-mode=\"light\"\n      role=\"img\"\n      aria-label=\"Rotating cylindrical image gallery\"\n      style={style}\n    >\n      <canvas\n        ref={canvasRef}\n        className=\"gallery__canvas\"\n        aria-hidden=\"true\"\n        style={{\n          opacity: clamp(opacity, 0.05, 1),\n          filter: `hue-rotate(${clamp(hue, -180, 180)}deg) saturate(${clamp(saturation, 0, 2)}) brightness(${clamp(brightness, 0.35, 1.65)})`,\n        }}\n      />\n    </div>\n  );\n}\n"
+    },
+    {
+      "path": "src/shaders/gallery/gallery.css",
+      "language": "css",
+      "role": "component-style",
+      "bytes": 356,
+      "lines": 18,
+      "sha256": "5ad4be7aadda80339b36a7aa46d8d76a83e3d0e08fb93dde8fe3117deece33a2",
+      "code": ".threeui-background.gallery {\n  position: absolute;\n  inset: 0;\n  overflow: hidden;\n  background-color: #f1f1ef;\n  background-image: radial-gradient(rgba(13, 13, 13, 0.13) 1px, transparent 1px);\n  background-size: 28px 28px;\n  pointer-events: none;\n}\n\n.gallery__canvas {\n  position: absolute;\n  inset: 0;\n  display: block;\n  width: 100%;\n  height: 100%;\n}\n"
+    }
+  ],
+  "assets": [
+    {
+      "path": "src/shaders/gallery/assets/gallery-1.webp",
+      "mimeType": "image/webp",
+      "bytes": 85466,
+      "sha256": "86810ac01c6e9fc4d0944f4709c0495541fbb0916ba994d36bd8cf22f1a7f06c"
+    },
+    {
+      "path": "src/shaders/gallery/assets/gallery-2.webp",
+      "mimeType": "image/webp",
+      "bytes": 185898,
+      "sha256": "7c777c14efb761dbccbbb3e8b8ff13920231964944c2038472a2ffa4d99c395d"
+    },
+    {
+      "path": "src/shaders/gallery/assets/gallery-3.webp",
+      "mimeType": "image/webp",
+      "bytes": 275230,
+      "sha256": "8a11b3e5ba715ffbbd881947094563baae2540b407674bd0a15891037e15bba9"
+    },
+    {
+      "path": "src/shaders/gallery/assets/gallery-4.webp",
+      "mimeType": "image/webp",
+      "bytes": 391108,
+      "sha256": "6c09469827c02ff16e4041fc1da82efdc9e59832b59ec29cc0cbe761b0862518"
+    },
+    {
+      "path": "src/shaders/gallery/assets/gallery-5.webp",
+      "mimeType": "image/webp",
+      "bytes": 187614,
+      "sha256": "2b1aec480447e45c5b717363def6ef96bc38443179dc6f97ea25a0f8461c07b7"
+    }
+  ],
+  "_index": 20
+}

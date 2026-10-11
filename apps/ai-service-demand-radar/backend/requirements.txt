@@ -1,0 +1,24 @@
+# AI Service Demand Radar — backend dependencies
+# Target interpreter: Python 3.11.x (see docs/ENVIRONMENT_AUDIT.md)
+# Installed into backend/.venv by scripts/setup.ps1
+#
+# Runtime
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0,<3
+pydantic>=2.7,<3
+pydantic-settings>=2.2
+httpx>=0.27,<1
+feedparser>=6.0
+beautifulsoup4>=4.12
+lxml>=5.0
+apscheduler>=3.10,<4
+python-dotenv>=1.0
+click>=8.1
+rich>=13.0
+
+# Testing
+pytest>=8.0
+pytest-asyncio>=0.23
+pytest-cov>=5.0
+respx>=0.21

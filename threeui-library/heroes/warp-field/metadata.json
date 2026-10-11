@@ -1,0 +1,42 @@
+{
+  "name": "warp-field",
+  "slug": "warp-field",
+  "category": "hero",
+  "url": "https://threeui.com/hero",
+  "type": "hero",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "heroes/warp-field",
+  "fingerprint": "d237c5e0a2ba9b59ad8f261e1333404ceb013fbd178f60f5ae4f83ab508d9216",
+  "collected_at": "2026-10-04T02:32:14.526Z",
+  "written_files": [
+    {
+      "path": "src/shaders/warp-field/WarpFieldBackground.tsx",
+      "bytes": 1831,
+      "sha256": "c78637ee3419deed6c364f4252ed77adfda3a215eb1b82510450a9b7fadefcbe",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/warp-field/warpFieldRenderer.ts",
+      "bytes": 22681,
+      "sha256": "c9872c53dd505dea2d87c79e34b9eedd358b5dc32b385d48280fe252f595a44e",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

@@ -1,0 +1,19 @@
+{
+  "name": "unified-ui-library",
+  "version": "1.0.0",
+  "description": "Unified local UI library: ThreeUI (already collected) + OriginKit (metadata from official public pages). Multi-level duplicate detection, quality comparison, semantic search index. No auth bypass: gated code is recorded as LOCKED.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "origin-inventory": "node ./scripts/snapshot.mjs",
+    "collect-origin": "node ./scripts/collect-origin.mjs",
+    "dedupe": "node ./scripts/dedupe.mjs",
+    "compare": "node ./scripts/compare.mjs",
+    "verify": "node ./scripts/verify.mjs",
+    "report": "node ./scripts/report.mjs",
+    "update": "node ./scripts/update.mjs"
+  },
+  "license": "MIT"
+}

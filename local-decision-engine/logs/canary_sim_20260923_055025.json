@@ -1,0 +1,169 @@
+{
+  "source_log": "C:\\Users\\NOUR SOFT\\Documents\\Default Project\\local-decision-engine\\logs\\shadow_run_20260923_052907.jsonl",
+  "threshold": 0.6,
+  "high_conf": 0.8,
+  "classes": {
+    "A_routing": {
+      "1": {
+        "cases": 30,
+        "sampled": 2,
+        "high_conf": 0,
+        "low_conf": 2,
+        "agreement": 2,
+        "disagreement": 0,
+        "review_required": 2,
+        "fp": 0,
+        "fn": 0,
+        "llm_avoided": 0,
+        "llm_worthy_avoided": 0
+      },
+      "5": {
+        "cases": 30,
+        "sampled": 3,
+        "high_conf": 0,
+        "low_conf": 3,
+        "agreement": 3,
+        "disagreement": 0,
+        "review_required": 3,
+        "fp": 0,
+        "fn": 0,
+        "llm_avoided": 0,
+        "llm_worthy_avoided": 0
+      },
+      "10": {
+        "cases": 30,
+        "sampled": 4,
+        "high_conf": 0,
+        "low_conf": 4,
+        "agreement": 3,
+        "disagreement": 1,
+        "review_required": 3,
+        "fp": 0,
+        "fn": 0,
+        "llm_avoided": 0,
+        "llm_worthy_avoided": 0
+      },
+      "100": {
+        "cases": 30,
+        "sampled": 30,
+        "high_conf": 0,
+        "low_conf": 30,
+        "agreement": 17,
+        "disagreement": 13,
+        "review_required": 24,
+        "fp": 0,
+        "fn": 0,
+        "llm_avoided": 0,
+        "llm_worthy_avoided": 0
+      }
+    },
+    "B_opportunity": {
+      "1": {
+        "cases": 161,
+        "sampled": 2,
+        "high_conf": 0,
+        "low_conf": 2,
+        "agreement": 2,
+        "disagreement": 0,
+        "review_required": 1,
+        "fp": 0,
+        "fn": 0,
+        "llm_avoided": 0,
+        "llm_worthy_avoided": 0
+      },
+      "5": {
+        "cases": 161,
+        "sampled": 11,
+        "high_conf": 2,
+        "low_conf": 9,
+        "agreement": 11,
+        "disagreement": 0,
+        "review_required": 7,
+        "fp": 0,
+        "fn": 0,
+        "llm_avoided": 0,
+        "llm_worthy_avoided": 0
+      },
+      "10": {
+        "cases": 161,
+        "sampled": 17,
+        "high_conf": 2,
+        "low_conf": 15,
+        "agreement": 17,
+        "disagreement": 0,
+        "review_required": 13,
+        "fp": 0,
+        "fn": 0,
+        "llm_avoided": 0,
+        "llm_worthy_avoided": 0
+      },
+      "100": {
+        "cases": 161,
+        "sampled": 161,
+        "high_conf": 7,
+        "low_conf": 154,
+        "agreement": 150,
+        "disagreement": 11,
+        "review_required": 131,
+        "fp": 6,
+        "fn": 5,
+        "llm_avoided": 5,
+        "llm_worthy_avoided": 5
+      }
+    },
+    "C_news": {
+      "1": {
+        "cases": 161,
+        "sampled": 1,
+        "high_conf": 0,
+        "low_conf": 1,
+        "agreement": 0,
+        "disagreement": 1,
+        "review_required": 1,
+        "fp": 1,
+        "fn": 0,
+        "llm_avoided": 0,
+        "llm_worthy_avoided": 0
+      },
+      "5": {
+        "cases": 161,
+        "sampled": 6,
+        "high_conf": 0,
+        "low_conf": 6,
+        "agreement": 2,
+        "disagreement": 4,
+        "review_required": 6,
+        "fp": 4,
+        "fn": 0,
+        "llm_avoided": 0,
+        "llm_worthy_avoided": 0
+      },
+      "10": {
+        "cases": 161,
+        "sampled": 12,
+        "high_conf": 0,
+        "low_conf": 12,
+        "agreement": 3,
+        "disagreement": 9,
+        "review_required": 11,
+        "fp": 8,
+        "fn": 1,
+        "llm_avoided": 1,
+        "llm_worthy_avoided": 1
+      },
+      "100": {
+        "cases": 161,
+        "sampled": 161,
+        "high_conf": 3,
+        "low_conf": 158,
+        "agreement": 73,
+        "disagreement": 88,
+        "review_required": 128,
+        "fp": 83,
+        "fn": 5,
+        "llm_avoided": 15,
+        "llm_worthy_avoided": 5
+      }
+    }
+  }
+}

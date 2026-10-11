@@ -1,0 +1,104 @@
+{
+  "name": "skeuomorphic-toggle",
+  "slug": "skeuomorphic-toggle",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "WebGL",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/skeuomorphic-toggle",
+  "fingerprint": "5ccdc000965caab5896c5aaf46916cb7996002dc78e6b381265dac6f28d122dd",
+  "collected_at": "2026-10-04T02:32:12.543Z",
+  "written_files": [
+    {
+      "path": "src/shaders/skeuomorphic-toggle/SkeuomorphicToggleCollection.tsx",
+      "bytes": 2333,
+      "sha256": "944ee582c2578e470e98f83ea7931018a85b87e44198ef2819613d1a76643150",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/skeuomorphic-toggle/ModernToggle.tsx",
+      "bytes": 5394,
+      "sha256": "d6545c319a3123ac573756d0d3725e73c279143ea470a48256101222cb37fa16",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/skeuomorphic-toggle/modern-toggle.css",
+      "bytes": 6316,
+      "sha256": "2748dc81ffd1f8506c56f6cd316a522df8f5f7bbeda751017a88efb2fc892674",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/skeuomorphic-toggle/GlassToggle.tsx",
+      "bytes": 5401,
+      "sha256": "406eda34475c2d87b699690097ae50e9e3064dedcacda4cabb3dd8c282122a9b",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/skeuomorphic-toggle/glassToggleScene.ts",
+      "bytes": 23841,
+      "sha256": "a708e388eaec0a1feab2b97b59e523eda92c5083202bf0015d7554d9928c4895",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/skeuomorphic-toggle/glass-toggle.css",
+      "bytes": 2718,
+      "sha256": "d87d193e981e191dbab386f1dc7dbcfbe46fb709bcc7085305455acd217765f3",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/skeuomorphic-toggle/ShaderToggle.tsx",
+      "bytes": 5253,
+      "sha256": "69bfab67ebe67b1e886c66c69451a64db9241267d922bfe774dc491df1f592ef",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/skeuomorphic-toggle/shaderToggleScene.ts",
+      "bytes": 6726,
+      "sha256": "6eadd83c7abeaadb2bb4a9c44624234050f7faf6a36af6ace8738b36f9dfb673",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/skeuomorphic-toggle/shaderToggleGlsl.ts",
+      "bytes": 12519,
+      "sha256": "12eef096246b9fe460ab256e0369b846266a3e87fe5869760dc4e67c9bfa0b57",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/skeuomorphic-toggle/shader-toggle.css",
+      "bytes": 2751,
+      "sha256": "c57012bddaaa4bfe1e18d19c23188f43d79e44fccf9d9e1e15454cd57e4f34cd",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/skeuomorphic-toggle/toggleMode.ts",
+      "bytes": 1870,
+      "sha256": "2ed0a1183b05b22c990f385d6e457bf6b3a11bf5749c84aae44ee9b1d0e406b8",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/skeuomorphic-toggle.html",
+      "bytes": 11066,
+      "sha256": "3e19e7fec9ac3339f29c888341aad1f6f4009d1c1d76f0231c3ad24a6ce49b5a",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

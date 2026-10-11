@@ -1,0 +1,2 @@
+# Runtime is stdlib-only (see docs/ARCHITECTURE_DECISIONS.md). Only test runner needed.
+pytest>=8.0

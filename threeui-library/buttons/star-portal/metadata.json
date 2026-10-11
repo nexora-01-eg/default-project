@@ -1,0 +1,74 @@
+{
+  "name": "star-portal",
+  "slug": "star-portal",
+  "category": "buttons",
+  "url": "https://threeui.com/buttons",
+  "type": "hero",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "WebGL",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "buttons/star-portal",
+  "fingerprint": "62ff34ea9a7838f513056fe476992af721bdc9a79af7e0f798bd19560f5866a8",
+  "collected_at": "2026-10-04T02:32:12.614Z",
+  "written_files": [
+    {
+      "path": "src/shaders/shader-buttons/ShaderButtons.tsx",
+      "bytes": 2217,
+      "sha256": "b2599e35ee59ce4acec0fe868fbe34501b4eb1096a3fab80c6ede5d6876fece5",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/imaginie-starfield.html",
+      "bytes": 18018,
+      "sha256": "002199215e124a85177585fc5cb84333f471562176f94c8d8e4456c79d721295",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/ignition-terminal.html",
+      "bytes": 12813,
+      "sha256": "05313d191cc11ca0c7600452e72ad14b4fc6581627689c209a5f22a1bfa6a8ea",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/valence-core.html",
+      "bytes": 19010,
+      "sha256": "26b21d4972805733a2441355edb56576fa911f135ccf746ebcc927a0b1e3b975",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/aetheris-labs.html",
+      "bytes": 15926,
+      "sha256": "eea617fe0e37a79be7aee44f00a53ec3ae41e006e771a8aad53acce3648147e0",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/nexus-tactile.html",
+      "bytes": 17473,
+      "sha256": "1811a6408fb09421665d772eca4106162e10bfc038ec948324d0250f5dec9cb4",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/thinking-button.html",
+      "bytes": 11664,
+      "sha256": "194da3529f2f80993db555de0387fc1e628bf8c216371803603750959a4fb11a",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "japanese-tower",
+  "name": "japanese-tower",
+  "id": "japanese-tower",
+  "exportName": "JapaneseTowerLandscape",
+  "sourceCommit": "SHA-256 7810e7163c02",
+  "runtime": "Three.js r149 + Canvas 2D",
+  "sharedFilePaths": [
+    "src/shaders/japanese-tower/Towers.html",
+    "src/shaders/community.css"
+  ],
+  "files": [
+    {
+      "path": "src/shaders/japanese-tower/JapaneseTowerLandscape.tsx",
+      "language": "tsx",
+      "role": "component",
+      "bytes": 1641,
+      "lines": 53,
+      "sha256": "3ad3de77dabdcf9f2e0d3e7bb1347089249eef68e2b8db9ce98c3acc0920e411",
+      "code": "import { useEffect, useMemo, useState } from \"react\";\n\nexport const TOWER_COUNTRIES = [\"japan\", \"china\", \"vietnam\", \"thailand\", \"cambodia\", \"turkey\"] as const;\nexport type TowerCountry = (typeof TOWER_COUNTRIES)[number];\n\nconst COUNTRY_LABELS: Record<TowerCountry, string> = {\n  japan: \"Japanese tenshu\",\n  china: \"Chinese pagoda\",\n  vietnam: \"Vietnamese tháp\",\n  thailand: \"Thai prang\",\n  cambodia: \"Khmer prasat\",\n  turkey: \"Ottoman mosque\",\n};\n\nexport type JapaneseTowerLandscapeProps = {\n  className?: string;\n  sourceUrl?: string;\n  country?: TowerCountry;\n};\n\nexport function JapaneseTowerLandscape({\n  className = \"\",\n  sourceUrl = \"/japanese-tower.html\",\n  country = \"japan\",\n}: JapaneseTowerLandscapeProps) {\n  const [ready, setReady] = useState(false);\n  const frameSource = useMemo(() => {\n    const hashIndex = sourceUrl.indexOf(\"#\");\n    const base = hashIndex >= 0 ? sourceUrl.slice(0, hashIndex) : sourceUrl;\n    const hash = hashIndex >= 0 ? sourceUrl.slice(hashIndex) : \"\";\n    return `${base}${base.includes(\"?\") ? \"&\" : \"?\"}country=${country}${hash}`;\n  }, [country, sourceUrl]);\n\n  useEffect(() => setReady(false), [frameSource]);\n\n  return (\n    <div\n      className={`japanese-tower-landscape${className ? ` ${className}` : \"\"}`}\n      data-state={ready ? \"ready\" : \"loading\"}\n    >\n      <iframe\n        key={country}\n        className={`japanese-tower-landscape__frame${ready ? \" is-ready\" : \"\"}`}\n        title={`${COUNTRY_LABELS[country]} in a procedural landscape`}\n        src={frameSource}\n        sandbox=\"allow-scripts\"\n        loading=\"eager\"\n        onLoad={() => setReady(true)}\n      />\n    </div>\n  );\n}\n"
+    }
+  ],
+  "assets": [],
+  "_index": 24
+}

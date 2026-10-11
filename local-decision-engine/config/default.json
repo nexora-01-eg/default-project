@@ -1,0 +1,9 @@
+{
+  "host": "127.0.0.1",
+  "port": 8765,
+  "default_model": "rules-tfidf",
+  "confidence_threshold": 0.6,
+  "timeout_s": 30,
+  "max_retries": 1,
+  "note": "localhost only. No API keys, no telemetry, no cloud endpoints."
+}

@@ -1,0 +1,73 @@
+{
+  "name": "elements",
+  "slug": "elements",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "WebGL2",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/elements",
+  "fingerprint": "8c66d26d3bda957d7d909861550d9d25556e2f1fbc25f67ec57e816652970837",
+  "collected_at": "2026-10-04T02:32:04.563Z",
+  "written_files": [
+    {
+      "path": "src/shaders/elements/ElementsCollection.tsx",
+      "bytes": 1992,
+      "sha256": "2e34384bb997b9a6c3c4a6119b885c9fb5dc595b41d2f027758d8460b832c8ff",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/elements/ElementsBackground.tsx",
+      "bytes": 13838,
+      "sha256": "04dfbb5d8e91e71772a34b4f963e2335458c4ffdace33071fa28b731a053ba95",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/elements/sources/elemental-marks.html",
+      "bytes": 34581,
+      "sha256": "7a6871fe99fa5e1551b27b2601f2a22dd23320ea2c90b5432c9c8e071f0b1d1d",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/elements/GenerativeTree.tsx",
+      "bytes": 6354,
+      "sha256": "bb6bf95154f38e7a9772eef6fe2aa89ff72284a13345d56e66fba234894c2127",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/elements/sources/generative-tree.html",
+      "bytes": 20247,
+      "sha256": "8ea51733bddf5cc44df338ef9af3a21633d62daa92c17fde5faa2fcab90fa0ef",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/condensation/CondensationBackground.tsx",
+      "bytes": 1803,
+      "sha256": "83c498340eeebae87824ab1f350ac31b473660f6d6b8cf054f7798b3f3984160",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/condensation/condensationRenderer.ts",
+      "bytes": 6287,
+      "sha256": "3c31fa439ca1346de0b258fafa3438d7f6368a37e1b23df7ec0ccc5d73acf1ad",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

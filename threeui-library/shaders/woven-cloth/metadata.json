@@ -1,0 +1,61 @@
+{
+  "name": "woven-cloth",
+  "slug": "woven-cloth",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/woven-cloth",
+  "fingerprint": "3ff87faf1f712123932aff0c32baa650bb93544f7a3d13f45ce9c0872f6be113",
+  "collected_at": "2026-10-04T02:32:14.577Z",
+  "written_files": [
+    {
+      "path": "src/shaders/woven-cloth/WovenCloth.tsx",
+      "bytes": 2993,
+      "sha256": "5a89ff035bdf33dbc642d2916b56dbe94e89cb0af184474c139ffbfe5a720550",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/lumina-weavers-cloth.html",
+      "bytes": 17470,
+      "sha256": "9bfd56ef7579a92cb6385b3e93866bc3ff54fa4489a0febb9809b720e2946fb6",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/woven-cloth/woven-cloth-iridescent.html",
+      "bytes": 21728,
+      "sha256": "e3b14adac39dfef04ed0bb0df99e86a1aa0aaf7cea4f8ecc4d5e0931b48bee7b",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/woven-cloth/woven-cloth-atelier.html",
+      "bytes": 18979,
+      "sha256": "f9be15756ff385db9cd3b7082b139d10b84a4eba0b3c4f19749b305570a7191f",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/woven-cloth/woven-cloth-washi.html",
+      "bytes": 18332,
+      "sha256": "00e5971f139e5427e56a062c12d7e8e3590938b9a400753693b360d1e4d1a5c1",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/neuform-isolated/NeuformCraftEffects.tsx",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

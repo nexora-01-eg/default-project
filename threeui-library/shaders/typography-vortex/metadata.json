@@ -1,0 +1,57 @@
+{
+  "name": "typography-vortex",
+  "slug": "typography-vortex",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [
+    {
+      "path": "src/shaders/fonts/fragment-mono.woff2",
+      "mimeType": "font/woff2",
+      "bytes": 15176,
+      "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c"
+    }
+  ],
+  "local_path": "shaders/typography-vortex",
+  "fingerprint": "1f929b702846107e3e58752f4d6ac8d72a35695393b17567506f83d9f4562194",
+  "collected_at": "2026-10-04T02:32:14.466Z",
+  "written_files": [
+    {
+      "path": "src/shaders/typography-vortex/TypographyVortexCanvas.tsx",
+      "bytes": 1740,
+      "sha256": "cf347075dcc6254aeeb3b7f373c02ae90566923b04f1fcd223093fb1b6a587b1",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/typography-vortex/typographyVortexRenderer.ts",
+      "bytes": 20303,
+      "sha256": "b82c8321564f841334c109910bff3a7f629d9f2f7750c91d537b65912a17baff",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [
+    {
+      "path": "src/shaders/fonts/fragment-mono.woff2",
+      "local": "assets/fragment-mono.woff2",
+      "bytes": 15176,
+      "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c",
+      "deduped": true
+    }
+  ],
+  "url_is_fallback": true
+}

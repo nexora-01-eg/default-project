@@ -1,0 +1,6 @@
+[
+  "src/shaders/landing-pages/LandingPages.tsx",
+  "src/shaders/landing-pages/pageTypography.ts",
+  "src/shaders/landing-pages/pageRecipes.ts",
+  "src/shaders/community.css"
+]

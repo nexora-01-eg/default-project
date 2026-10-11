@@ -1,0 +1,37 @@
+{
+  "name": "complete-shelf-landing-page",
+  "slug": "complete-shelf-landing-page",
+  "category": "landing-pages",
+  "url": "https://threeui.com/landing-pages",
+  "type": "landing-page",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "landing-pages/complete-shelf-landing-page",
+  "fingerprint": "5007f7d138faaf3d7058a6e21ae66fffe808c450ec76b70baa7b21f4360a1d1a",
+  "collected_at": "2026-10-04T02:32:04.453Z",
+  "written_files": [
+    {
+      "path": "public/landing-pages/complete-shelf-v2.html",
+      "bytes": 900296,
+      "sha256": "606f200fed8602c243f40a11c8c364f0e625c57f80e7c97dc76419da207f198e",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/landing-pages/LandingPages.tsx",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

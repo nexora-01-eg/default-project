@@ -1,0 +1,66 @@
+{
+  "name": "bookshelf",
+  "slug": "bookshelf",
+  "category": "buttons",
+  "url": "https://threeui.com/buttons",
+  "type": "hero",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "buttons/bookshelf",
+  "fingerprint": "212c3cfc596c96e581afaa4b9fe55d473f59627fac4ffbd8085dc9684727f03f",
+  "collected_at": "2026-10-04T02:31:48.043Z",
+  "written_files": [
+    {
+      "path": "src/shaders/bookshelf/BookshelfScene.tsx",
+      "bytes": 3645,
+      "sha256": "919856487ff38d66aa49548e70e5461e587a502b1642cf9f0d819f3b70acb516",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/bookshelf/bookshelfRenderer.js",
+      "bytes": 863153,
+      "sha256": "94c5141ecf3aa154dcb3208262dff2da20f1f85f9f3987eaa811d0d5512016a8",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/bookshelf/three165/OrbitControls.js",
+      "bytes": 32586,
+      "sha256": "d55c9c1593dd2f89722065b00bbb8a510895a6afc8f68517b9ea88452571be16",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/bookshelf/three165/RoomEnvironment.js",
+      "bytes": 3965,
+      "sha256": "ac34881abcacd5f728aea3c4abbcab13da3dbc9a95dc03c32432a05f87799b30",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/bookshelf/three165/RoundedBoxGeometry.js",
+      "bytes": 4983,
+      "sha256": "453681bf9c792a83d527c78a66025f7188accdac3a36e26d74b4382a7e41e933",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/bookshelf/three165/RectAreaLightUniformsLib.js",
+      "bytes": 314232,
+      "sha256": "a6728b0e9f5b5adae258cc0596106cd7e1a96ae8b2ec6450e80db6eb12586c59",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

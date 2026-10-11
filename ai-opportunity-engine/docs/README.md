@@ -1,0 +1,26 @@
+# docs/README.md — index
+
+- `LOCAL_ENVIRONMENT_AUDIT.md` — Phase 0 machine discovery (verified, read-only).
+- `ARCHITECTURE_DECISIONS.md` — why each technology was chosen.
+- `ARCHITECTURE.md` — pipeline, modules, cycle semantics.
+- `DATA_MODEL.md` — tables + traceability rules.
+- `SOURCE_ADAPTERS.md` — live vs stub sources, politeness, how to add one.
+- `AI_REASONING.md` — LLM + rules layer, feasibility states, confidence honesty.
+- `OPPORTUNITY_ENGINE.md` — clustering, scoring formula, learning/feedback design.
+- `LOCAL_FEASIBILITY.md` — audit-grounded capability table.
+- `SECURITY.md` — threat model + controls.
+- `TESTING.md` — how to run tests, what is covered.
+- `ROADMAP.md` — Phases 1–7.
+- `PHASE_2.md` — Phase 2 overview (revenue + demand + leads).
+- `REVENUE_SIGNAL_ENGINE.md` — revenue intent levels, evidence, provenance.
+- `DEMAND_ENGINE.md` — independent counting, strength labels.
+- `ARABIC_SOURCES.md` — Arabic handling + honest source statuses.
+- `LEAD_INTELLIGENCE.md` — public-only extraction, privacy boundary, draft brief.
+- `COMMERCIAL_ANALYSIS.md` — types, analysis fields, extended scoring.
+- `PHASE_2_VALIDATION.md` — live per-source results (zeros reported as zero).
+- `PHASE_3.md` — Phase 3 overview (Arabic acquisition + buyer validation).
+- `ARABIC_SOURCE_DISCOVERY.md` — source recon ledger + verdicts.
+- `ARABIC_LANGUAGE_ENGINE.md` — dialects, Arabizi, region rules.
+- `BUYER_SIGNAL_ENGINE.md` — 12 Arabic buyer-evidence categories.
+- `ARABIC_DEMAND_VALIDATION.md` — real-data report incl. spurious-cluster flag.
+- `OPPORTUNITY_VALIDATION.md` — Phase 3.5 guard methodology, states, ledger.

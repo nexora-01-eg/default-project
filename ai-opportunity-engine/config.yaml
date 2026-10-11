@@ -1,0 +1,21 @@
+# oppengine config (simple key: value; env overrides: OPPENGINE_DB, LMSTUDIO_BASE, OPPENGINE_PORT)
+db_path: "data/oppengine.db"
+lmstudio_base: "http://localhost:1234"
+chat_model: "qwen2.5-coder-7b-instruct"
+embed_model: "text-embedding-nomic-embed-text-v1.5"
+ai_timeout_s: 75
+max_llm_per_cycle: 4
+max_analyze_per_cycle: 60
+cycle_seconds: 600
+dashboard_host: "127.0.0.1"
+dashboard_port: 8765
+max_collect_per_source: 40
+dedup_threshold: 0.82
+cluster_threshold: 0.60
+min_requests_for_opportunity: 2
+# Phase 2 source config (comma-separated; empty = defaults). Nothing secret here.
+disabled_sources: ""
+reddit_subs: ""
+rss_feeds: ""
+telegram_channels: ""
+marketplace_feeds: ""

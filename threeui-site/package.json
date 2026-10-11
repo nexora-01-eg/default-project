@@ -1,0 +1,13 @@
+{
+  "name": "threeui-site",
+  "version": "1.1.0",
+  "description": "Visual arsenal browser for the local ThreeUI library. Numbered poster cards, local live renders, plain language. No dependencies.",
+  "type": "module",
+  "scripts": {
+    "build": "node ./scripts/generate.mjs",
+    "rebuild": "node ./scripts/generate.mjs --clean",
+    "serve": "node ./scripts/serve.mjs",
+    "preview": "node ./scripts/generate.mjs && node ./scripts/serve.mjs"
+  },
+  "license": "MIT"
+}

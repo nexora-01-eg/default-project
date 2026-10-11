@@ -1,0 +1,14 @@
+{
+  "name": "shorts",
+  "description": "9:16 short-form (Shorts/Reels/TikTok).",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "caption_style": "social",
+  "transition": "cut",
+  "audio": { "lufs": -14.0, "duck_music_db": -10 },
+  "presets": {
+    "shorts_1080x1920": { "width": 1080, "height": 1920, "fps": 30 },
+    "square_1080x1080": { "width": 1080, "height": 1080, "fps": 30 }
+  }
+}

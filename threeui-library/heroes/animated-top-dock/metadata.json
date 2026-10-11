@@ -1,0 +1,70 @@
+{
+  "name": "animated-top-dock",
+  "slug": "animated-top-dock",
+  "category": "hero",
+  "url": "https://threeui.com/hero",
+  "type": "hero",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "WebGL",
+    "GLSL shader"
+  ],
+  "assets": [
+    {
+      "path": "src/shaders/fonts/fragment-mono.woff2",
+      "mimeType": "font/woff2",
+      "bytes": 15176,
+      "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c"
+    }
+  ],
+  "local_path": "heroes/animated-top-dock",
+  "fingerprint": "31bcbde212388e36a89cadaf5fa2975be2fc29bf465e769eef7f316ba5f04eb8",
+  "collected_at": "2026-10-04T02:31:47.922Z",
+  "written_files": [
+    {
+      "path": "src/shaders/animated-top-dock/AnimatedTopDock.tsx",
+      "bytes": 16200,
+      "sha256": "50ddbba7ebc81565f42bd14dda34efb45e7b18c1aa47e97f196256ffedb4478f",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/animated-top-dock/topDockController.ts",
+      "bytes": 10664,
+      "sha256": "506ab23d4d42cf1b5bc89131e7714586ee107381bb18d9b0302766e9a1dee2bd",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/animated-top-dock/retroPixelField.ts",
+      "bytes": 7469,
+      "sha256": "54f0469be51dfce2da7ce37c952d42c583cc7996794bf96d1ea0b2bb35d94115",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/animated-top-dock/glassParticleField.ts",
+      "bytes": 11896,
+      "sha256": "bc9f07ae6da33b28f82303ea937095806f8e3a2ab08bd1301ae8457aaf0c3464",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [
+    {
+      "path": "src/shaders/fonts/fragment-mono.woff2",
+      "local": "assets/fragment-mono.woff2",
+      "bytes": 15176,
+      "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c",
+      "verified": true
+    }
+  ],
+  "url_is_fallback": true
+}

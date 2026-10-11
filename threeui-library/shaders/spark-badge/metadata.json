@@ -1,0 +1,42 @@
+{
+  "name": "spark-badge",
+  "slug": "spark-badge",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/spark-badge",
+  "fingerprint": "caa7923602c3e3d9c850b5b6d279fdc8960e86c068d9466296a03688cfb511b4",
+  "collected_at": "2026-10-04T02:32:12.597Z",
+  "written_files": [
+    {
+      "path": "src/shaders/spark-badge/SparkBadge.tsx",
+      "bytes": 1420,
+      "sha256": "3ba2af885804267d8c0add43c2dfa1920d9694174ba4376f484b84dd09879ace",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/spark-badge/spark-badge.html",
+      "bytes": 38119,
+      "sha256": "a8eefdee0d87deefae9b8b8dac4d79c0ee41447578a78090cad9c956e33ccf90",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

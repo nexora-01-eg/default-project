@@ -1,0 +1,35 @@
+# Pinned Python deps (installed into .venv by setup.ps1 — Phase 2).
+# Phase 1 engine itself is stdlib-only so the scaffold imports without these.
+numpy>=1.26
+pillow>=10.0
+opencv-python>=4.8
+faster-whisper>=1.0,<2
+scenedetect>=0.6
+pydantic>=2.0
+click>=8.0
+rich>=13.0
+pytest>=8.0
+# Phase: production-tool stack TIER 0 (validated 2026-09-24, CPU/Windows).
+# Dropped: moviepy (pillow<12 pin breaks rembg>=12.1; FFmpeg covers it).
+librosa>=0.11
+soundfile>=0.14
+pydub>=0.25
+pyloudnorm>=0.2
+opentimelineio>=0.18
+svgwrite>=1.4
+webrtcvad-wheels>=2.0
+jsonschema>=4.0
+rembg>=2.0
+colour-science>=0.4
+# Phase: TIER 1 attempts (validated 2026-09-24).
+mediapipe>=1.0
+scikit-image>=0.26
+rapidocr-onnxruntime>=1.4
+pycaption>=2.3
+PyOpenColorIO>=2.5
+OpenImageIO>=3.1
+blend-modes>=2.2
+colormath>=3.0
+pillow-heif>=1.8
+fonttools>=4.60
+noisereduce>=3.0

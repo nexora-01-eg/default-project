@@ -1,0 +1,48 @@
+{
+  "name": "sylva-living-world",
+  "slug": "sylva-living-world",
+  "category": "hero",
+  "url": "https://threeui.com/hero",
+  "type": "landing-page",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "heroes/sylva-living-world",
+  "fingerprint": "048fb86625c26c0e6581dbee065e86a6e82c7df65e2dcaef2b45e2a3930a1a84",
+  "collected_at": "2026-10-04T02:32:14.362Z",
+  "written_files": [
+    {
+      "path": "src/shaders/sylva-living-world/SylvaLivingWorldScene.tsx",
+      "bytes": 4077,
+      "sha256": "26d13ce750c3bf8ec92955255d77c7b58acf12c709a5c88fb242081ac520aca8",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/sylva-living-world/sources/inner-green-3d.html",
+      "bytes": 197914,
+      "sha256": "69c3694bd63f44ef9f007ebe4dac57a83e4402e0cdf6b54dd10b96dd4f05e197",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/sylva-living-world/sources/inner-green-assets/three.min.js",
+      "bytes": 608081,
+      "sha256": "8a5f7249903b54d30f79f708699d2fed2d6a1d0741a4cd41377d1f01bb5a2271",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

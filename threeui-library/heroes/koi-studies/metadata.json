@@ -1,0 +1,43 @@
+{
+  "name": "koi-studies",
+  "slug": "koi-studies",
+  "category": "hero",
+  "url": "https://threeui.com/hero",
+  "type": "hero",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "WebGL",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "heroes/koi-studies",
+  "fingerprint": "9d5f32d4f74a60ea104b834e1bffa819a8cbf357496e89ae7ce11d7e57e6ce20",
+  "collected_at": "2026-10-04T02:32:04.893Z",
+  "written_files": [
+    {
+      "path": "src/shaders/koi-studies/KoiStudies.tsx",
+      "bytes": 1171,
+      "sha256": "0137430b7dbf48588e1ec0ca926fda2cd342949aa70adb42eebeac4bb9f1f775",
+      "verified": true
+    },
+    {
+      "path": "public/synthralos-halftone.html",
+      "bytes": 16844021,
+      "sha256": "32cf6493414a209eb02c607a4b2383021f731411a9aa19a28e49673f84107e21",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

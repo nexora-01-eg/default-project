@@ -1,0 +1,43 @@
+{
+  "name": "liquid-metal-button",
+  "slug": "liquid-metal-button",
+  "category": "buttons",
+  "url": "https://threeui.com/buttons",
+  "type": "hero",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "WebGL",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "buttons/liquid-metal-button",
+  "fingerprint": "738479e07b6ebdc3794f558a42622b3ec1807b0529e14555b4fc026de8aaf293",
+  "collected_at": "2026-10-04T02:32:05.409Z",
+  "written_files": [
+    {
+      "path": "src/shaders/liquid-metal-button/LiquidMetalButton.tsx",
+      "bytes": 8973,
+      "sha256": "89b940bab445f17fafb444a7833b3c785d24c86a28156d8ad231e18de9503e11",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/liquid-metal-button/liquid-metal-button.html",
+      "bytes": 38589,
+      "sha256": "76624e881a3aecbd79b473d9c51f53c7157d47052abd0f9dc28fefd223b0a819",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

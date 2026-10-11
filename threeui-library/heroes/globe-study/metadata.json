@@ -1,0 +1,48 @@
+{
+  "name": "globe-study",
+  "slug": "globe-study",
+  "category": "hero",
+  "url": "https://threeui.com/hero",
+  "type": "landing-page",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "heroes/globe-study",
+  "fingerprint": "aa7fe15ca459e3ab8e738814d0e97115b10035739006bfc9cb7e8a57ff24daa5",
+  "collected_at": "2026-10-04T02:32:04.700Z",
+  "written_files": [
+    {
+      "path": "src/shaders/text-path-studies/TextPathStudies.tsx",
+      "bytes": 10892,
+      "sha256": "049af9bb9116cfdf1a9c502fcc2e605bbef775958c8c9c3853c59123a88b08ba",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/text-path-studies/sources/text-on-a-path-ii.html",
+      "bytes": 62883,
+      "sha256": "2e21ae3b77c3eda7e9189ffb75d5a4c6a7e53f5c44ad78125657051a05b71e72",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/text-path-studies/sources/text-on-a-path.html",
+      "bytes": 15502,
+      "sha256": "e5d01ff0fc47ea3d4f351033c14690efd9d4393ab238ec26a2e090c600be52a5",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

@@ -1,0 +1,86 @@
+{
+  "name": "constellation-field",
+  "slug": "constellation-field",
+  "category": "hero",
+  "url": "https://threeui.com/hero",
+  "type": "hero",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "WebGL",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "heroes/constellation-field",
+  "fingerprint": "2a0fd2820a593370b1cd09a1bafa13343ac1749a53dc1fd3cfc606eb0dedfe2b",
+  "collected_at": "2026-10-04T02:32:04.496Z",
+  "written_files": [
+    {
+      "path": "src/shaders/constellation-field/ConstellationField.tsx",
+      "bytes": 1229,
+      "sha256": "5bbf6f84fc8cb343ba01eb418ca8d969284c8f7b6abfd8a27bad42a626de487d",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/constellation-field.html",
+      "bytes": 17100,
+      "sha256": "1920ad4fe34f2ed2348e3a52110c37b4969bc45d71ff29f2738cb4542ad9f610",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/particle-drift.html",
+      "bytes": 14811,
+      "sha256": "7fad6cc8c54c0385c472c2879762b3fd2bfb061820bf925034d7a58a0048eb27",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/particle-network.html",
+      "bytes": 13776,
+      "sha256": "bc7bffdc48a9019cbba937dab9d335b85f20ac8a472f10dfa3d553da439cfdb7",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/gateway-flow.html",
+      "bytes": 17251,
+      "sha256": "c5a1de43138ffba96b9f0ecdcf3c054ae251ec94344e88c6ad502bae362b17d0",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/connectivity-graph.html",
+      "bytes": 13241,
+      "sha256": "98592824dd1109702cd72e9deca1cae7239169396c8245e8bbd786997d9bdf13",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/interface-lines.html",
+      "bytes": 18496,
+      "sha256": "608cbc6976996b8a5b6c4aaba4bee4d6f2dd44579b819df45914f35bc310d2cc",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/defense-lines.html",
+      "bytes": 14543,
+      "sha256": "1cd230f6a060023f99cbbe9ebc63e37409bf7ed70507e1ef44edc2342a0b9f91",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/topo-field.html",
+      "bytes": 20227,
+      "sha256": "70dbdaaec6398be9fcf05843f6c5af65e761d29187e60064673bbeb55888379f",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

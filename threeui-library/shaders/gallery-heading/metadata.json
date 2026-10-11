@@ -1,0 +1,37 @@
+{
+  "name": "gallery-heading",
+  "slug": "gallery-heading",
+  "category": "backgrounds",
+  "url": "https://threeui.com/backgrounds",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/gallery-heading",
+  "fingerprint": "96ce84f7ae4d3212249a71fbaca826b9d7f32284fc3700284d0a58b58e4cbe16",
+  "collected_at": "2026-10-04T02:32:04.669Z",
+  "written_files": [
+    {
+      "path": "src/shaders/neuform-isolated/sources/gallery-heading.html",
+      "bytes": 19335,
+      "sha256": "8e42d2d5b4971bfc4d3c485112c3c51909e20a61b8842bc0dcd8db3ffe2d253a",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

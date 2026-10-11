@@ -1,0 +1,89 @@
+{
+  "name": "article-headings",
+  "slug": "article-headings",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [
+    {
+      "path": "src/shaders/fonts/fragment-mono.woff2",
+      "mimeType": "font/woff2",
+      "bytes": 15176,
+      "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c"
+    }
+  ],
+  "local_path": "shaders/article-headings",
+  "fingerprint": "8935026437acdf80a56df2a0a7b75c72cfabcf3e7679ce8d15abb3acefb48eb1",
+  "collected_at": "2026-10-04T02:31:47.923Z",
+  "written_files": [
+    {
+      "path": "src/shaders/article-headings/TextAnimationCollection.tsx",
+      "bytes": 2918,
+      "sha256": "45d0062923f6d64a44980f50e851839bb8cc89a9f713eb6b9d19927d78949d4b",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/article-headings/ArticleHeadings.tsx",
+      "bytes": 2004,
+      "sha256": "be371e0f5986782312b3c6907171306135e18d4358860baa6c24445e8e170d33",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/article-headings/articleHeadingDecode.ts",
+      "bytes": 3340,
+      "sha256": "5098e604bdb82175b61f92632c2ed46800d45f19286806f22a5ada2a7e83b1b4",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/glassblown-neon.html",
+      "bytes": 17198,
+      "sha256": "1545c354af8d3917d85f93f25c5bcf2909ca96314c6cfbd06cf9b49ceeef1ba7",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/creator-studio-intro.html",
+      "bytes": 57430,
+      "sha256": "e14795f24ea8aa9cb0005ea740923289869de3250ac4ea18f58527cd42e18cbe",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/epilude-footer.html",
+      "bytes": 15643,
+      "sha256": "8d2cfccf114001daf5507ec759fa78b23ddb7177f934a7398560d75f5def1974",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/audio-wordmark.html",
+      "bytes": 17440,
+      "sha256": "26f0d8d0449483ce146183c7fbeed26e93f9aaa90bccf327c0140f679da23480",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/neuform-isolated/NeuformCraftEffects.tsx",
+    "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [
+    {
+      "path": "src/shaders/fonts/fragment-mono.woff2",
+      "local": "assets/fragment-mono.woff2",
+      "bytes": 15176,
+      "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c",
+      "verified": true
+    }
+  ],
+  "url_is_fallback": true
+}

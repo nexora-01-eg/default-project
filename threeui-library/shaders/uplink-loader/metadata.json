@@ -1,0 +1,42 @@
+{
+  "name": "uplink-loader",
+  "slug": "uplink-loader",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/uplink-loader",
+  "fingerprint": "7b29b2abb5618646a2b6326a8807ee9ae4eac83aafd3eca1f26c95ded3f640f4",
+  "collected_at": "2026-10-04T02:32:14.498Z",
+  "written_files": [
+    {
+      "path": "src/shaders/uplink-loader/UplinkLoader.tsx",
+      "bytes": 1075,
+      "sha256": "763a8ed26e854ad8331bdc530d9fb1570c81d659ca9bc97e3f26f89b0d2ecb67",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/uplink-loader/uplink-loader.html",
+      "bytes": 16032,
+      "sha256": "f73bb2963501b88b1642bd94aca10d20d778f0881f70b71a30c7267a73f9b969",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

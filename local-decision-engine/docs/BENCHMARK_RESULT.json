@@ -1,0 +1,120 @@
+{
+  "engine": "rules-tfidf",
+  "version": "0.1.0",
+  "cases": 78,
+  "accuracy": 0.9359,
+  "correct": 73,
+  "wrong": 5,
+  "accuracy_when_sure_conf_ge_0.8": 1.0,
+  "n_sure": 14,
+  "latency_ms": {
+    "p50": 0.0,
+    "p95": 1.0,
+    "max": 1.01,
+    "mean": 0.28
+  },
+  "total_s": 0.02,
+  "throughput_per_s": 3545.5,
+  "ram_mb": {
+    "before": 23.9,
+    "after": 24.0
+  },
+  "vram": "not used (CPU/std-only backend)",
+  "by_domain": {
+    "opportunity": {
+      "n": 30,
+      "acc": 1.0
+    },
+    "routing": {
+      "n": 10,
+      "acc": 0.9
+    },
+    "gating": {
+      "n": 6,
+      "acc": 1.0
+    },
+    "news": {
+      "n": 12,
+      "acc": 0.917
+    },
+    "noul": {
+      "n": 8,
+      "acc": 0.625
+    },
+    "score": {
+      "n": 4,
+      "acc": 1.0
+    },
+    "retry": {
+      "n": 4,
+      "acc": 1.0
+    },
+    "llm-gate": {
+      "n": 4,
+      "acc": 1.0
+    }
+  },
+  "startup_time_s": "see server log (import + first decision)",
+  "stability": "no crashes/errors other than rows flagged below",
+  "errors": [],
+  "false_positives_negatives": [
+    {
+      "line": 36,
+      "domain": "routing",
+      "expected": "Qwen",
+      "got": {
+        "type": "choice",
+        "choice": "OpenCode",
+        "confidence": 0.3017,
+        "probabilities": {
+          "OpenCode": 0.4763,
+          "Aider": 0.0237,
+          "Qwen": 0.4763,
+          "Gemini": 0.0237
+        }
+      }
+    },
+    {
+      "line": 52,
+      "domain": "news",
+      "expected": "maybe",
+      "got": {
+        "type": "choice",
+        "choice": "yes",
+        "confidence": 0.044,
+        "probabilities": {
+          "yes": 0.3627,
+          "maybe": 0.3107,
+          "no": 0.3267
+        }
+      }
+    },
+    {
+      "line": 56,
+      "domain": "noul",
+      "expected": false,
+      "got": {
+        "type": "noul",
+        "noul": 0.5063
+      }
+    },
+    {
+      "line": 57,
+      "domain": "noul",
+      "expected": false,
+      "got": {
+        "type": "noul",
+        "noul": 0.5067
+      }
+    },
+    {
+      "line": 60,
+      "domain": "noul",
+      "expected": false,
+      "got": {
+        "type": "noul",
+        "noul": 0.5063
+      }
+    }
+  ]
+}

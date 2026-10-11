@@ -1,0 +1,81 @@
+{
+  "name": "portal-field",
+  "slug": "portal-field",
+  "category": "hero",
+  "url": "https://threeui.com/hero",
+  "type": "hero",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "WebGL",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "heroes/portal-field",
+  "fingerprint": "70f5c49f44517a0572b98c9ef1335c239b7a53d002e02e1b6cd28ddd042089d2",
+  "collected_at": "2026-10-04T02:32:07.963Z",
+  "written_files": [
+    {
+      "path": "src/shaders/portal-field/PortalFieldCollection.tsx",
+      "bytes": 2929,
+      "sha256": "6ebff251f315e07d65205504b10a87dfa5b3cab8beb163af804fea137a7b2379",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/portal-field.html",
+      "bytes": 20206,
+      "sha256": "f90e34f83d5179217c6f0928d633ec4a8201b00cfb980b374b5df76a9f167a6e",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/flow-field.html",
+      "bytes": 10590,
+      "sha256": "78eaf8ce34317bb66c44b72069ff36c622987ef61d3e703e8ea5800e089eb0b2",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/neuform-isolated/sources/strata-cloud.html",
+      "bytes": 23819,
+      "sha256": "c5a8085b413d310fe1c9a2deb39bcd5d8ecf0d545a4462f576a1c9b9c49f34fc",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/bell-field/BellFieldBackground.tsx",
+      "bytes": 7085,
+      "sha256": "0dc1e82bc63c720662ed0559145b80b46429246bc0c83e7709b237ae93030452",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/bell-field/bellFieldShaders.ts",
+      "bytes": 3230,
+      "sha256": "a56c1f01fbb935744ed00b83a6812517aca142c88730dd044644feeb0d2a4b82",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/stream-convergence/StreamConvergenceBackground.tsx",
+      "bytes": 4190,
+      "sha256": "ba9d386b1e7c2a2a3389c61bda9a918bc84f8093292664d2ad851f7c286b80f9",
+      "verified": true
+    },
+    {
+      "path": "src/shaders/stream-convergence/streamConvergenceShaders.ts",
+      "bytes": 2078,
+      "sha256": "6ec98ad1d80b1dfe3ca230f54d60d095697e48ab952862d3f71aeb655e0ca3e5",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+    "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

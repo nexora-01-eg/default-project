@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Globe Study",
+    "slug": "globe-study",
+    "source": "OriginKit",
+    "status": "DUPLICATE_EXACT",
+    "duplicate_of": "globe-study",
+    "duplicate_of_source": "ThreeUI",
+    "reason": "identical slug/normalized name in both libraries",
+    "comparison": "origin:globe-study ⇔ threeui:globe-study (metadata-level: ThreeUI holds verified source; OriginKit code is access-gated)",
+    "unified": "interactive",
+    "detected_at": "2026-10-04T03:11:01.723Z"
+  },
+  {
+    "name": "Predictive Arc",
+    "slug": "predictive-arc",
+    "source": "OriginKit",
+    "status": "DUPLICATE_EXACT",
+    "duplicate_of": "predictive-arc",
+    "duplicate_of_source": "ThreeUI",
+    "reason": "identical slug/normalized name in both libraries",
+    "comparison": "origin:predictive-arc ⇔ threeui:predictive-arc (metadata-level: ThreeUI holds verified source; OriginKit code is access-gated)",
+    "unified": "backgrounds",
+    "detected_at": "2026-10-04T03:11:01.731Z"
+  },
+  {
+    "name": "Structure Flow",
+    "slug": "structure-flow",
+    "source": "OriginKit",
+    "status": "DUPLICATE_EXACT",
+    "duplicate_of": "structure-flow",
+    "duplicate_of_source": "ThreeUI",
+    "reason": "identical slug/normalized name in both libraries",
+    "comparison": "origin:structure-flow ⇔ threeui:structure-flow (metadata-level: ThreeUI holds verified source; OriginKit code is access-gated)",
+    "unified": "interactive",
+    "detected_at": "2026-10-04T03:11:01.735Z"
+  },
+  {
+    "name": "Warp Field",
+    "slug": "warp-field",
+    "source": "OriginKit",
+    "status": "DUPLICATE_EXACT",
+    "duplicate_of": "warp-field",
+    "duplicate_of_source": "ThreeUI",
+    "reason": "identical slug/normalized name in both libraries",
+    "comparison": "origin:warp-field ⇔ threeui:warp-field (metadata-level: ThreeUI holds verified source; OriginKit code is access-gated)",
+    "unified": "backgrounds",
+    "detected_at": "2026-10-04T03:11:01.737Z"
+  }
+]

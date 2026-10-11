@@ -1,0 +1,16 @@
+[
+ {
+  "voice": "Mohamed",
+  "ok": false,
+  "error": "server: error\ndata: null",
+  "elapsed_s": 1.0,
+  "settings": {
+   "language": "العربية (Egyptian)",
+   "steps": 32,
+   "guidance": 2.0,
+   "speed": 1.0,
+   "normalize": true
+  },
+  "endpoint": "run_b_oneshot"
+ }
+]

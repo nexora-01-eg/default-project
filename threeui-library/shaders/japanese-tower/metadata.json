@@ -1,0 +1,37 @@
+{
+  "name": "japanese-tower",
+  "slug": "japanese-tower",
+  "category": "css",
+  "url": "https://threeui.com/css",
+  "type": "shader",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "shaders/japanese-tower",
+  "fingerprint": "7a90043f6b2efb0565ba9eb60d19fd7726dae75ab770cb4594511d3407fab0bc",
+  "collected_at": "2026-10-04T02:32:04.799Z",
+  "written_files": [
+    {
+      "path": "src/shaders/japanese-tower/JapaneseTowerLandscape.tsx",
+      "bytes": 1641,
+      "sha256": "3ad3de77dabdcf9f2e0d3e7bb1347089249eef68e2b8db9ce98c3acc0920e411",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/japanese-tower/Towers.html",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

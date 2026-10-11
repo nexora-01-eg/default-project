@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-10-04T03:11:01.962Z",
+  "threeui": {
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "peer": [
+      "react>=18 <20",
+      "react-dom>=18 <20",
+      "three>=0.149 <1"
+    ]
+  },
+  "originkit": {
+    "delivery": "Framer + React code components (in-app copy)",
+    "inferred_frameworks": [
+      "framer",
+      "react"
+    ],
+    "note": "No public package/CLI; dependencies per-component unknown until code access"
+  }
+}

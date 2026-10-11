@@ -1,0 +1,3079 @@
+[
+  {
+    "name": "animated-top-dock",
+    "slug": "animated-top-dock",
+    "category": "hero",
+    "url": "https://threeui.com/hero",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL",
+      "GLSL shader"
+    ],
+    "assets": [
+      {
+        "path": "src/shaders/fonts/fragment-mono.woff2",
+        "mimeType": "font/woff2",
+        "bytes": 15176,
+        "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c"
+      }
+    ],
+    "local_path": "heroes/animated-top-dock",
+    "fingerprint": "31bcbde212388e36a89cadaf5fa2975be2fc29bf465e769eef7f316ba5f04eb8",
+    "collected_at": "2026-10-04T02:31:47.922Z",
+    "written_files": [
+      {
+        "path": "src/shaders/animated-top-dock/AnimatedTopDock.tsx",
+        "bytes": 16200,
+        "sha256": "50ddbba7ebc81565f42bd14dda34efb45e7b18c1aa47e97f196256ffedb4478f",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/animated-top-dock/topDockController.ts",
+        "bytes": 10664,
+        "sha256": "506ab23d4d42cf1b5bc89131e7714586ee107381bb18d9b0302766e9a1dee2bd",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/animated-top-dock/retroPixelField.ts",
+        "bytes": 7469,
+        "sha256": "54f0469be51dfce2da7ce37c952d42c583cc7996794bf96d1ea0b2bb35d94115",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/animated-top-dock/glassParticleField.ts",
+        "bytes": 11896,
+        "sha256": "bc9f07ae6da33b28f82303ea937095806f8e3a2ab08bd1301ae8457aaf0c3464",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [
+      {
+        "path": "src/shaders/fonts/fragment-mono.woff2",
+        "local": "assets/fragment-mono.woff2",
+        "bytes": 15176,
+        "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c",
+        "verified": true
+      }
+    ],
+    "url_is_fallback": true
+  },
+  {
+    "name": "article-headings",
+    "slug": "article-headings",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [
+      {
+        "path": "src/shaders/fonts/fragment-mono.woff2",
+        "mimeType": "font/woff2",
+        "bytes": 15176,
+        "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c"
+      }
+    ],
+    "local_path": "shaders/article-headings",
+    "fingerprint": "8935026437acdf80a56df2a0a7b75c72cfabcf3e7679ce8d15abb3acefb48eb1",
+    "collected_at": "2026-10-04T02:31:47.923Z",
+    "written_files": [
+      {
+        "path": "src/shaders/article-headings/TextAnimationCollection.tsx",
+        "bytes": 2918,
+        "sha256": "45d0062923f6d64a44980f50e851839bb8cc89a9f713eb6b9d19927d78949d4b",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/article-headings/ArticleHeadings.tsx",
+        "bytes": 2004,
+        "sha256": "be371e0f5986782312b3c6907171306135e18d4358860baa6c24445e8e170d33",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/article-headings/articleHeadingDecode.ts",
+        "bytes": 3340,
+        "sha256": "5098e604bdb82175b61f92632c2ed46800d45f19286806f22a5ada2a7e83b1b4",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/glassblown-neon.html",
+        "bytes": 17198,
+        "sha256": "1545c354af8d3917d85f93f25c5bcf2909ca96314c6cfbd06cf9b49ceeef1ba7",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/creator-studio-intro.html",
+        "bytes": 57430,
+        "sha256": "e14795f24ea8aa9cb0005ea740923289869de3250ac4ea18f58527cd42e18cbe",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/epilude-footer.html",
+        "bytes": 15643,
+        "sha256": "8d2cfccf114001daf5507ec759fa78b23ddb7177f934a7398560d75f5def1974",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/audio-wordmark.html",
+        "bytes": 17440,
+        "sha256": "26f0d8d0449483ce146183c7fbeed26e93f9aaa90bccf327c0140f679da23480",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformCraftEffects.tsx",
+      "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [
+      {
+        "path": "src/shaders/fonts/fragment-mono.woff2",
+        "local": "assets/fragment-mono.woff2",
+        "bytes": 15176,
+        "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c",
+        "verified": true
+      }
+    ],
+    "url_is_fallback": true
+  },
+  {
+    "name": "bestsellers-book-showcase",
+    "slug": "bestsellers-book-showcase",
+    "category": "landing-pages",
+    "url": "https://threeui.com/landing-pages",
+    "type": "landing-page",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "landing-pages/bestsellers-book-showcase",
+    "fingerprint": "8544f8fc7002e1a35f8e8785e85d85e63dca6a6991340fabc19d720077ad00bc",
+    "collected_at": "2026-10-04T02:31:47.923Z",
+    "written_files": [
+      {
+        "path": "public/landing-pages/bestsellers-book-showcase.html",
+        "bytes": 3546441,
+        "sha256": "7c1ed1ca4a4c58f1c33956c84edd8f7ba450ea0312df718701e634a207568138",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/landing-pages/LandingPages.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "bookshelf",
+    "slug": "bookshelf",
+    "category": "buttons",
+    "url": "https://threeui.com/buttons",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "buttons/bookshelf",
+    "fingerprint": "212c3cfc596c96e581afaa4b9fe55d473f59627fac4ffbd8085dc9684727f03f",
+    "collected_at": "2026-10-04T02:31:48.043Z",
+    "written_files": [
+      {
+        "path": "src/shaders/bookshelf/BookshelfScene.tsx",
+        "bytes": 3645,
+        "sha256": "919856487ff38d66aa49548e70e5461e587a502b1642cf9f0d819f3b70acb516",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/bookshelf/bookshelfRenderer.js",
+        "bytes": 863153,
+        "sha256": "94c5141ecf3aa154dcb3208262dff2da20f1f85f9f3987eaa811d0d5512016a8",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/bookshelf/three165/OrbitControls.js",
+        "bytes": 32586,
+        "sha256": "d55c9c1593dd2f89722065b00bbb8a510895a6afc8f68517b9ea88452571be16",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/bookshelf/three165/RoomEnvironment.js",
+        "bytes": 3965,
+        "sha256": "ac34881abcacd5f728aea3c4abbcab13da3dbc9a95dc03c32432a05f87799b30",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/bookshelf/three165/RoundedBoxGeometry.js",
+        "bytes": 4983,
+        "sha256": "453681bf9c792a83d527c78a66025f7188accdac3a36e26d74b4382a7e41e933",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/bookshelf/three165/RectAreaLightUniformsLib.js",
+        "bytes": 314232,
+        "sha256": "a6728b0e9f5b5adae258cc0596106cd7e1a96ae8b2ec6450e80db6eb12586c59",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "brand-orbs",
+    "slug": "brand-orbs",
+    "category": "sections",
+    "url": "https://threeui.com/sections",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "sections/brand-orbs",
+    "fingerprint": "85fddec096f96d61702b6270465cc6ddcd36f1d547c9d0c8969325f88c7d2d52",
+    "collected_at": "2026-10-04T02:31:48.126Z",
+    "written_files": [
+      {
+        "path": "src/shaders/brand-orbs/BrandOrbs.tsx",
+        "bytes": 7932,
+        "sha256": "f3370948bddb1a8af0ac00355067eb79ff39e48214499f1e663b29a71a425d79",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/brand-orbs/sources/brand-orbs-v2.html",
+        "bytes": 158401,
+        "sha256": "c2733de8cf7ba5fa4723297b600e9a0ad6949779fb0ab0734c9a95fb26443314",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "character-carousel",
+    "slug": "character-carousel",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/character-carousel",
+    "fingerprint": "e4f0c29ca8dc14850ebc88a4439e86e994af4cf0f1d0aced717cdd8537f86515",
+    "collected_at": "2026-10-04T02:32:04.452Z",
+    "written_files": [
+      {
+        "path": "src/shaders/character-carousel/CharacterCarousel.tsx",
+        "bytes": 6289,
+        "sha256": "3bc9c80e8201be3cde79697e8cddba6f4f8b1a3c4a5fb7ce7533dd6479409472",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/character-carousel/sources/character-filmstrip.html",
+        "bytes": 266063,
+        "sha256": "4c98939e0e2b67efabcb8561c8b2e53b8c756e97bda44906b235ee7bc8f68b1c",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/character-carousel/sources/character-wave.html",
+        "bytes": 268690,
+        "sha256": "6726cf0db527043b2d5f15efb10ecfd059863ca2349c4099f5de161f94124a03",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "circle-buttons",
+    "slug": "circle-buttons",
+    "category": "buttons",
+    "url": "https://threeui.com/buttons",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/circle-buttons",
+    "fingerprint": "ab98ad094aa61b23b5069aac711b529334db455430edd86045e3cc6daedc4c60",
+    "collected_at": "2026-10-04T02:32:04.452Z",
+    "written_files": [
+      {
+        "path": "src/shaders/circle-buttons/CircleButtons.tsx",
+        "bytes": 3428,
+        "sha256": "33740d76203baa7bf038cd6ab3feee21b2909693db84f246ba8e6a98024bd330",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/circle-buttons/circle-buttons.css",
+        "bytes": 10905,
+        "sha256": "13e5206c37dc1cb389b4fd6125729b95e65cb5ad69561a9115168747efe6ccd4",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "complete-shelf-landing-page",
+    "slug": "complete-shelf-landing-page",
+    "category": "landing-pages",
+    "url": "https://threeui.com/landing-pages",
+    "type": "landing-page",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "landing-pages/complete-shelf-landing-page",
+    "fingerprint": "5007f7d138faaf3d7058a6e21ae66fffe808c450ec76b70baa7b21f4360a1d1a",
+    "collected_at": "2026-10-04T02:32:04.453Z",
+    "written_files": [
+      {
+        "path": "public/landing-pages/complete-shelf-v2.html",
+        "bytes": 900296,
+        "sha256": "606f200fed8602c243f40a11c8c364f0e625c57f80e7c97dc76419da207f198e",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/landing-pages/LandingPages.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "constellation-field",
+    "slug": "constellation-field",
+    "category": "hero",
+    "url": "https://threeui.com/hero",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "heroes/constellation-field",
+    "fingerprint": "2a0fd2820a593370b1cd09a1bafa13343ac1749a53dc1fd3cfc606eb0dedfe2b",
+    "collected_at": "2026-10-04T02:32:04.496Z",
+    "written_files": [
+      {
+        "path": "src/shaders/constellation-field/ConstellationField.tsx",
+        "bytes": 1229,
+        "sha256": "5bbf6f84fc8cb343ba01eb418ca8d969284c8f7b6abfd8a27bad42a626de487d",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/constellation-field.html",
+        "bytes": 17100,
+        "sha256": "1920ad4fe34f2ed2348e3a52110c37b4969bc45d71ff29f2738cb4542ad9f610",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/particle-drift.html",
+        "bytes": 14811,
+        "sha256": "7fad6cc8c54c0385c472c2879762b3fd2bfb061820bf925034d7a58a0048eb27",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/particle-network.html",
+        "bytes": 13776,
+        "sha256": "bc7bffdc48a9019cbba937dab9d335b85f20ac8a472f10dfa3d553da439cfdb7",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/gateway-flow.html",
+        "bytes": 17251,
+        "sha256": "c5a1de43138ffba96b9f0ecdcf3c054ae251ec94344e88c6ad502bae362b17d0",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/connectivity-graph.html",
+        "bytes": 13241,
+        "sha256": "98592824dd1109702cd72e9deca1cae7239169396c8245e8bbd786997d9bdf13",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/interface-lines.html",
+        "bytes": 18496,
+        "sha256": "608cbc6976996b8a5b6c4aaba4bee4d6f2dd44579b819df45914f35bc310d2cc",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/defense-lines.html",
+        "bytes": 14543,
+        "sha256": "1cd230f6a060023f99cbbe9ebc63e37409bf7ed70507e1ef44edc2342a0b9f91",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/topo-field.html",
+        "bytes": 20227,
+        "sha256": "70dbdaaec6398be9fcf05843f6c5af65e761d29187e60064673bbeb55888379f",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "crt",
+    "slug": "crt",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/crt",
+    "fingerprint": "1cf43d5f1a304508ad37d67397f8a817819802c1db6045f5f01974814ec2f46e",
+    "collected_at": "2026-10-04T02:32:04.498Z",
+    "written_files": [
+      {
+        "path": "src/shaders/crt/CrtBackground.tsx",
+        "bytes": 1947,
+        "sha256": "20932f2655319c5fc6c6b3c29c890149beec7e4850edc414f909ab24a0c95031",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/crt/crtRenderer.ts",
+        "bytes": 12561,
+        "sha256": "a3eb536e9c50eeb31832e7d6d25021c1535137e8ead5eb1b864e5a27c340af03",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/crt/crtShaders.ts",
+        "bytes": 3800,
+        "sha256": "cf3a7c747d1cac495c705529954e2491ad885489ddd5110724f8f4b3553f1592",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/crt/crtScreens.ts",
+        "bytes": 22165,
+        "sha256": "e545922e0d3afa19b9d01840d0ea684c56d0799714f9cf77a4712921bfec7adb",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "diagnostics-panel",
+    "slug": "diagnostics-panel",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/diagnostics-panel",
+    "fingerprint": "43e7cb0d14860e44d4b3132dff8d283ba51fe4e23ba3abc07e8b568a3f8bcdbf",
+    "collected_at": "2026-10-04T02:32:04.506Z",
+    "written_files": [
+      {
+        "path": "src/shaders/neuform-isolated/sources/diagnostics-panel.html",
+        "bytes": 21170,
+        "sha256": "6d05694bf0061e50aa7811548382be99d748a231113106ca242b5627b2fe9f68",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "elements",
+    "slug": "elements",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL2",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/elements",
+    "fingerprint": "8c66d26d3bda957d7d909861550d9d25556e2f1fbc25f67ec57e816652970837",
+    "collected_at": "2026-10-04T02:32:04.563Z",
+    "written_files": [
+      {
+        "path": "src/shaders/elements/ElementsCollection.tsx",
+        "bytes": 1992,
+        "sha256": "2e34384bb997b9a6c3c4a6119b885c9fb5dc595b41d2f027758d8460b832c8ff",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/elements/ElementsBackground.tsx",
+        "bytes": 13838,
+        "sha256": "04dfbb5d8e91e71772a34b4f963e2335458c4ffdace33071fa28b731a053ba95",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/elements/sources/elemental-marks.html",
+        "bytes": 34581,
+        "sha256": "7a6871fe99fa5e1551b27b2601f2a22dd23320ea2c90b5432c9c8e071f0b1d1d",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/elements/GenerativeTree.tsx",
+        "bytes": 6354,
+        "sha256": "bb6bf95154f38e7a9772eef6fe2aa89ff72284a13345d56e66fba234894c2127",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/elements/sources/generative-tree.html",
+        "bytes": 20247,
+        "sha256": "8ea51733bddf5cc44df338ef9af3a21633d62daa92c17fde5faa2fcab90fa0ef",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/condensation/CondensationBackground.tsx",
+        "bytes": 1803,
+        "sha256": "83c498340eeebae87824ab1f350ac31b473660f6d6b8cf054f7798b3f3984160",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/condensation/condensationRenderer.ts",
+        "bytes": 6287,
+        "sha256": "3c31fa439ca1346de0b258fafa3438d7f6368a37e1b23df7ec0ccc5d73acf1ad",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "energy-orb",
+    "slug": "energy-orb",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/energy-orb",
+    "fingerprint": "da60c00c2b2a7516f180390f8d6c5bab2e0731e27b48fd85eecf83c8abf4ee94",
+    "collected_at": "2026-10-04T02:32:04.599Z",
+    "written_files": [
+      {
+        "path": "src/shaders/globe/GlobeCollection.tsx",
+        "bytes": 595,
+        "sha256": "ada7598fae0eff3e9f79aa4423e96b56b1734948ef3c061e4be05530e070e13f",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/energy-orb/EnergyOrb.tsx",
+        "bytes": 9715,
+        "sha256": "be9ca83c7d158dd1366bd942aa4cc4c084b901d59156d047a601ebd9cca4a903",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/energy-orb/energyOrbShaders.ts",
+        "bytes": 4787,
+        "sha256": "03b1b8e2c44042ac1e880003e55016a641329028205c62dcd17e535b99496aec",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "engraved-certificate",
+    "slug": "engraved-certificate",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/engraved-certificate",
+    "fingerprint": "34fdfe16e2ada6055858097b5249ffda4ad2913e8b9798919d4b6b310f3be87d",
+    "collected_at": "2026-10-04T02:32:04.621Z",
+    "written_files": [
+      {
+        "path": "src/shaders/neuform-isolated/sources/kinetic-lathe-certificate.html",
+        "bytes": 15442,
+        "sha256": "dc48266f23df7fe6580eaf68cc0ad378bda6ed87abd71cdc972e2ec4dc768394",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformCraftEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "gallery",
+    "slug": "gallery",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [
+      {
+        "path": "src/shaders/gallery/assets/gallery-1.webp",
+        "mimeType": "image/webp",
+        "bytes": 85466,
+        "sha256": "86810ac01c6e9fc4d0944f4709c0495541fbb0916ba994d36bd8cf22f1a7f06c"
+      },
+      {
+        "path": "src/shaders/gallery/assets/gallery-2.webp",
+        "mimeType": "image/webp",
+        "bytes": 185898,
+        "sha256": "7c777c14efb761dbccbbb3e8b8ff13920231964944c2038472a2ffa4d99c395d"
+      },
+      {
+        "path": "src/shaders/gallery/assets/gallery-3.webp",
+        "mimeType": "image/webp",
+        "bytes": 275230,
+        "sha256": "8a11b3e5ba715ffbbd881947094563baae2540b407674bd0a15891037e15bba9"
+      },
+      {
+        "path": "src/shaders/gallery/assets/gallery-4.webp",
+        "mimeType": "image/webp",
+        "bytes": 391108,
+        "sha256": "6c09469827c02ff16e4041fc1da82efdc9e59832b59ec29cc0cbe761b0862518"
+      },
+      {
+        "path": "src/shaders/gallery/assets/gallery-5.webp",
+        "mimeType": "image/webp",
+        "bytes": 187614,
+        "sha256": "2b1aec480447e45c5b717363def6ef96bc38443179dc6f97ea25a0f8461c07b7"
+      }
+    ],
+    "local_path": "shaders/gallery",
+    "fingerprint": "8c34bab0bea35fc69c96f34fedeae1153286faa8cce47a5a19ab3c5bbaa9beb5",
+    "collected_at": "2026-10-04T02:32:04.625Z",
+    "written_files": [
+      {
+        "path": "src/shaders/gallery/Gallery.tsx",
+        "bytes": 6310,
+        "sha256": "f329f985236df2801d016dd5cd34f5cf8261cfc1757b30cdcde44bf17809acfa",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/gallery/gallery.css",
+        "bytes": 356,
+        "sha256": "5ad4be7aadda80339b36a7aa46d8d76a83e3d0e08fb93dde8fe3117deece33a2",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [
+      {
+        "path": "src/shaders/gallery/assets/gallery-1.webp",
+        "local": "assets/gallery-1.webp",
+        "bytes": 85466,
+        "sha256": "86810ac01c6e9fc4d0944f4709c0495541fbb0916ba994d36bd8cf22f1a7f06c",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/gallery/assets/gallery-2.webp",
+        "local": "assets/gallery-2.webp",
+        "bytes": 185898,
+        "sha256": "7c777c14efb761dbccbbb3e8b8ff13920231964944c2038472a2ffa4d99c395d",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/gallery/assets/gallery-3.webp",
+        "local": "assets/gallery-3.webp",
+        "bytes": 275230,
+        "sha256": "8a11b3e5ba715ffbbd881947094563baae2540b407674bd0a15891037e15bba9",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/gallery/assets/gallery-4.webp",
+        "local": "assets/gallery-4.webp",
+        "bytes": 391108,
+        "sha256": "6c09469827c02ff16e4041fc1da82efdc9e59832b59ec29cc0cbe761b0862518",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/gallery/assets/gallery-5.webp",
+        "local": "assets/gallery-5.webp",
+        "bytes": 187614,
+        "sha256": "2b1aec480447e45c5b717363def6ef96bc38443179dc6f97ea25a0f8461c07b7",
+        "verified": true
+      }
+    ],
+    "url_is_fallback": true
+  },
+  {
+    "name": "gallery-heading",
+    "slug": "gallery-heading",
+    "category": "backgrounds",
+    "url": "https://threeui.com/backgrounds",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/gallery-heading",
+    "fingerprint": "96ce84f7ae4d3212249a71fbaca826b9d7f32284fc3700284d0a58b58e4cbe16",
+    "collected_at": "2026-10-04T02:32:04.669Z",
+    "written_files": [
+      {
+        "path": "src/shaders/neuform-isolated/sources/gallery-heading.html",
+        "bytes": 19335,
+        "sha256": "8e42d2d5b4971bfc4d3c485112c3c51909e20a61b8842bc0dcd8db3ffe2d253a",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "globe-study",
+    "slug": "globe-study",
+    "category": "hero",
+    "url": "https://threeui.com/hero",
+    "type": "landing-page",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "heroes/globe-study",
+    "fingerprint": "aa7fe15ca459e3ab8e738814d0e97115b10035739006bfc9cb7e8a57ff24daa5",
+    "collected_at": "2026-10-04T02:32:04.700Z",
+    "written_files": [
+      {
+        "path": "src/shaders/text-path-studies/TextPathStudies.tsx",
+        "bytes": 10892,
+        "sha256": "049af9bb9116cfdf1a9c502fcc2e605bbef775958c8c9c3853c59123a88b08ba",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/text-path-studies/sources/text-on-a-path-ii.html",
+        "bytes": 62883,
+        "sha256": "2e21ae3b77c3eda7e9189ffb75d5a4c6a7e53f5c44ad78125657051a05b71e72",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/text-path-studies/sources/text-on-a-path.html",
+        "bytes": 15502,
+        "sha256": "e5d01ff0fc47ea3d4f351033c14690efd9d4393ab238ec26a2e090c600be52a5",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "japanese-tower",
+    "slug": "japanese-tower",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/japanese-tower",
+    "fingerprint": "7a90043f6b2efb0565ba9eb60d19fd7726dae75ab770cb4594511d3407fab0bc",
+    "collected_at": "2026-10-04T02:32:04.799Z",
+    "written_files": [
+      {
+        "path": "src/shaders/japanese-tower/JapaneseTowerLandscape.tsx",
+        "bytes": 1641,
+        "sha256": "3ad3de77dabdcf9f2e0d3e7bb1347089249eef68e2b8db9ce98c3acc0920e411",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/japanese-tower/Towers.html",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "kage-landing-page",
+    "slug": "kage-landing-page",
+    "category": "sections",
+    "url": "https://threeui.com/sections",
+    "type": "landing-page",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [
+      {
+        "path": "public/landing-pages/secret-pathways-assets/generated/kage-sanmon-preview.webp",
+        "mimeType": "image/webp",
+        "bytes": 186398,
+        "sha256": "23937f8c8350c55730c3bd17066a250548b2d29aad0e6ffb96218c1354b6db43"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/generated/kage-approach.webp",
+        "mimeType": "image/webp",
+        "bytes": 180064,
+        "sha256": "39ff338936097e1bde0c4eadcf09805b9890862703186e67314942de7e0bc36c"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/generated/kage-lantern-court.webp",
+        "mimeType": "image/webp",
+        "bytes": 197940,
+        "sha256": "c0a6ff7da1cd6909d66e2f3f690b0d524a693e01d2222ab846d0074a90f47471"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/generated/kage-moonwater.webp",
+        "mimeType": "image/webp",
+        "bytes": 102234,
+        "sha256": "b8c8060c51c87a103bae619b3a4cc8b8b80632649d83f1f2c2299051e7f9b400"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/temple-wall.webp",
+        "mimeType": "image/webp",
+        "bytes": 86466,
+        "sha256": "41c00f017e4ecf2147ee468d74da955bb4e2dad773f75a575022842eaf7609ce"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/pine-tree.webp",
+        "mimeType": "image/webp",
+        "bytes": 195918,
+        "sha256": "79b233716d067bbc64c1507f79e4a30ba5f445995158c78562cc5b81f607ede7"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/tall-grass.webp",
+        "mimeType": "image/webp",
+        "bytes": 351644,
+        "sha256": "8db0b5fbd160a7225391a6283a99681e346e205f24191031657285ef85ef12d2"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/sakura-branch.webp",
+        "mimeType": "image/webp",
+        "bytes": 252528,
+        "sha256": "48564194d40496090dbf3bba2a68785cf91fafb655dc8d43ac16f6678aff196d"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/maple-leaves.webp",
+        "mimeType": "image/webp",
+        "bytes": 178208,
+        "sha256": "35a90fec62c1a6bbfbbe73cd5d7b1acb889e80546d404182ef9a45fe417b531f"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/stone-lantern.webp",
+        "mimeType": "image/webp",
+        "bytes": 150108,
+        "sha256": "d5f3c881bc9d92b72eaaff2b709614d66e21a19e14025d2b9b16a15ab52df3bc"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/garden-bush.webp",
+        "mimeType": "image/webp",
+        "bytes": 286406,
+        "sha256": "707e2516ebc0108041fe0ddc26d8bff0a69dc9700641f837765018b64e9ff15e"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/basalt-stones.webp",
+        "mimeType": "image/webp",
+        "bytes": 167866,
+        "sha256": "150f1c87e181d651c318168c271bb65c9c8abac6dea6f2421fdd081c5b740471"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/hill.webp",
+        "mimeType": "image/webp",
+        "bytes": 84142,
+        "sha256": "ffba816244bcba98e4e33c6ee56165edfe4048db4af122ef3f5822180a85edbc"
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/shrine-ruins.webp",
+        "mimeType": "image/webp",
+        "bytes": 145814,
+        "sha256": "77006e58f2066e6fa9bfc504df396db49b1c7977858fa52d34dd2dad5feced77"
+      }
+    ],
+    "local_path": "sections/kage-landing-page",
+    "fingerprint": "64ece06fcfca8efa27c9e996de62f7684775b1c71da6329a258f864801352906",
+    "collected_at": "2026-10-04T02:32:04.837Z",
+    "written_files": [
+      {
+        "path": "public/landing-pages/kage.html",
+        "bytes": 243963,
+        "sha256": "c8e06b90397ac246baf0ab6f32f5f6b570acc6fe03c7009f711b579fb72d9f49",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/fonts.css",
+        "bytes": 99356,
+        "sha256": "985f85a904a4096f92c06552b06f42a45973ac004af4780d68f18af65ddcc1b0",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/three.min.js",
+        "bytes": 608081,
+        "sha256": "8a5f7249903b54d30f79f708699d2fed2d6a1d0741a4cd41377d1f01bb5a2271",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/landing-pages/LandingPages.tsx",
+      "src/shaders/landing-pages/pageTypography.ts",
+      "src/shaders/landing-pages/pageRecipes.ts",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [
+      {
+        "path": "public/landing-pages/secret-pathways-assets/generated/kage-sanmon-preview.webp",
+        "local": "assets/kage-sanmon-preview.webp",
+        "bytes": 186398,
+        "sha256": "23937f8c8350c55730c3bd17066a250548b2d29aad0e6ffb96218c1354b6db43",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/generated/kage-approach.webp",
+        "local": "assets/kage-approach.webp",
+        "bytes": 180064,
+        "sha256": "39ff338936097e1bde0c4eadcf09805b9890862703186e67314942de7e0bc36c",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/generated/kage-lantern-court.webp",
+        "local": "assets/kage-lantern-court.webp",
+        "bytes": 197940,
+        "sha256": "c0a6ff7da1cd6909d66e2f3f690b0d524a693e01d2222ab846d0074a90f47471",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/generated/kage-moonwater.webp",
+        "local": "assets/kage-moonwater.webp",
+        "bytes": 102234,
+        "sha256": "b8c8060c51c87a103bae619b3a4cc8b8b80632649d83f1f2c2299051e7f9b400",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/temple-wall.webp",
+        "local": "assets/temple-wall.webp",
+        "bytes": 86466,
+        "sha256": "41c00f017e4ecf2147ee468d74da955bb4e2dad773f75a575022842eaf7609ce",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/pine-tree.webp",
+        "local": "assets/pine-tree.webp",
+        "bytes": 195918,
+        "sha256": "79b233716d067bbc64c1507f79e4a30ba5f445995158c78562cc5b81f607ede7",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/tall-grass.webp",
+        "local": "assets/tall-grass.webp",
+        "bytes": 351644,
+        "sha256": "8db0b5fbd160a7225391a6283a99681e346e205f24191031657285ef85ef12d2",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/sakura-branch.webp",
+        "local": "assets/sakura-branch.webp",
+        "bytes": 252528,
+        "sha256": "48564194d40496090dbf3bba2a68785cf91fafb655dc8d43ac16f6678aff196d",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/maple-leaves.webp",
+        "local": "assets/maple-leaves.webp",
+        "bytes": 178208,
+        "sha256": "35a90fec62c1a6bbfbbe73cd5d7b1acb889e80546d404182ef9a45fe417b531f",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/stone-lantern.webp",
+        "local": "assets/stone-lantern.webp",
+        "bytes": 150108,
+        "sha256": "d5f3c881bc9d92b72eaaff2b709614d66e21a19e14025d2b9b16a15ab52df3bc",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/garden-bush.webp",
+        "local": "assets/garden-bush.webp",
+        "bytes": 286406,
+        "sha256": "707e2516ebc0108041fe0ddc26d8bff0a69dc9700641f837765018b64e9ff15e",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/basalt-stones.webp",
+        "local": "assets/basalt-stones.webp",
+        "bytes": 167866,
+        "sha256": "150f1c87e181d651c318168c271bb65c9c8abac6dea6f2421fdd081c5b740471",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/hill.webp",
+        "local": "assets/hill.webp",
+        "bytes": 84142,
+        "sha256": "ffba816244bcba98e4e33c6ee56165edfe4048db4af122ef3f5822180a85edbc",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/secret-pathways-assets/foreground/png/shrine-ruins.webp",
+        "local": "assets/shrine-ruins.webp",
+        "bytes": 145814,
+        "sha256": "77006e58f2066e6fa9bfc504df396db49b1c7977858fa52d34dd2dad5feced77",
+        "verified": true
+      }
+    ],
+    "url_is_fallback": true
+  },
+  {
+    "name": "koi-studies",
+    "slug": "koi-studies",
+    "category": "hero",
+    "url": "https://threeui.com/hero",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "heroes/koi-studies",
+    "fingerprint": "9d5f32d4f74a60ea104b834e1bffa819a8cbf357496e89ae7ce11d7e57e6ce20",
+    "collected_at": "2026-10-04T02:32:04.893Z",
+    "written_files": [
+      {
+        "path": "src/shaders/koi-studies/KoiStudies.tsx",
+        "bytes": 1171,
+        "sha256": "0137430b7dbf48588e1ec0ca926fda2cd342949aa70adb42eebeac4bb9f1f775",
+        "verified": true
+      },
+      {
+        "path": "public/synthralos-halftone.html",
+        "bytes": 16844021,
+        "sha256": "32cf6493414a209eb02c607a4b2383021f731411a9aa19a28e49673f84107e21",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "landscape",
+    "slug": "landscape",
+    "category": "buttons",
+    "url": "https://threeui.com/buttons",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "buttons/landscape",
+    "fingerprint": "49df55a48585d391715a1003401edb8e7696ec0b700feadf7560d5404a766a0c",
+    "collected_at": "2026-10-04T02:32:05.299Z",
+    "written_files": [
+      {
+        "path": "src/shaders/landscape/LandscapeScene.tsx",
+        "bytes": 2080,
+        "sha256": "7d0bf43cc29a5c43df2a3f84d60c6ea9a86b64f538a96cbec274f0a8d531bf1c",
+        "verified": true
+      },
+      {
+        "path": "scripts/generate-landscape.mjs",
+        "bytes": 3702,
+        "sha256": "cb8b941df15e87bb52c7ae89ee0e0c9804758bd3e8ef1f61f388538ea80adf73",
+        "verified": true
+      },
+      {
+        "path": "public/landscape.html",
+        "bytes": 2428244,
+        "sha256": "36673210dd79a53ce691c1633a21502a8df57307a7fe501d1305947ae191414a",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/japanese-tower/Towers.html",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "liquid-form",
+    "slug": "liquid-form",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/liquid-form",
+    "fingerprint": "bb8c91c1874009b9012dc6aca3932e9c92579ead886dc48162f0888ab61ffabe",
+    "collected_at": "2026-10-04T02:32:05.382Z",
+    "written_files": [
+      {
+        "path": "src/shaders/liquid-form/LiquidFormBackground.tsx",
+        "bytes": 5476,
+        "sha256": "95e43ab2c5312ff94e0aa4cd63902f2b994a7ed881661e279a04c30c1c36234a",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/liquid-form/liquidFormShaders.ts",
+        "bytes": 4552,
+        "sha256": "5ec6722aa75a4b3e5815ae811105201668e8d88a060d4bab46b38e87f136c7ea",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "liquid-metal-button",
+    "slug": "liquid-metal-button",
+    "category": "buttons",
+    "url": "https://threeui.com/buttons",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "buttons/liquid-metal-button",
+    "fingerprint": "738479e07b6ebdc3794f558a42622b3ec1807b0529e14555b4fc026de8aaf293",
+    "collected_at": "2026-10-04T02:32:05.409Z",
+    "written_files": [
+      {
+        "path": "src/shaders/liquid-metal-button/LiquidMetalButton.tsx",
+        "bytes": 8973,
+        "sha256": "89b940bab445f17fafb444a7833b3c785d24c86a28156d8ad231e18de9503e11",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/liquid-metal-button/liquid-metal-button.html",
+        "bytes": 38589,
+        "sha256": "76624e881a3aecbd79b473d9c51f53c7157d47052abd0f9dc28fefd223b0a819",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "matrix-field",
+    "slug": "matrix-field",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/matrix-field",
+    "fingerprint": "47af25ba4ebc7f87b229722d89c07a7603279a5aa34d395afd1c55c6f123091f",
+    "collected_at": "2026-10-04T02:32:05.437Z",
+    "written_files": [
+      {
+        "path": "src/shaders/laser/LaserCollection.tsx",
+        "bytes": 1194,
+        "sha256": "e81830f73d86cbaa71e4f32568ec596c461500370ef971315b1dff682c9d1639",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/laser/LaserVariants.tsx",
+        "bytes": 8797,
+        "sha256": "4fdc907769b67369de011ee96594aed6dd0f54974c1db831ac9ac5c5f371ba4a",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/laser/laserShaders.ts",
+        "bytes": 8654,
+        "sha256": "91248e937612f2d11b8dde4716d3546e47cd192ad36ebc76e1860f728285f967",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/matrix-field.html",
+        "bytes": 21070,
+        "sha256": "7ee84b44ccad91f131563f34c633596a4c105512e8f0aa4303736f77681db835",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "meng-to-sketchbook-landing-page",
+    "slug": "meng-to-sketchbook-landing-page",
+    "category": "sections",
+    "url": "https://threeui.com/sections",
+    "type": "landing-page",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/bg-wash.jpg",
+        "mimeType": "image/jpeg",
+        "bytes": 250415,
+        "sha256": "3e8bbb177216bcb41ddc75cdaca38f732b9cd7ff4aaa409921623356072eb1f6"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/bloom.png",
+        "mimeType": "image/png",
+        "bytes": 239231,
+        "sha256": "7786aef42d10f1fbeca055b3ed14f51a47cb2a390b360eae92119f046989943e"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/botanic-gardens.png",
+        "mimeType": "image/png",
+        "bytes": 822127,
+        "sha256": "48ab10869e7afd4519cdc78d62625cd529bd3b2b5ff1c3c2789a8d721733da15"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/botany-left.png",
+        "mimeType": "image/png",
+        "bytes": 133820,
+        "sha256": "b3ed9e8613ba8826a5e137a5f8ad4bd21b6e7a544bc25e6184891079eae0470c"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/botany-right.png",
+        "mimeType": "image/png",
+        "bytes": 376050,
+        "sha256": "608025a35b8697b536e9ac668e51476c79072d1efb4a04316c068073f51cf655"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/buddha-tooth.png",
+        "mimeType": "image/png",
+        "bytes": 792335,
+        "sha256": "cf73e3fffd80a4c81b18ac83dfdba266c9f5c51e6a66047068a39c2885bc388a"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/divider.png",
+        "mimeType": "image/png",
+        "bytes": 170548,
+        "sha256": "ef8ed266a6ee6f2f6fb8f235657d9ea9e4d57af6d84e75e4e81373de9d3632bb"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/gardens-by-the-bay.png",
+        "mimeType": "image/png",
+        "bytes": 844878,
+        "sha256": "cf1d629d6a72d8cd4a98158fac44e9093a12e55257b43adcdaa07ae3ffbad7d3"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/instrument-serif-italic.woff2",
+        "mimeType": "font/woff2",
+        "bytes": 15684,
+        "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/instrument-serif.woff2",
+        "mimeType": "font/woff2",
+        "bytes": 15040,
+        "sha256": "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/joo-chiat.png",
+        "mimeType": "image/png",
+        "bytes": 796739,
+        "sha256": "a46701ba26b5ee31fc6484a12d908cb25d70baea92dec3013260c516e1157a0b"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/lau-pa-sat.png",
+        "mimeType": "image/png",
+        "bytes": 872602,
+        "sha256": "bb020724a54e6dbf72c19bc2a8113393aae43408da2bcada4a62b53eeb3b0ddb"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/marina-bay-sands.png",
+        "mimeType": "image/png",
+        "bytes": 781481,
+        "sha256": "c9cb4423072d69c4177833fa3f92923ce50ab7b395a257349793de3840b88608"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/marina-bay-skyline.png",
+        "mimeType": "image/png",
+        "bytes": 804832,
+        "sha256": "1cebb237d910a1429ff4f17f78efac059094c001629a579b598843eb0bdf363f"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/merlion.png",
+        "mimeType": "image/png",
+        "bytes": 815697,
+        "sha256": "bf5082288e212f62b2e15af766364d79e30050528a7ad48a020aa46d59d4666a"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/newsreader.woff2",
+        "mimeType": "font/woff2",
+        "bytes": 131848,
+        "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a"
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/singapore-river.png",
+        "mimeType": "image/png",
+        "bytes": 744018,
+        "sha256": "a3fc9cf2be0e3ce4b4630df6897d856ca49c6aca48f66a82e910367328bf667b"
+      }
+    ],
+    "local_path": "sections/meng-to-sketchbook-landing-page",
+    "fingerprint": "356943b5367e5620c598d047f20eb5c83152d414a875c42371511682afbcedaf",
+    "collected_at": "2026-10-04T02:32:05.474Z",
+    "written_files": [
+      {
+        "path": "public/landing-pages/meng-to-sketchbook.html",
+        "bytes": 45528,
+        "sha256": "e0330548b1ac905cf1b81698163ffa29f8a3a8c39b8d39f9b71ba5b9255b6dd1",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/landing-pages/LandingPages.tsx",
+      "src/shaders/landing-pages/pageTypography.ts",
+      "src/shaders/landing-pages/pageRecipes.ts",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/bg-wash.jpg",
+        "local": "assets/bg-wash.jpg",
+        "bytes": 250415,
+        "sha256": "3e8bbb177216bcb41ddc75cdaca38f732b9cd7ff4aaa409921623356072eb1f6",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/bloom.png",
+        "local": "assets/bloom.png",
+        "bytes": 239231,
+        "sha256": "7786aef42d10f1fbeca055b3ed14f51a47cb2a390b360eae92119f046989943e",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/botanic-gardens.png",
+        "local": "assets/botanic-gardens.png",
+        "bytes": 822127,
+        "sha256": "48ab10869e7afd4519cdc78d62625cd529bd3b2b5ff1c3c2789a8d721733da15",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/botany-left.png",
+        "local": "assets/botany-left.png",
+        "bytes": 133820,
+        "sha256": "b3ed9e8613ba8826a5e137a5f8ad4bd21b6e7a544bc25e6184891079eae0470c",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/botany-right.png",
+        "local": "assets/botany-right.png",
+        "bytes": 376050,
+        "sha256": "608025a35b8697b536e9ac668e51476c79072d1efb4a04316c068073f51cf655",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/buddha-tooth.png",
+        "local": "assets/buddha-tooth.png",
+        "bytes": 792335,
+        "sha256": "cf73e3fffd80a4c81b18ac83dfdba266c9f5c51e6a66047068a39c2885bc388a",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/divider.png",
+        "local": "assets/divider.png",
+        "bytes": 170548,
+        "sha256": "ef8ed266a6ee6f2f6fb8f235657d9ea9e4d57af6d84e75e4e81373de9d3632bb",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/gardens-by-the-bay.png",
+        "local": "assets/gardens-by-the-bay.png",
+        "bytes": 844878,
+        "sha256": "cf1d629d6a72d8cd4a98158fac44e9093a12e55257b43adcdaa07ae3ffbad7d3",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/instrument-serif-italic.woff2",
+        "local": "assets/instrument-serif-italic.woff2",
+        "bytes": 15684,
+        "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/instrument-serif.woff2",
+        "local": "assets/instrument-serif.woff2",
+        "bytes": 15040,
+        "sha256": "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/joo-chiat.png",
+        "local": "assets/joo-chiat.png",
+        "bytes": 796739,
+        "sha256": "a46701ba26b5ee31fc6484a12d908cb25d70baea92dec3013260c516e1157a0b",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/lau-pa-sat.png",
+        "local": "assets/lau-pa-sat.png",
+        "bytes": 872602,
+        "sha256": "bb020724a54e6dbf72c19bc2a8113393aae43408da2bcada4a62b53eeb3b0ddb",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/marina-bay-sands.png",
+        "local": "assets/marina-bay-sands.png",
+        "bytes": 781481,
+        "sha256": "c9cb4423072d69c4177833fa3f92923ce50ab7b395a257349793de3840b88608",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/marina-bay-skyline.png",
+        "local": "assets/marina-bay-skyline.png",
+        "bytes": 804832,
+        "sha256": "1cebb237d910a1429ff4f17f78efac059094c001629a579b598843eb0bdf363f",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/merlion.png",
+        "local": "assets/merlion.png",
+        "bytes": 815697,
+        "sha256": "bf5082288e212f62b2e15af766364d79e30050528a7ad48a020aa46d59d4666a",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/newsreader.woff2",
+        "local": "assets/newsreader.woff2",
+        "bytes": 131848,
+        "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/meng-to-sketchbook/singapore-river.png",
+        "local": "assets/singapore-river.png",
+        "bytes": 744018,
+        "sha256": "a3fc9cf2be0e3ce4b4630df6897d856ca49c6aca48f66a82e910367328bf667b",
+        "verified": true
+      }
+    ],
+    "url_is_fallback": true
+  },
+  {
+    "name": "performance-gauges",
+    "slug": "performance-gauges",
+    "category": "hero",
+    "url": "https://threeui.com/hero",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "heroes/performance-gauges",
+    "fingerprint": "e1bbd6b6f35d22b99997b9705f48be07f3cb23d13f2144a51fa403bd8679e1d8",
+    "collected_at": "2026-10-04T02:32:07.950Z",
+    "written_files": [
+      {
+        "path": "src/shaders/neuform-isolated/sources/performance-gauges.html",
+        "bytes": 45113,
+        "sha256": "2dc25058fc852c71880641050fbb6555d9934023f5b00c0ad21ef0899ef3cda4",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "portal-field",
+    "slug": "portal-field",
+    "category": "hero",
+    "url": "https://threeui.com/hero",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "heroes/portal-field",
+    "fingerprint": "70f5c49f44517a0572b98c9ef1335c239b7a53d002e02e1b6cd28ddd042089d2",
+    "collected_at": "2026-10-04T02:32:07.963Z",
+    "written_files": [
+      {
+        "path": "src/shaders/portal-field/PortalFieldCollection.tsx",
+        "bytes": 2929,
+        "sha256": "6ebff251f315e07d65205504b10a87dfa5b3cab8beb163af804fea137a7b2379",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/portal-field.html",
+        "bytes": 20206,
+        "sha256": "f90e34f83d5179217c6f0928d633ec4a8201b00cfb980b374b5df76a9f167a6e",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/flow-field.html",
+        "bytes": 10590,
+        "sha256": "78eaf8ce34317bb66c44b72069ff36c622987ef61d3e703e8ea5800e089eb0b2",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/strata-cloud.html",
+        "bytes": 23819,
+        "sha256": "c5a8085b413d310fe1c9a2deb39bcd5d8ecf0d545a4462f576a1c9b9c49f34fc",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/bell-field/BellFieldBackground.tsx",
+        "bytes": 7085,
+        "sha256": "0dc1e82bc63c720662ed0559145b80b46429246bc0c83e7709b237ae93030452",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/bell-field/bellFieldShaders.ts",
+        "bytes": 3230,
+        "sha256": "a56c1f01fbb935744ed00b83a6812517aca142c88730dd044644feeb0d2a4b82",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/stream-convergence/StreamConvergenceBackground.tsx",
+        "bytes": 4190,
+        "sha256": "ba9d386b1e7c2a2a3389c61bda9a918bc84f8093292664d2ad851f7c286b80f9",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/stream-convergence/streamConvergenceShaders.ts",
+        "bytes": 2078,
+        "sha256": "6ec98ad1d80b1dfe3ca230f54d60d095697e48ab952862d3f71aeb655e0ca3e5",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+      "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "predictive-arc",
+    "slug": "predictive-arc",
+    "category": "hero",
+    "url": "https://threeui.com/hero",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "heroes/predictive-arc",
+    "fingerprint": "4cba08afa4a04bf22fe4143578c774d831b95089476aa17d3b112fea65b671e4",
+    "collected_at": "2026-10-04T02:32:08.023Z",
+    "written_files": [
+      {
+        "path": "src/shaders/predictive-arc/PredictiveArcCollection.tsx",
+        "bytes": 2860,
+        "sha256": "b77a845ab2fa8e8ef8d9b6812d71efe6f320d865d97ec97b2e15253b5950fd63",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/predictive-arc/PredictiveArcCanvas.tsx",
+        "bytes": 4365,
+        "sha256": "ebaa5a1b1f785c7772aaedc2b195318fd63bd9c3e5e5d8e175600968b245dae7",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/predictive-arc/predictiveArcRenderer.ts",
+        "bytes": 4088,
+        "sha256": "fc08c66b13c4a8173c8a88845926b72266d1b1a4fc345c84f44ee61fbfaba92b",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/data-pixel-arc/DataPixelArcCanvas.tsx",
+        "bytes": 2376,
+        "sha256": "2e25156d43dfd1bf0fb47384f75df240cd0c4038deae75a8dacae7c213269c5b",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/data-pixel-arc/dataPixelArcRenderer.ts",
+        "bytes": 4372,
+        "sha256": "65bdfb98424996d935923f39f163e1667f0bc2b8faa458d900f4450beabba0eb",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/amber-halftone.html",
+        "bytes": 16324,
+        "sha256": "3d9ebb64a15a1985c4cef1f01457281a49b2d9900405fd674e8748cac8af00a0",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/signal-particles.html",
+        "bytes": 33027,
+        "sha256": "613a2005d18795dbc25a5d0f93c3ae4dfecdfcb939ea6e2c5702b82eb1e4bfff",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/override-grid.html",
+        "bytes": 14421,
+        "sha256": "dc7800f2b6b6329b8b71ea4a06b82af91cff8379701c6a7fa4c9a92d47f89d6c",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/ribbon-field/RibbonFieldBackground.tsx",
+        "bytes": 4717,
+        "sha256": "fab02cb57c44c7307afd29cd03d01141372ad90163632b9a6a77910a245a5996",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/ribbon-field/ribbonFieldShaders.ts",
+        "bytes": 2907,
+        "sha256": "ab578acab44bbff7f3cf67f1c82b3e2e1d03689de3fcbdc23681e8b5a0a3536c",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/void-protocol.html",
+        "bytes": 21426,
+        "sha256": "affd21553ba951c0ff0f5a8e40a84ae70d49aaff3c4c69ea4ae1ec897dec21e3",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/nexus-unified-flow.html",
+        "bytes": 15094,
+        "sha256": "fa1a015ae407dc2091c3c96239d28107e973cbc03aa7abef37dd5da791d5428b",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+      "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+      "src/shaders/neuform-isolated/NeuformCraftEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "rectangle-buttons",
+    "slug": "rectangle-buttons",
+    "category": "buttons",
+    "url": "https://threeui.com/buttons",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "buttons/rectangle-buttons",
+    "fingerprint": "18e37681711f22acebe14ef54699623289f4a2c03b8b9e9359a75d911702b3e7",
+    "collected_at": "2026-10-04T02:32:08.089Z",
+    "written_files": [
+      {
+        "path": "src/shaders/rectangle-buttons/RectangleButtons.tsx",
+        "bytes": 29427,
+        "sha256": "f4f3dd8422cd20a464d3d41bbdb9595aeed6beee1efd504754f20a8c2a7de1b0",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/section-elements/SectionElements.tsx",
+        "bytes": 4833,
+        "sha256": "8ff44a15ffc6f9e8b2495b9f1700f6682d39f987c733ea45b4b29b393f13c451",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/section-elements/section-elements.css",
+        "bytes": 13536,
+        "sha256": "a9fbf07b60340aa59a1d4610dd9412897e456d5dcfd96507e426fbe3d68de31e",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/launch-button.html",
+        "bytes": 5289,
+        "sha256": "db8303b70c0322d0c7877b32e8230ce906111ee746fa5460f8aeedf59915a900",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/dot-border-button.html",
+        "bytes": 12243,
+        "sha256": "eb3ef1de8c8af80bf3f532630c60ed4ee90f10cd645d136f284417e75bda6584",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/floating-dots-cta.html",
+        "bytes": 9054,
+        "sha256": "28f53a8d14920bbfede14b0cf096ebddef5dfbee87d46cfc70bdfb612c5796da",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/sliding-text-cta.html",
+        "bytes": 5846,
+        "sha256": "e24ce6a519cfbafe082deb6eedb801b97b36ba6b8ccea9a81166c9b6edb6e770",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/gradient-beam-cta.html",
+        "bytes": 6428,
+        "sha256": "90a5961c1e7374ecf1d4efa1e3ef051048a08567933491a91c67280d4eac9a42",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/gradient-pill-button.html",
+        "bytes": 5828,
+        "sha256": "8fcb0596004786b6a72ca7bf1b2c379ef28ccf78f9de606a83d1572567a8986b",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/generate-button.html",
+        "bytes": 15542,
+        "sha256": "e99ab802a1e1f1a7b1444727e26197c43f8cfe328ca6e2cd45b6fbb3bce694c6",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/glassmorphism-cta.html",
+        "bytes": 8068,
+        "sha256": "b535a5f6e778924906fa1625cf610841b847d52c17487dad83215dd5921a3863",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/spinning-border-button.html",
+        "bytes": 5607,
+        "sha256": "d7150ca6ca4ad7975ba183c368b25a5de266e6a018c801b89720b8e8e3fab8a7",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/gradient-cta.html",
+        "bytes": 5356,
+        "sha256": "05e611c9ec16848e00ce81e4c8e186167da592c49755408cbc563c2ea611458d",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/lumen-cta/LumenCta.tsx",
+        "bytes": 2229,
+        "sha256": "437b62c7b9b3009f1fc80fc24e81f2014c1bab9567ba1afcff314b72c6b0b519",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/lumen-cta/lumen-cta.css",
+        "bytes": 2938,
+        "sha256": "a19f7e01d0a0580afaedfaccd7a1acb1a74a004ded3e5269d59da986e085c151",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/lumen-cta/sources/lumen.html",
+        "bytes": 33252,
+        "sha256": "8992e7c0ceb4c306502f5c296f1fd3e8c8602372d1a217fa1f3b5e49445ec28d",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "semantic-bloom",
+    "slug": "semantic-bloom",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/semantic-bloom",
+    "fingerprint": "4821f5be792f4ffec281183237e49b5a54016dd8725d3db2a5453fefcb3b0aab",
+    "collected_at": "2026-10-04T02:32:08.188Z",
+    "written_files": [
+      {
+        "path": "src/shaders/semantic-bloom/SemanticBloom.tsx",
+        "bytes": 6630,
+        "sha256": "69f490e0690239a7dc69dac3c59f82497ef45257e1a620ec7f4956d393ec72b3",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/semantic-bloom/sources/design-f0ebbe02-7d8a-41fd-9041-a1124185c27b.html",
+        "bytes": 15151,
+        "sha256": "0e48ec9ed2c33f81e7c1a9123ea191256106765624dfc9adf227b44ae001f989",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "sketchbook",
+    "slug": "sketchbook",
+    "category": "sections",
+    "url": "https://threeui.com/sections",
+    "type": "landing-page",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [
+      {
+        "path": "public/sketchbook/bg-wash.jpg",
+        "mimeType": "image/jpeg",
+        "bytes": 250415,
+        "sha256": "3e8bbb177216bcb41ddc75cdaca38f732b9cd7ff4aaa409921623356072eb1f6"
+      },
+      {
+        "path": "public/sketchbook/bloom.png",
+        "mimeType": "image/png",
+        "bytes": 239231,
+        "sha256": "7786aef42d10f1fbeca055b3ed14f51a47cb2a390b360eae92119f046989943e"
+      },
+      {
+        "path": "public/sketchbook/botanic-gardens.png",
+        "mimeType": "image/png",
+        "bytes": 822127,
+        "sha256": "48ab10869e7afd4519cdc78d62625cd529bd3b2b5ff1c3c2789a8d721733da15"
+      },
+      {
+        "path": "public/sketchbook/botany-left.png",
+        "mimeType": "image/png",
+        "bytes": 133820,
+        "sha256": "b3ed9e8613ba8826a5e137a5f8ad4bd21b6e7a544bc25e6184891079eae0470c"
+      },
+      {
+        "path": "public/sketchbook/botany-right.png",
+        "mimeType": "image/png",
+        "bytes": 376050,
+        "sha256": "608025a35b8697b536e9ac668e51476c79072d1efb4a04316c068073f51cf655"
+      },
+      {
+        "path": "public/sketchbook/buddha-tooth.png",
+        "mimeType": "image/png",
+        "bytes": 792335,
+        "sha256": "cf73e3fffd80a4c81b18ac83dfdba266c9f5c51e6a66047068a39c2885bc388a"
+      },
+      {
+        "path": "public/sketchbook/divider.png",
+        "mimeType": "image/png",
+        "bytes": 170548,
+        "sha256": "ef8ed266a6ee6f2f6fb8f235657d9ea9e4d57af6d84e75e4e81373de9d3632bb"
+      },
+      {
+        "path": "public/sketchbook/gardens-by-the-bay.png",
+        "mimeType": "image/png",
+        "bytes": 844878,
+        "sha256": "cf1d629d6a72d8cd4a98158fac44e9093a12e55257b43adcdaa07ae3ffbad7d3"
+      },
+      {
+        "path": "public/sketchbook/instrument-serif-italic.woff2",
+        "mimeType": "font/woff2",
+        "bytes": 15684,
+        "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702"
+      },
+      {
+        "path": "public/sketchbook/instrument-serif.woff2",
+        "mimeType": "font/woff2",
+        "bytes": 15040,
+        "sha256": "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d"
+      },
+      {
+        "path": "public/sketchbook/joo-chiat.png",
+        "mimeType": "image/png",
+        "bytes": 796739,
+        "sha256": "a46701ba26b5ee31fc6484a12d908cb25d70baea92dec3013260c516e1157a0b"
+      },
+      {
+        "path": "public/sketchbook/lau-pa-sat.png",
+        "mimeType": "image/png",
+        "bytes": 872602,
+        "sha256": "bb020724a54e6dbf72c19bc2a8113393aae43408da2bcada4a62b53eeb3b0ddb"
+      },
+      {
+        "path": "public/sketchbook/marina-bay-sands.png",
+        "mimeType": "image/png",
+        "bytes": 781481,
+        "sha256": "c9cb4423072d69c4177833fa3f92923ce50ab7b395a257349793de3840b88608"
+      },
+      {
+        "path": "public/sketchbook/marina-bay-skyline.png",
+        "mimeType": "image/png",
+        "bytes": 804832,
+        "sha256": "1cebb237d910a1429ff4f17f78efac059094c001629a579b598843eb0bdf363f"
+      },
+      {
+        "path": "public/sketchbook/merlion.png",
+        "mimeType": "image/png",
+        "bytes": 815697,
+        "sha256": "bf5082288e212f62b2e15af766364d79e30050528a7ad48a020aa46d59d4666a"
+      },
+      {
+        "path": "public/sketchbook/newsreader.woff2",
+        "mimeType": "font/woff2",
+        "bytes": 131848,
+        "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a"
+      },
+      {
+        "path": "public/sketchbook/singapore-river.png",
+        "mimeType": "image/png",
+        "bytes": 744018,
+        "sha256": "a3fc9cf2be0e3ce4b4630df6897d856ca49c6aca48f66a82e910367328bf667b"
+      }
+    ],
+    "local_path": "sections/sketchbook",
+    "fingerprint": "da3b90e70fe65202de0a85ce8894c78c2098a0c888170c4ffadc9b4857a72495",
+    "collected_at": "2026-10-04T02:32:08.227Z",
+    "written_files": [
+      {
+        "path": "src/shaders/sketchbook/Sketchbook.tsx",
+        "bytes": 844,
+        "sha256": "17847ea51bdebcc2cedd5f920d1d45188f307c3579387cb5309fa8b6e5c404af",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/sketchbook/sketchbookDocument.js",
+        "bytes": 49373,
+        "sha256": "3d8e9547a5b4c4eded23704856c2e9d94978873d445b0410d7671777c6eb1d6e",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [
+      {
+        "path": "public/sketchbook/bg-wash.jpg",
+        "local": "assets/bg-wash.jpg",
+        "bytes": 250415,
+        "sha256": "3e8bbb177216bcb41ddc75cdaca38f732b9cd7ff4aaa409921623356072eb1f6",
+        "deduped": true
+      },
+      {
+        "path": "public/sketchbook/bloom.png",
+        "local": "assets/bloom.png",
+        "bytes": 239231,
+        "sha256": "7786aef42d10f1fbeca055b3ed14f51a47cb2a390b360eae92119f046989943e",
+        "deduped": true
+      },
+      {
+        "path": "public/sketchbook/botanic-gardens.png",
+        "local": "assets/botanic-gardens.png",
+        "bytes": 822127,
+        "sha256": "48ab10869e7afd4519cdc78d62625cd529bd3b2b5ff1c3c2789a8d721733da15",
+        "deduped": true
+      },
+      {
+        "path": "public/sketchbook/botany-left.png",
+        "local": "assets/botany-left.png",
+        "bytes": 133820,
+        "sha256": "b3ed9e8613ba8826a5e137a5f8ad4bd21b6e7a544bc25e6184891079eae0470c",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/botany-right.png",
+        "local": "assets/botany-right.png",
+        "bytes": 376050,
+        "sha256": "608025a35b8697b536e9ac668e51476c79072d1efb4a04316c068073f51cf655",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/buddha-tooth.png",
+        "local": "assets/buddha-tooth.png",
+        "bytes": 792335,
+        "sha256": "cf73e3fffd80a4c81b18ac83dfdba266c9f5c51e6a66047068a39c2885bc388a",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/divider.png",
+        "local": "assets/divider.png",
+        "bytes": 170548,
+        "sha256": "ef8ed266a6ee6f2f6fb8f235657d9ea9e4d57af6d84e75e4e81373de9d3632bb",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/gardens-by-the-bay.png",
+        "local": "assets/gardens-by-the-bay.png",
+        "bytes": 844878,
+        "sha256": "cf1d629d6a72d8cd4a98158fac44e9093a12e55257b43adcdaa07ae3ffbad7d3",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/instrument-serif-italic.woff2",
+        "local": "assets/instrument-serif-italic.woff2",
+        "bytes": 15684,
+        "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/instrument-serif.woff2",
+        "local": "assets/instrument-serif.woff2",
+        "bytes": 15040,
+        "sha256": "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/joo-chiat.png",
+        "local": "assets/joo-chiat.png",
+        "bytes": 796739,
+        "sha256": "a46701ba26b5ee31fc6484a12d908cb25d70baea92dec3013260c516e1157a0b",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/lau-pa-sat.png",
+        "local": "assets/lau-pa-sat.png",
+        "bytes": 872602,
+        "sha256": "bb020724a54e6dbf72c19bc2a8113393aae43408da2bcada4a62b53eeb3b0ddb",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/marina-bay-sands.png",
+        "local": "assets/marina-bay-sands.png",
+        "bytes": 781481,
+        "sha256": "c9cb4423072d69c4177833fa3f92923ce50ab7b395a257349793de3840b88608",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/marina-bay-skyline.png",
+        "local": "assets/marina-bay-skyline.png",
+        "bytes": 804832,
+        "sha256": "1cebb237d910a1429ff4f17f78efac059094c001629a579b598843eb0bdf363f",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/merlion.png",
+        "local": "assets/merlion.png",
+        "bytes": 815697,
+        "sha256": "bf5082288e212f62b2e15af766364d79e30050528a7ad48a020aa46d59d4666a",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/newsreader.woff2",
+        "local": "assets/newsreader.woff2",
+        "bytes": 131848,
+        "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a",
+        "verified": true
+      },
+      {
+        "path": "public/sketchbook/singapore-river.png",
+        "local": "assets/singapore-river.png",
+        "bytes": 744018,
+        "sha256": "a3fc9cf2be0e3ce4b4630df6897d856ca49c6aca48f66a82e910367328bf667b",
+        "verified": true
+      }
+    ],
+    "url_is_fallback": true
+  },
+  {
+    "name": "skeuomorphic-toggle",
+    "slug": "skeuomorphic-toggle",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/skeuomorphic-toggle",
+    "fingerprint": "5ccdc000965caab5896c5aaf46916cb7996002dc78e6b381265dac6f28d122dd",
+    "collected_at": "2026-10-04T02:32:12.543Z",
+    "written_files": [
+      {
+        "path": "src/shaders/skeuomorphic-toggle/SkeuomorphicToggleCollection.tsx",
+        "bytes": 2333,
+        "sha256": "944ee582c2578e470e98f83ea7931018a85b87e44198ef2819613d1a76643150",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/skeuomorphic-toggle/ModernToggle.tsx",
+        "bytes": 5394,
+        "sha256": "d6545c319a3123ac573756d0d3725e73c279143ea470a48256101222cb37fa16",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/skeuomorphic-toggle/modern-toggle.css",
+        "bytes": 6316,
+        "sha256": "2748dc81ffd1f8506c56f6cd316a522df8f5f7bbeda751017a88efb2fc892674",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/skeuomorphic-toggle/GlassToggle.tsx",
+        "bytes": 5401,
+        "sha256": "406eda34475c2d87b699690097ae50e9e3064dedcacda4cabb3dd8c282122a9b",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/skeuomorphic-toggle/glassToggleScene.ts",
+        "bytes": 23841,
+        "sha256": "a708e388eaec0a1feab2b97b59e523eda92c5083202bf0015d7554d9928c4895",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/skeuomorphic-toggle/glass-toggle.css",
+        "bytes": 2718,
+        "sha256": "d87d193e981e191dbab386f1dc7dbcfbe46fb709bcc7085305455acd217765f3",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/skeuomorphic-toggle/ShaderToggle.tsx",
+        "bytes": 5253,
+        "sha256": "69bfab67ebe67b1e886c66c69451a64db9241267d922bfe774dc491df1f592ef",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/skeuomorphic-toggle/shaderToggleScene.ts",
+        "bytes": 6726,
+        "sha256": "6eadd83c7abeaadb2bb4a9c44624234050f7faf6a36af6ace8738b36f9dfb673",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/skeuomorphic-toggle/shaderToggleGlsl.ts",
+        "bytes": 12519,
+        "sha256": "12eef096246b9fe460ab256e0369b846266a3e87fe5869760dc4e67c9bfa0b57",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/skeuomorphic-toggle/shader-toggle.css",
+        "bytes": 2751,
+        "sha256": "c57012bddaaa4bfe1e18d19c23188f43d79e44fccf9d9e1e15454cd57e4f34cd",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/skeuomorphic-toggle/toggleMode.ts",
+        "bytes": 1870,
+        "sha256": "2ed0a1183b05b22c990f385d6e457bf6b3a11bf5749c84aae44ee9b1d0e406b8",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/skeuomorphic-toggle.html",
+        "bytes": 11066,
+        "sha256": "3e19e7fec9ac3339f29c888341aad1f6f4009d1c1d76f0231c3ad24a6ce49b5a",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "spark-badge",
+    "slug": "spark-badge",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/spark-badge",
+    "fingerprint": "caa7923602c3e3d9c850b5b6d279fdc8960e86c068d9466296a03688cfb511b4",
+    "collected_at": "2026-10-04T02:32:12.597Z",
+    "written_files": [
+      {
+        "path": "src/shaders/spark-badge/SparkBadge.tsx",
+        "bytes": 1420,
+        "sha256": "3ba2af885804267d8c0add43c2dfa1920d9694174ba4376f484b84dd09879ace",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/spark-badge/spark-badge.html",
+        "bytes": 38119,
+        "sha256": "a8eefdee0d87deefae9b8b8dac4d79c0ee41447578a78090cad9c956e33ccf90",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "star-portal",
+    "slug": "star-portal",
+    "category": "buttons",
+    "url": "https://threeui.com/buttons",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "WebGL",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "buttons/star-portal",
+    "fingerprint": "62ff34ea9a7838f513056fe476992af721bdc9a79af7e0f798bd19560f5866a8",
+    "collected_at": "2026-10-04T02:32:12.614Z",
+    "written_files": [
+      {
+        "path": "src/shaders/shader-buttons/ShaderButtons.tsx",
+        "bytes": 2217,
+        "sha256": "b2599e35ee59ce4acec0fe868fbe34501b4eb1096a3fab80c6ede5d6876fece5",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/imaginie-starfield.html",
+        "bytes": 18018,
+        "sha256": "002199215e124a85177585fc5cb84333f471562176f94c8d8e4456c79d721295",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/ignition-terminal.html",
+        "bytes": 12813,
+        "sha256": "05313d191cc11ca0c7600452e72ad14b4fc6581627689c209a5f22a1bfa6a8ea",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/valence-core.html",
+        "bytes": 19010,
+        "sha256": "26b21d4972805733a2441355edb56576fa911f135ccf746ebcc927a0b1e3b975",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/aetheris-labs.html",
+        "bytes": 15926,
+        "sha256": "eea617fe0e37a79be7aee44f00a53ec3ae41e006e771a8aad53acce3648147e0",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/nexus-tactile.html",
+        "bytes": 17473,
+        "sha256": "1811a6408fb09421665d772eca4106162e10bfc038ec948324d0250f5dec9cb4",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/thinking-button.html",
+        "bytes": 11664,
+        "sha256": "194da3529f2f80993db555de0387fc1e628bf8c216371803603750959a4fb11a",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "structure-flow",
+    "slug": "structure-flow",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/structure-flow",
+    "fingerprint": "712f8fb9772973ab7db262888841987b008b7fe74f4c807c456a7e680497b328",
+    "collected_at": "2026-10-04T02:32:12.639Z",
+    "written_files": [
+      {
+        "path": "src/shaders/structure-flow/StructureFlowCollection.tsx",
+        "bytes": 6508,
+        "sha256": "658c5ade6ab0460a606a2dccedeb85c875f434db57472ca2f512670e7b23f6f6",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/structure-flow/StructureFlowBackground.tsx",
+        "bytes": 2020,
+        "sha256": "d051be3b69d543b4a5b50b114d6e106137d01dc1eed6ce07367000b208f1a743",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/structure-flow/structureFlowRenderer.ts",
+        "bytes": 2212,
+        "sha256": "55abf8a55293fbd3e1a5d3dab1ed02d51e1baf854b8ff86287d8348f51e7ed92",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/structure-flow/three128.d.ts",
+        "bytes": 87,
+        "sha256": "8324c6614057aee8cde81db247a34bc4d3e5c93cec89c6753874ba94ace5fe71",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "sylva-hero",
+    "slug": "sylva-hero",
+    "category": "landing-pages",
+    "url": "https://threeui.com/landing-pages",
+    "type": "landing-page",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [
+      {
+        "path": "public/landing-pages/inner-green-assets/card-ecostove.jpg",
+        "mimeType": "image/jpeg",
+        "bytes": 290988,
+        "sha256": "70ce084084902bc502f00c366405b661ecdff90dee95d363b36a6e146829e433"
+      },
+      {
+        "path": "public/landing-pages/inner-green-assets/card-ethos.jpg",
+        "mimeType": "image/jpeg",
+        "bytes": 316720,
+        "sha256": "337627390f499b3ae272cec9e2f83c817694a82f42e1aa10a7b26a2c7d679dff"
+      },
+      {
+        "path": "public/landing-pages/inner-green-assets/lexend-latin.woff2",
+        "mimeType": "font/woff2",
+        "bytes": 39692,
+        "sha256": "1ec8f6ee2750554b4bc59ff0b507d316a82a7ba37e0e5bebc41d3bd9b9faad46"
+      }
+    ],
+    "local_path": "landing-pages/sylva-hero",
+    "fingerprint": "60a5338c5518b9cddaedea16314b35cbc3b6f668f88b1c255ef940c29d88f601",
+    "collected_at": "2026-10-04T02:32:12.691Z",
+    "written_files": [
+      {
+        "path": "public/landing-pages/inner-green-3d.html",
+        "bytes": 197914,
+        "sha256": "69c3694bd63f44ef9f007ebe4dac57a83e4402e0cdf6b54dd10b96dd4f05e197",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/inner-green-assets/three.min.js",
+        "bytes": 608081,
+        "sha256": "8a5f7249903b54d30f79f708699d2fed2d6a1d0741a4cd41377d1f01bb5a2271",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/landing-pages/LandingPages.tsx",
+      "src/shaders/landing-pages/pageTypography.ts",
+      "src/shaders/landing-pages/pageRecipes.ts",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [
+      {
+        "path": "public/landing-pages/inner-green-assets/card-ecostove.jpg",
+        "local": "assets/card-ecostove.jpg",
+        "bytes": 290988,
+        "sha256": "70ce084084902bc502f00c366405b661ecdff90dee95d363b36a6e146829e433",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/inner-green-assets/card-ethos.jpg",
+        "local": "assets/card-ethos.jpg",
+        "bytes": 316720,
+        "sha256": "337627390f499b3ae272cec9e2f83c817694a82f42e1aa10a7b26a2c7d679dff",
+        "verified": true
+      },
+      {
+        "path": "public/landing-pages/inner-green-assets/lexend-latin.woff2",
+        "local": "assets/lexend-latin.woff2",
+        "bytes": 39692,
+        "sha256": "1ec8f6ee2750554b4bc59ff0b507d316a82a7ba37e0e5bebc41d3bd9b9faad46",
+        "verified": true
+      }
+    ],
+    "url_is_fallback": true
+  },
+  {
+    "name": "sylva-living-world",
+    "slug": "sylva-living-world",
+    "category": "hero",
+    "url": "https://threeui.com/hero",
+    "type": "landing-page",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "heroes/sylva-living-world",
+    "fingerprint": "048fb86625c26c0e6581dbee065e86a6e82c7df65e2dcaef2b45e2a3930a1a84",
+    "collected_at": "2026-10-04T02:32:14.362Z",
+    "written_files": [
+      {
+        "path": "src/shaders/sylva-living-world/SylvaLivingWorldScene.tsx",
+        "bytes": 4077,
+        "sha256": "26d13ce750c3bf8ec92955255d77c7b58acf12c709a5c88fb242081ac520aca8",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/sylva-living-world/sources/inner-green-3d.html",
+        "bytes": 197914,
+        "sha256": "69c3694bd63f44ef9f007ebe4dac57a83e4402e0cdf6b54dd10b96dd4f05e197",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/sylva-living-world/sources/inner-green-assets/three.min.js",
+        "bytes": 608081,
+        "sha256": "8a5f7249903b54d30f79f708699d2fed2d6a1d0741a4cd41377d1f01bb5a2271",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "temple-night",
+    "slug": "temple-night",
+    "category": "sections",
+    "url": "https://threeui.com/sections",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "sections/temple-night",
+    "fingerprint": "e4f186e046a8b08f9c83e6dbf3df38a6540291a99fe679d162c5b22a97a1fb5c",
+    "collected_at": "2026-10-04T02:32:14.418Z",
+    "written_files": [
+      {
+        "path": "src/shaders/temple-night/TempleNightScene.tsx",
+        "bytes": 3389,
+        "sha256": "5b7876c45e955788fb7e2d49dd29a0da2dd98c19ee6800383c7400b5d96eb59b",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/temple-night/templeNightRenderer.js",
+        "bytes": 124050,
+        "sha256": "9da1d88d83877141f61476d97055abe89aa3c4c008e9c098af5a4b552bed15b2",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "typography-vortex",
+    "slug": "typography-vortex",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [
+      {
+        "path": "src/shaders/fonts/fragment-mono.woff2",
+        "mimeType": "font/woff2",
+        "bytes": 15176,
+        "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c"
+      }
+    ],
+    "local_path": "shaders/typography-vortex",
+    "fingerprint": "1f929b702846107e3e58752f4d6ac8d72a35695393b17567506f83d9f4562194",
+    "collected_at": "2026-10-04T02:32:14.466Z",
+    "written_files": [
+      {
+        "path": "src/shaders/typography-vortex/TypographyVortexCanvas.tsx",
+        "bytes": 1740,
+        "sha256": "cf347075dcc6254aeeb3b7f373c02ae90566923b04f1fcd223093fb1b6a587b1",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/typography-vortex/typographyVortexRenderer.ts",
+        "bytes": 20303,
+        "sha256": "b82c8321564f841334c109910bff3a7f629d9f2f7750c91d537b65912a17baff",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [
+      {
+        "path": "src/shaders/fonts/fragment-mono.woff2",
+        "local": "assets/fragment-mono.woff2",
+        "bytes": 15176,
+        "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c",
+        "deduped": true
+      }
+    ],
+    "url_is_fallback": true
+  },
+  {
+    "name": "uplink-loader",
+    "slug": "uplink-loader",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/uplink-loader",
+    "fingerprint": "7b29b2abb5618646a2b6326a8807ee9ae4eac83aafd3eca1f26c95ded3f640f4",
+    "collected_at": "2026-10-04T02:32:14.498Z",
+    "written_files": [
+      {
+        "path": "src/shaders/uplink-loader/UplinkLoader.tsx",
+        "bytes": 1075,
+        "sha256": "763a8ed26e854ad8331bdc530d9fb1570c81d659ca9bc97e3f26f89b0d2ecb67",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/uplink-loader/uplink-loader.html",
+        "bytes": 16032,
+        "sha256": "f73bb2963501b88b1642bd94aca10d20d778f0881f70b71a30c7267a73f9b969",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "warp-field",
+    "slug": "warp-field",
+    "category": "hero",
+    "url": "https://threeui.com/hero",
+    "type": "hero",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "heroes/warp-field",
+    "fingerprint": "d237c5e0a2ba9b59ad8f261e1333404ceb013fbd178f60f5ae4f83ab508d9216",
+    "collected_at": "2026-10-04T02:32:14.526Z",
+    "written_files": [
+      {
+        "path": "src/shaders/warp-field/WarpFieldBackground.tsx",
+        "bytes": 1831,
+        "sha256": "c78637ee3419deed6c364f4252ed77adfda3a215eb1b82510450a9b7fadefcbe",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/warp-field/warpFieldRenderer.ts",
+        "bytes": 22681,
+        "sha256": "c9872c53dd505dea2d87c79e34b9eedd358b5dc32b385d48280fe252f595a44e",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "wireframe-forms",
+    "slug": "wireframe-forms",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/wireframe-forms",
+    "fingerprint": "c5c8f7f3dde58f6e4ece564f7a5bf2798584a8127dc35f1634bcec1e4fb23f0f",
+    "collected_at": "2026-10-04T02:32:14.562Z",
+    "written_files": [
+      {
+        "path": "src/shaders/neuform-isolated/sources/wireframe-forms.html",
+        "bytes": 20626,
+        "sha256": "828c6a635b54d734256addb0e26b1f16b3f9798aa47cfe9c966d5bb181682a6c",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformBatchEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  },
+  {
+    "name": "woven-cloth",
+    "slug": "woven-cloth",
+    "category": "css",
+    "url": "https://threeui.com/css",
+    "type": "shader",
+    "tags": [],
+    "access": "accessible",
+    "source_available": true,
+    "source_type": "community-bundle",
+    "package": "@designcodeio/threeui",
+    "version": "1.2.0",
+    "dependencies": [
+      "react@>=18 <20",
+      "react-dom@>=18 <20",
+      "three@>=0.149 <1",
+      "GLSL shader"
+    ],
+    "assets": [],
+    "local_path": "shaders/woven-cloth",
+    "fingerprint": "3ff87faf1f712123932aff0c32baa650bb93544f7a3d13f45ce9c0872f6be113",
+    "collected_at": "2026-10-04T02:32:14.577Z",
+    "written_files": [
+      {
+        "path": "src/shaders/woven-cloth/WovenCloth.tsx",
+        "bytes": 2993,
+        "sha256": "5a89ff035bdf33dbc642d2916b56dbe94e89cb0af184474c139ffbfe5a720550",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/neuform-isolated/sources/lumina-weavers-cloth.html",
+        "bytes": 17470,
+        "sha256": "9bfd56ef7579a92cb6385b3e93866bc3ff54fa4489a0febb9809b720e2946fb6",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/woven-cloth/woven-cloth-iridescent.html",
+        "bytes": 21728,
+        "sha256": "e3b14adac39dfef04ed0bb0df99e86a1aa0aaf7cea4f8ecc4d5e0931b48bee7b",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/woven-cloth/woven-cloth-atelier.html",
+        "bytes": 18979,
+        "sha256": "f9be15756ff385db9cd3b7082b139d10b84a4eba0b3c4f19749b305570a7191f",
+        "verified": true
+      },
+      {
+        "path": "src/shaders/woven-cloth/woven-cloth-washi.html",
+        "bytes": 18332,
+        "sha256": "00e5971f139e5427e56a062c12d7e8e3590938b9a400753693b360d1e4d1a5c1",
+        "verified": true
+      }
+    ],
+    "shared_files": [
+      "src/shaders/neuform-isolated/NeuformCraftEffects.tsx",
+      "src/shaders/community.css"
+    ],
+    "assets_downloaded": [],
+    "url_is_fallback": true
+  }
+]

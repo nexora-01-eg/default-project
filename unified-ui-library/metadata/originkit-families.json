@@ -1,0 +1,257 @@
+[
+  {
+    "family": "hero",
+    "members": [
+      "hero-01",
+      "hero-02",
+      "hero-03",
+      "hero-04",
+      "hero-05",
+      "hero-06",
+      "hero-07",
+      "hero-08",
+      "hero-09",
+      "hero-10",
+      "hero-11",
+      "hero-12",
+      "hero-13",
+      "hero-14",
+      "hero-15",
+      "hero-16",
+      "hero-17",
+      "hero-18",
+      "hero-19",
+      "hero-20",
+      "hero-21",
+      "hero-22",
+      "hero-23",
+      "hero-24",
+      "hero-25",
+      "hero-26",
+      "hero-27",
+      "hero-28",
+      "hero-29",
+      "hero-30",
+      "hero-31",
+      "hero-32",
+      "hero-33",
+      "hero-34",
+      "hero-35",
+      "hero-36",
+      "hero-37",
+      "hero-38",
+      "hero-39",
+      "hero-40",
+      "hero-41",
+      "hero-42",
+      "hero-43",
+      "hero-44",
+      "hero-45",
+      "hero-46",
+      "hero-47"
+    ],
+    "count": 47
+  },
+  {
+    "family": "accretion-disc",
+    "members": [
+      "accretion-disc",
+      "accretion-disc-02",
+      "accretion-disc-03",
+      "accretion-disc-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "cloud-sky",
+    "members": [
+      "cloud-sky",
+      "cloud-sky-02",
+      "cloud-sky-03",
+      "cloud-sky-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "cursor-ring-field",
+    "members": [
+      "cursor-ring-field",
+      "cursor-ring-field-02",
+      "cursor-ring-field-03",
+      "cursor-ring-field-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "features",
+    "members": [
+      "features-01",
+      "features-02",
+      "features-03",
+      "features-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "fibre-arc",
+    "members": [
+      "fibre-arc",
+      "fibre-arc-02",
+      "fibre-arc-03",
+      "fibre-arc-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "globe-study",
+    "members": [
+      "globe-study",
+      "globe-study-02",
+      "globe-study-03",
+      "globe-study-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "light-cables",
+    "members": [
+      "light-cables",
+      "light-cables-02",
+      "light-cables-03",
+      "light-cables-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "particle-drift",
+    "members": [
+      "particle-drift",
+      "particle-drift-02",
+      "particle-drift-03",
+      "particle-drift-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "particle-saturn",
+    "members": [
+      "particle-saturn",
+      "particle-saturn-02",
+      "particle-saturn-03",
+      "particle-saturn-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "predictive-arc",
+    "members": [
+      "predictive-arc",
+      "predictive-arc-02",
+      "predictive-arc-03",
+      "predictive-arc-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "ribbon-glow",
+    "members": [
+      "ribbon-glow",
+      "ribbon-glow-02",
+      "ribbon-glow-03",
+      "ribbon-glow-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "scroll-wave-field",
+    "members": [
+      "scroll-wave-field",
+      "scroll-wave-field-02",
+      "scroll-wave-field-03",
+      "scroll-wave-field-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "toonfireball",
+    "members": [
+      "toonfireball",
+      "toonfireball-02",
+      "toonfireball-03",
+      "toonfireball-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "vector-wordmark",
+    "members": [
+      "vector-wordmark",
+      "vector-wordmark-02",
+      "vector-wordmark-03",
+      "vector-wordmark-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "wire-terrain",
+    "members": [
+      "wire-terrain",
+      "wire-terrain-02",
+      "wire-terrain-03",
+      "wire-terrain-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "xylophone-helix",
+    "members": [
+      "xylophone-helix",
+      "xylophone-helix-02",
+      "xylophone-helix-03",
+      "xylophone-helix-04"
+    ],
+    "count": 4
+  },
+  {
+    "family": "pricing",
+    "members": [
+      "pricing-01",
+      "pricing-02",
+      "pricing-03"
+    ],
+    "count": 3
+  },
+  {
+    "family": "tornado",
+    "members": [
+      "tornado",
+      "tornado-02",
+      "tornado-03"
+    ],
+    "count": 3
+  },
+  {
+    "family": "cta",
+    "members": [
+      "cta-01",
+      "cta-02"
+    ],
+    "count": 2
+  },
+  {
+    "family": "dither-effect",
+    "members": [
+      "dither-effect",
+      "dither-effect-2"
+    ],
+    "count": 2
+  },
+  {
+    "family": "footer",
+    "members": [
+      "footer-01",
+      "footer-02"
+    ],
+    "count": 2
+  }
+]

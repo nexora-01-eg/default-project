@@ -1,0 +1,79 @@
+{
+  "updated_at": "2026-10-04T02:34:41.993Z",
+  "counts": {
+    "hero": 9,
+    "css": 19,
+    "landing-pages": 3,
+    "buttons": 6,
+    "sections": 5,
+    "backgrounds": 1
+  },
+  "categories": [
+    {
+      "id": "sections",
+      "path": "/sections",
+      "dir": "sections",
+      "label": "Sections"
+    },
+    {
+      "id": "landing-pages",
+      "path": "/landing-pages",
+      "dir": "landing-pages",
+      "label": "Landing Pages"
+    },
+    {
+      "id": "3d-assets",
+      "path": "/3d-assets",
+      "dir": "3d-assets",
+      "label": "3D Assets"
+    },
+    {
+      "id": "text-animation",
+      "path": "/text-animation",
+      "dir": "text-animation",
+      "label": "Text Animation"
+    },
+    {
+      "id": "ui-elements",
+      "path": "/ui-elements",
+      "dir": "ui-elements",
+      "label": "UI Elements"
+    },
+    {
+      "id": "backgrounds",
+      "path": "/backgrounds",
+      "dir": "backgrounds",
+      "label": "Backgrounds"
+    },
+    {
+      "id": "buttons",
+      "path": "/buttons",
+      "dir": "buttons",
+      "label": "Buttons"
+    },
+    {
+      "id": "hero",
+      "path": "/hero",
+      "dir": "heroes",
+      "label": "Hero"
+    },
+    {
+      "id": "three-js",
+      "path": "/three-js",
+      "dir": "components",
+      "label": "Three.js Components"
+    },
+    {
+      "id": "css",
+      "path": "/css",
+      "dir": "components",
+      "label": "CSS"
+    },
+    {
+      "id": "motion-design",
+      "path": "/motion-design",
+      "dir": "motion-design",
+      "label": "Motion Design"
+    }
+  ]
+}

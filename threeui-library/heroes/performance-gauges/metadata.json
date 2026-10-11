@@ -1,0 +1,37 @@
+{
+  "name": "performance-gauges",
+  "slug": "performance-gauges",
+  "category": "hero",
+  "url": "https://threeui.com/hero",
+  "type": "hero",
+  "tags": [],
+  "access": "accessible",
+  "source_available": true,
+  "source_type": "community-bundle",
+  "package": "@designcodeio/threeui",
+  "version": "1.2.0",
+  "dependencies": [
+    "react@>=18 <20",
+    "react-dom@>=18 <20",
+    "three@>=0.149 <1",
+    "GLSL shader"
+  ],
+  "assets": [],
+  "local_path": "heroes/performance-gauges",
+  "fingerprint": "e1bbd6b6f35d22b99997b9705f48be07f3cb23d13f2144a51fa403bd8679e1d8",
+  "collected_at": "2026-10-04T02:32:07.950Z",
+  "written_files": [
+    {
+      "path": "src/shaders/neuform-isolated/sources/performance-gauges.html",
+      "bytes": 45113,
+      "sha256": "2dc25058fc852c71880641050fbb6555d9934023f5b00c0ad21ef0899ef3cda4",
+      "verified": true
+    }
+  ],
+  "shared_files": [
+    "src/shaders/neuform-isolated/NeuformIsolatedEffects.tsx",
+    "src/shaders/community.css"
+  ],
+  "assets_downloaded": [],
+  "url_is_fallback": true
+}

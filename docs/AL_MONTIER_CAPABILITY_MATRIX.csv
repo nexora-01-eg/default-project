@@ -1,0 +1,118 @@
+capability,area,category,implemented,production_proven,pixel_verified,evidence,limitation
+ffprobe probe,engine,A,yes,yes,no,every media_info.json; ffprobe 9.0.1,none
+duration/FPS/resolution/codec/audio-stream detect,video,A,yes,yes,no,media_info.json per project,VFR nominal fps bogus
+frame extraction,video,A,yes,yes,yes,px_before/inside/after PNGs in proofs,none
+silence detection,audio,A,yes,yes,no,silencedetect + audio_analysis.json,none
+volume + loudnorm-JSON measure,audio,A,yes,yes,no,analysis/audio.py 3-pass; pyloudnorm 0.2.0,measure only
+Whisper tiny EN STT + word timing,audio,A,yes,yes,no,E2E p=0.994 20 words; tiny cached,English tiny only
+EDL TRIM/concat render + manifest,engine,A,yes,yes,no,editorial renders 21-28MB; reuse proven,full re-encode only
+trim/concat/keep ops,engine,A,yes,yes,no,ffmpeg gateway; bench 20 shots,none
+AAC/PCM conversion,audio,A,yes,yes,no,ffmpeg aac/mp3 encoders verified,none
+gain/fade/mix/mux,audio,A,yes,yes,no,Aitech bed + fades in masters,manual levels
+ASS burn + sidecar SRT/VTT/ASS,captions,A,yes,yes,yes,libass; 36+6 and 50-cue burns,no animation beyond ASS tags
+Arabic RTL captions + font discovery + U+FFFD scrub,captions,A,yes,yes,yes,8-frame RTL check; no tofu; fonts.py local-only,Arial default
+caption QC,captions,A,yes,yes,no,overlap/intervals/readspeed checks,none
+A/V sync check,qc,A,yes,yes,no,offset/loudness/silence checks,none
+VFR detect + CFR proxy + frame-exact trim,video,A,yes,yes,yes,offset 0.72-0.05s; normalize_media project-temp only,proxy only
+hard cuts,motion,A,yes,yes,yes,20 cuts bench; hook master,none
+cover reframes,motion,A,yes,yes,yes,bench + hook; uniform-fit history,uniform fit
+project store / pipeline cache / fingerprint / config / logging / schemas,engine,A,yes,yes,no,3617 dirs; 950 cache files; JSONL logs,analysis-cache only
+CLI 22 commands,engine,A,yes,yes,no,cli.py 662-906; qc stub NOT IMPLEMENTED,qc stub
+encoder smoke-select h264_qsv,engine,A,yes,yes,no,runtime verify; auto qsv here; encoders.json,HW order fixed
+reviewer recompute UNKNOWN-never-PASS,qc,A,yes,yes,no,reviewer.py; VFR 4 REVIEW_AGAIN 0 FAIL,ffprobe-absent UNKNOWN
+deterministic rerender verify,qc,A,yes,yes,yes,frame hashes match A/B bench,none
+black-frame intentional-only check,qc,A,yes,yes,no,reviewer frame sampling,manual intent tag
+scene detection content/threshold+fallback,video,A,yes,yes,no,scenes CLI; fallback recorded,zero-cuts single scene
+speech spans webrtcvad,audio,A,yes,yes,no,webrtcvad-wheels installed,coarse spans
+filler annotation EN+AR,audio,A,yes,yes,no,FILLER_WORDS en~17 ar 11; identify-only,identify only never delete
+source normalization VFR proxy,video,A,yes,yes,no,see VFR row,proxy only
+EDL build pure timeline math,engine,A,yes,yes,no,decisions.py; EDLs in projects,2 rules only
+status/doctor commands,engine,A,yes,yes,no,doctor verifies tools; project.json show,none
+Piper Kareem MSA narration,audio,B,yes,yes,no,piper.exe + 60MB onnx; RTF 0.17-0.22; hook 69.24s,MSA not Egyptian; license NEEDS VERIFICATION
+music bed path-only,audio,B,yes,yes,no,Aitech bed; 0/1441 searched; CC-BY attribution,path only
+SFX sting-only 1of4,audio,B,yes,yes,no,sting x3 in master; shelf 0 WAVs,3 kinds fileless
+visual analysis metrics-only,video,B,yes,yes,no,visual CLI; faces/objects UNAVAILABLE,no identity/attributes
+EDL 2-rule conservative engine,engine,B,yes,yes,no,silence+filler; keep-all in E2E,only 2 removal rules
+editing intelligence + editor brain + approvals + pacing exec,engine,B,yes,yes,no,reports + derived EDLs; Phase-13-engine-only,plan-heavy
+render_shot 4-op subset,motion,B,yes,yes,yes,cover/zoompan/x/y/crop; 0 mismatches 20 shots,else CAPABILITY_MISSING
+camera_push zoompan,motion,B,yes,yes,yes,smoke + overlay/graphics/bench proofs,planner-partial (HOLDx8 in hook)
+punch static reframes,motion,B,yes,yes,yes,narrated_tech + benchmark,recipe-dependent
+static Lucide overlay,graphics,B,yes,yes,yes,overlay_proof 23217px inside vs 174 outside; 2 runs identical,single icon static Chrome-dep
+layered icon+label+push,graphics,B,yes,yes,yes,graphics_layer icon 17860 label 20435px,Latin-only static <=2 layers
+SVG sidecar stat.svg,graphics,B,yes,yes,no,valid XML sidecar,sidecar only
+Pillow stat card,graphics,B,yes,yes,yes,smoke frame-verified,single card style
+navy color_clip cards,graphics,B,yes,yes,yes,3 cards in hook master,flat cards only
+planner 3.1 determinism,planner,B,yes,yes,yes,PLAN+RENDER deterministic; hashes match,residual 2-4x reuse
+director intents BROLL+CAPTION_FONT,director,B,yes,yes,no,plan_production kinds emitted,narrow recipe
+repair FULL-rerender-only,repair,B,yes,yes,no,315s/run; 42 segs x3; MAX2->HUMAN,FULL only no segment
+analysis-cache reuse,cache,B,yes,yes,no,overnight fix + rerun reuse + tamper invalidate,no video-segment cache
+beat-snapped cuts,motion,B,yes,partial,no,20 cuts proven; snapping smoke-only unused,snapping unrequested
+audio QC loudness+silence,qc,B,yes,yes,no,mean/peak + silence>=1s checks,thresholds default
+hook montage + density + ending rules,director,B,yes,yes,yes,hook >=3 shots <5s; 8 frame gates; 79s assert-only,assert-only duration
+caption polish placement/emphasis,captions,B,yes,yes,no,visual_captions approved deltas only,faces UNAVAILABLE
+Arabic STT,audio,C,yes,no,no,code supports; spans full/non_silent,no Arabic master transcript
+loudnorm execution,audio,C,yes,no,no,smoke-proven 09-24 unused in hook,unrequested
+librosa beat-snapping,audio,C,yes,no,no,smoke-proven; audio_director snap_to_beats,unused in master
+pyloudnorm QC loop,audio,C,yes,no,no,installed 0.2.0; measured not enforced,manual
+scene intelligence safety/density/pacing/repetition/jump-cut,engine,C,yes,no,no,intelligence.py + reports; conservative refinement,no render effect alone
+caption emphasis + kinetic kf highlight,captions,C,yes,no,no,kinetic_captions <=8-word kf from STT,not in feature masters
+caption pacing signals+recommendations,captions,C,yes,no,no,15 signals 8 actions plan-only,needs approval+exec
+diversity memory rank/validate/repair,planner,C,yes,no,no,diversity.py v3 23/23 tests; bench v0-v2 2-6 files,bench-scale only
+quality model 20 criteria no aggregate,review,C,yes,no,no,creative/quality.py,score-only
+reviewer2 shot-level,review,C,yes,no,no,review_hook/shots/audio/ending; killed scene-bin,bench/hook-scale only
+visual review,review,C,yes,no,no,visual_review.py + quality_score.py,advisory
+style contract + typography rules,graphics,C,yes,no,no,style_contract + typography.py; claims/diagrams rules,unenforced auto-layout
+OTIO export,engine,C,yes,no,no,opentimelineio>=0.18 pinned,unrouted
+font-catalog use,captions,C,yes,no,no,catalog.json 164k lines; Arial default used,catalog unused
+rapidocr/mediapipe/rembg installed unrouted,video,C,yes,no,no,pip present 1.4.4/1.0.1/2.0.85,no production call
+Chatterbox-EG artifacts,audio,D,yes(no-adapter),no,no,tools/tts/chatterbox-eg + venv + cb_test.py; RTF 37.6,NO engine adapter; rights unconfirmed
+SAPI en voices,audio,D,yes,partial(fixture),no,David/Zira en-only; fixture synth only,not production narration
+ffmpeg xfade filter binary-has,motion,D,available-binary,no,no,ffmpeg -filters HAS xfade; NO engine op,not connected
+ffmpeg lut3d filter binary-has,color,D,available-binary,no,no,ffmpeg -filters HAS lut3d; NO engine op/files idle,not connected
+ffmpeg overlay_cuda binary-has,graphics,D,available-binary,no,no,binary HAS overlay_cuda; engine overlay CPU path only,not connected
+Lottie files 171+,graphics,D,available-files,no,no,lottie/ 17 + library 154 JSON; NO index/search/path,not connected
+cube LUT files 26+,color,D,available-files,no,no,colorslide/ 26 .cube e.g. kodak; NO reader/op,not connected
+3D asset files (blend/HDRI/textures),3d,D,available-files,no,no,marble_01_4k.blend + sets; NO Blender wired,not connected
+three.js checkout Arsenal,motion,D,available-files,no,no,10_MotionDesign/threejs full; NO render call,not connected
+motion-design 5000 files,arsenal,D,available-files,no,no,textures/demos/codrops/gltf; NO index,not connected
+phosphor/tabler + flat svg sets,graphics,D,available-files,no,no,02_Icons others + svg/ 63; lucide-only code path,not connected
+music catalog 1441 tracks,audio,D,available-files,no,no,04_Music Incompetech; path-only 0 searched,not connected
+MH footage pool,arsenal,D,available-files,no,no,MH dirs present; catalog-invisible,not connected
+graphics_kit counters/bars/timelines,graphics,D,yes-unrouted,no,no,graphics_kit.py contract only,not connected
+Node toolchain,tools,D,yes,no,no,node v24.14.1 healthy; Remotion unused,not connected
+font catalog 164k lines,arsenal,D,available-files,no,no,catalog.json fonts; Arial default,not connected
+ducking,audio,E,planned,no,no,no engine defs,planned
+EQ/compressor/de-ess,audio,E,planned,no,no,FFmpeg covers v1 per docs; revisit on QC flag,planned
+xfade/dissolve/wipe op,motion,E,planned,no,no,binary has filter; engine op missing,planned
+keyframed per-frame animation,motion,E,planned,no,no,position/size fixed per op,planned
+easing engine/springs/particles/glitch/parallax/tracking/speed-ramps/whip-pans/match-cuts/masks/morphs/motion-blur,motion,E,planned,no,no,arch doc lists NOT built,planned
+semantic asset search,arsenal,E,planned,no,no,manual tag matching today,planned
+discovery/requirement layer,arsenal,E,planned,no,no,director emits 2 kinds only,planned
+voice-selection logic,audio,E,planned,no,no,director hardcoded Piper; router CUT/MIX/BURN only,planned
+segment video cache + auto segment repair,cache,E,planned,no,no,re-encoded identical pixels x3; 13min waste,planned
+duration-budget enforcement <60s,director,E,planned,no,no,assert-only; 79.06s ships (69.24 narr),planned
+under-60s auto-cut,engine,E,planned,no,no,needs >=3 lines cut; no auto-cut,planned
+VLM tagging,video,E,planned,no,no,gap list; no model,planned
+per-shot graphics auto-layout,graphics,E,planned,no,no,box-overlap rule manual,planned
+animated overlays,graphics,E,planned,no,no,static only proven,planned
+Lottie-to-frames path,graphics,E,planned,no,no,no code path,planned
+3D-to-video path,3d,E,planned,no,no,registry TIER3 needs_download,planned
+upscale path (cloud-free),video,E,planned,no,no,not started,planned
+Egyptian TTS Mohamed/VoiceTut,audio,F,blocked,no,no,HF error/data:null x3; GPU-gate; rights UNKNOWN,BLOCKED do not retry
+Chatterbox realtime,audio,F,blocked,bounded-only,no,RTF 37.6 own venv; quality/rights unconfirmed,BLOCKED
+Whisper medium+ long-form,audio,F,blocked,no,no,16GB RAM wall; tiny/small default,BLOCKED
+GPU compute 940MX CC5.0 2GB,hardware,F,blocked,no,no,CUDA rejected; CPU default; HEVC-HW absent,BLOCKED
+HEVC HW encode,hardware,F,blocked,no,no,GM108 no H.265 encode; CPU-only,BLOCKED
+Remotion license gate,tools,F,blocked,no,no,company-license gate; TIER2 contract,BLOCKED
+4K feature pipeline,hardware,F,blocked,no,no,flagged slow; 1080p-first policy,BLOCKED
+commercial TTS clearance,audio,F,blocked,no,no,NO voice cleared; Kareem NEEDS VERIFICATION,BLOCKED
+engine/audio empty placeholder,engine,G,placeholder,no,no,1 blank line; logic in rendering/tools,PLACEHOLDER
+engine/qc empty placeholder,engine,G,placeholder,no,no,1 blank line; logic in review/,PLACEHOLDER
+qc CLI stub NOT IMPLEMENTED,engine,G,placeholder,no,no,_cmd_notyet,PLACEHOLDER
+Sayed single-WAV voice,audio,G,placeholder,no,no,16.53s ref only rights unknown; not a TTS,PLACEHOLDER
+karaoke ASS modeling,captions,H,rejected-explicit,no,no,formats.py: explicitly NOT modeled,REJECTED
+MoviePy,tools,H,rejected,no,no,pillow<12 pin breaks rembg; FFmpeg covers,REJECTED
+Blender/Kdenlive/MLT v1,tools,H,rejected,no,no,poor headless-automation fit vs FFmpeg,REJECTED
+pedalboard/aubio GPL-3,audio,H,rejected,no,no,license gate; kept out,REJECTED
+Essentia/Aeneas AGPL + Coqui XTTS CPML + Fish/SAM/F5 NC + YOLO AGPL,tools,H,rejected,no,no,license gates per PRODUCTION_LICENSE_AUDIT,REJECTED
+full CUDA toolkit install,hardware,H,rejected,no,no,driver-only policy; nvcc never needed,REJECTED
